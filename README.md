@@ -15,6 +15,7 @@ Project architected and developed by:
 
 ### Prototype
 <ul>
+    <p>Figma</p>
     <img src="figma.svg" height="30">
 </ul>
 
