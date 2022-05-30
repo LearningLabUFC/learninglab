@@ -5,17 +5,17 @@
 ## 🎲 PROJECT DESCRIPTION
 Project architected and developed by:
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Aline Alves</li>
+    <li>Eurilany Souza</li>
+    <li>Jorge Sousa</li>
+    <li>Iago Wesley</li>
 </ul> 
 
 ## 💻 TECHNOLOGIES
 
 ### Prototype
 <ul>
-    <img src=".svg" height="30">
+    <img src="figma.svg" height="30">
 </ul>
 
 ### Front-end
