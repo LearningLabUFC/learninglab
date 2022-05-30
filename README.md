@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="./assets/icons/.svg"/>
+<img src="./assets/imgs/leb.png"/>
 </h1>
 
 ## 🎲 PROJECT DESCRIPTION
@@ -15,7 +15,6 @@ Project architected and developed by:
 
 ### Prototype
 <ul>
-    <p>Figma</p>
     <img src="figma.svg" height="30">
 </ul>
 
@@ -28,4 +27,4 @@ Project architected and developed by:
 </ul>
 
 <h1> </h1>
-<p align="center">Made with by <a href="https://www.instagram.com/learninglabufc/">LEB LEB</a></p>
+<p align="center">Made with by <a href="https://www.instagram.com/learninglabufc/">LearningLab - Laboratório de pesquisa da UFC</a></p>
