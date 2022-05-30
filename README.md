@@ -5,8 +5,10 @@
 ## 🎲 PROJECT DESCRIPTION
 Project architected and developed by:
 <ul>
+    <li>Jacy Rabelo</li>
     <li>Aline Alves</li>
     <li>Eurilany Souza</li>
+    <li>Israely Lima</li>
     <li>Jorge Sousa</li>
     <li>Iago Wesley</li>
 </ul> 
