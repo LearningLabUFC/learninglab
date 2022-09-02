@@ -9,6 +9,28 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <header>
+<header>
+        <a href="file:///C:/Users/Eurilaine/Desktop/ufc%20russas/Est%C3%A1gio/vers%C3%A3o%20site/index.html#"><img src="imagens/logo.png" alt="logo"></a>
+        <nav>
+            <div class="icone-menu-mobile">
+                <span></span>
+                <span></span>
+                <span></span>
 
+            </div>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="file:///C:/Users/Eurilaine/Desktop/ufc%20russas/Est%C3%A1gio/vers%C3%A3o%20site/page-blog.html">Blog</a></li>
+                <li class="menu-curso">
+                    <a href="#">Cursos <img src="imagens/sinal-de-seta-para-baixo-para-navegar.png" alt="imagem setinha" > </a>
+                    <ul>
+                        <li><a href="#">Cursos em andamentos</a></li>
+                        <li><a href="#">Cursos presenciais</a></li>
+                        <li><a href="#">Ver todos os cursos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
+                <li ><a href="https://www.youtube.com/" class="botao-header">Vem fazer parte do time </a></li>
+            </ul>
+        </nav>
     </header>
