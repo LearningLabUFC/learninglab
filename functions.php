@@ -17,6 +17,9 @@
     function css_files() {
         wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css');
         wp_enqueue_style('style', get_template_directory_uri().'/assets/styles/style.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('cursos', get_template_directory_uri().'/assets/styles/cursos.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('blog', get_template_directory_uri().'/assets/styles/blog.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('detalhes-curso', get_template_directory_uri().'/assets/styles/detalhes-curso.css', array(),'1.0.0', 'all');
     }
     if(is_front_page()) {
         wp_enqueue_style('front-page', get_template_directory_uri().'/assets/styles/front-page.css', array(),'1.0.0', 'all');
@@ -26,10 +29,24 @@
         wp_enqueue_style('header', get_template_directory_uri().'/assets/styles/style.css', array(),'1.0.0', 'all');
 
     }
+    if(is_page('cursos')) {
+        wp_enqueue_style('cursos', get_template_directory_uri().'/assets/styles/cursos.css', array(),'1.0.0', 'all');
+
+    }
+    if(is_page('blog')) {
+        wp_enqueue_style('blog', get_template_directory_uri().'/assets/styles/blog.css', array(),'1.0.0', 'all');
+    }
+    if(is_page('detalhes-curso')) {
+        wp_enqueue_style('detalhes-curso', get_template_directory_uri().'/assets/styles/detalhes-curso.css', array(),'1.0.0', 'all');
+
+    }
     if(is_front_page()) {
         wp_enqueue_style('front-page', get_template_directory_uri().'/assets/styles/style.css', array(),'1.0.0', 'all');
     }
     wp_enqueue_style('header', get_template_directory_uri().'/assets/styles/style.css', array(),'1.0.0', 'all');
+    wp_enqueue_style('cursos', get_template_directory_uri().'/assets/styles/cursos.css', array(),'1.0.0', 'all');
+    wp_enqueue_style('blog', get_template_directory_uri().'/assets/styles/blog.css', array(),'1.0.0', 'all');
+    wp_enqueue_style('detalhes-curso', get_template_directory_uri().'/assets/styles/detalhes-curso.css', array(),'1.0.0', 'all');
     add_action('wp_enqueue_scripts', 'css_files');
 
     function scripts_files() {

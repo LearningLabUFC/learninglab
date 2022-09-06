@@ -1,0 +1,161 @@
+.bakground-inicio-pageDetalheCurso{
+    background-color:rgb(242,99,126);
+    
+    width: 100%;
+    margin-top: -90px; 
+    height: 550px;
+}
+.conteiner-inicio-pageDetalheCurso{
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding-top: 200px;
+}
+.conteiner-inicio-pageDetalheCurso div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+    gap: 20px;
+    padding: 20px;
+   
+    
+}
+.conteiner-inicio-pageDetalheCurso img{
+    width: 55%;
+    border-radius: 10px;
+}
+.bakground-inicio-pageDetalheCurso button{
+    height: 40px;
+    background-color: rgb(4,191,191);
+    border-radius: 5px;
+    border:solid;
+    border-color: rgb(4,191,191);
+    color: white;
+    font-size: 14px;
+}
+.conteiner-informacoes-cursos{
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.sobre-curso{
+    width: 36%;
+    color:grey;
+}
+.especificacoes-curso{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detalhes-cursos{
+    
+   
+    display:flex;
+    justify-content: space-between;
+    
+    
+    color:grey ;
+}
+.detalhes-cursos div{
+   width: 30%;
+}
+
+.detalhes-cursos div h4{
+    font-size: 14px;
+}
+.detalhes-cursos div p{
+    font-size: 16px;
+}
+.incluso-curso{
+   
+    margin-top: 60px;
+    color: grey;
+}
+.incluso-curso div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.incluso-curso div figure{
+    width: 40%;
+   
+    display: flex;
+    font-size: 14px;
+    margin-top: 15px;
+  
+}
+.conteiner-outros-cursos{
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.paines-outrs-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.paines-outrs-cursos div{
+    background-color:white;
+    width: 30%;
+    border-radius: 10px;
+    text-align: left;
+}
+.paines-outrs-cursos div img{
+    width:100% ;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+.paines-outrs-cursos div div{
+    display: flex;
+    flex-direction: column;
+   width: 90%;
+   margin: auto;
+  
+   
+}
+.paines-outrs-cursos div  h3{
+    margin: 20px 0px 10px 0px;
+    font-size: 20px;
+    
+
+}
+.paines-outrs-cursos div  p{
+    margin: 20px 0px 10px 0px;
+    color: grey;
+}
+.paines-outrs-cursos div  button{
+    margin: 20px 0px 30px 0px;
+   height:50px;
+   background-color: rgb(4,191,191);
+   color: white;
+   border-radius: 5px;
+   border: 2px solid rgb(4,191,191);
+}
+.paines-outrs-cursos div  button:hover{
+    background-color: rgb(242,99,126);
+    border-color: rgb(242,99,126);
+}
+/*@media (max-width: 987px) {
+    .conteiner-inicio-pageDetalheCurso{
+        flex-direction: column-reverse;
+    }
+    .conteiner-informacoes-cursos{
+        flex-direction: column;
+    }
+    .paines-outrs-cursos{
+        flex-direction: column;
+    }
+}*/
