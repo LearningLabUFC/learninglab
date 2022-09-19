@@ -1,18 +1,21 @@
 .bakground-inicio-pageDetalheCurso{
     background-color:rgb(242,99,126);
+  
     
     width: 100%;
     margin-top: -90px; 
     height: 550px;
 }
 .conteiner-inicio-pageDetalheCurso{
+    
     width: 80%;
     max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
-    padding-top: 200px;
+    margin-top: -330px; 
+   
 }
 .conteiner-inicio-pageDetalheCurso div{
     display: flex;
@@ -26,10 +29,12 @@
     
 }
 .conteiner-inicio-pageDetalheCurso img{
-    width: 55%;
+   /* width: 55%;*/
+    width: 600px;
     border-radius: 10px;
 }
-.bakground-inicio-pageDetalheCurso button{
+.conteiner-inicio-pageDetalheCurso button{
+    width: 100%;
     height: 40px;
     background-color: rgb(4,191,191);
     border-radius: 5px;
@@ -38,17 +43,25 @@
     color: white;
     font-size: 14px;
 }
+.conteiner-inicio-pageDetalheCurso button:hover{
+    background-color:transparent;
+    border: none;
+}
 .conteiner-informacoes-cursos{
     width: 80%;
     max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .sobre-curso{
     width: 36%;
-    color:grey;
+    color:rgb(115,114,114);
+}
+.sobre-curso h2{
+   
+    color: rgb(70,70,70);
 }
 .especificacoes-curso{
     width: 55%;
@@ -58,19 +71,15 @@
 
 .detalhes-cursos{
     
-   
     display:flex;
     justify-content: space-between;
-    
-    
     color:grey ;
 }
-.detalhes-cursos div{
-   width: 30%;
-}
+
 
 .detalhes-cursos div h4{
     font-size: 14px;
+    color: rgb(115,114,114);
 }
 .detalhes-cursos div p{
     font-size: 16px;
@@ -78,7 +87,10 @@
 .incluso-curso{
    
     margin-top: 60px;
-    color: grey;
+    
+}
+.incluso-curso h4{
+   color: rgb(70,70,70);
 }
 .incluso-curso div{
     display: flex;
@@ -87,11 +99,19 @@
 }
 .incluso-curso div figure{
     width: 40%;
-   
+   color: rgb(115,114,114);
     display: flex;
     font-size: 14px;
     margin-top: 15px;
   
+}
+.incluso-curso div figure img{
+    width: 30px;
+}
+.incluso-curso div figure figcaption{
+    font-size: 16px;
+    margin-left: 10px;
+
 }
 .conteiner-outros-cursos{
     width: 80%;
@@ -104,17 +124,18 @@
 .paines-outrs-cursos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 40px;
 }
 .paines-outrs-cursos div{
     background-color:white;
-    width: 30%;
+    width: 350px;
     border-radius: 10px;
     text-align: left;
+    margin-bottom: 20px;
 }
 .paines-outrs-cursos div img{
-    width:100% ;
+    width:inherit ;
     height: 250px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -148,14 +169,97 @@
     background-color: rgb(242,99,126);
     border-color: rgb(242,99,126);
 }
-/*@media (max-width: 987px) {
+
+/*@media (max-width: 987px) {*/
+    @media (max-width: 1170px) {
     .conteiner-inicio-pageDetalheCurso{
+       
         flex-direction: column-reverse;
+        align-items: center;
     }
+    .conteiner-inicio-pageDetalheCurso div{
+        margin-top:30px;
+       color: rgb(115,114,114);
+        align-items: center;
+    }
+    .conteiner-inicio-pageDetalheCurso div h1{
+        color: rgb(4,191,191);
+        text-align: center;
+    }
+    
     .conteiner-informacoes-cursos{
         flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .sobre-curso{
+       
+       
+        width: 100%;
+    }
+    .sobre-curso h2{
+        text-align: center;
+    }
+    .especificacoes-curso{
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .detalhes-cursos{
+        justify-content: space-between;
+    }
+    .detalhes-cursos div{
+        width: 30%;
+    }
+    .incluso-curso figure{
+        flex-direction: column;
+        align-items: center;
     }
     .paines-outrs-cursos{
         flex-direction: column;
+        align-items: center;
     }
-}*/
+    
+}
+@media (max-width: 780px){
+    .bakground-inicio-pageDetalheCurso{
+       
+        height:300px;
+    }
+    
+    .conteiner-inicio-pageDetalheCurso img{
+        width: 100%;
+       
+        margin: auto;
+        margin-top: 200px;
+    }
+}
+
+@media(max-width:455px){
+    .paines-outrs-cursos div{
+        width: 100%;
+    }
+    
+    .detalhes-cursos div p{
+       
+       font-size: 0.8rem;
+    }
+    
+    .incluso-curso div figure{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+    
+}
+@media(max-width:355px){
+    .detalhes-cursos{
+        flex-direction: column;
+        gap:10px;
+        align-items: center;
+       
+    }
+    .detalhes-cursos div {
+        width: 100%;
+       
+     }
+}

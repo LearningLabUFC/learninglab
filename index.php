@@ -51,6 +51,7 @@
                         <a href="#"><button>inscreva-se</button></a>
                     </div>
                 </div>
+            </div>
         </section>
 
         <section class="conteiner-comentarios">

@@ -1,6 +1,6 @@
 *{
     font-family: "montserrat"; 
-    Weight:400;
+    font-weight:400;
 }
 .conteiner-inicial-blog{
     background-color: rgb(0,154,154);
@@ -37,7 +37,7 @@
 }
 .descricao-destaque p{
     /**margin-top: 20px;**/
-    font-size: 13px;
+    font-size: 14px;
 }
 .descricao-destaque button{
     width:100%;
@@ -55,53 +55,50 @@
 .conteiner-conteudos{
     width: 90%;
     max-width: 1100px;
-    margin: auto;
-    margin-bottom: 60px;
-   
+    margin: 60px auto 60px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   
 }
-.conteiner-conteudos div{
-    background-color: white;
-    border-radius: 5px;
+.painel-blogs{
+    background-color:white;
     width: 350px;
-   /** height: 420px;**/
-   padding-bottom: 20px;
-   margin-right: 15px;
-    margin-top: 60px;
-    text-align:left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     box-shadow:	10px 10px 60px gray;
 }
-.conteiner-conteudos div img{
-    width:inherit ;
-    height: 170px;
+.painel-blogs img{
+    width:100% ;
+    height: 180px;
     border-radius: 5px 5px 0px 0px;
 }
-.conteiner-conteudos div h3{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+
+.painel-blogs div{
+    display: flex;
+    flex-direction: column;
+   width: 90%;
+   margin: auto;
+   margin-top: 20px;
+} 
+.painel-blogs h3{
+    font-size: 20px;
 }
-.conteiner-conteudos div p{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 13px;
+.painel-blogs p{
+    
+    font-size: 14px;
 }
-.conteiner-conteudos div button{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 310px;
+.painel-blogs button{
+   
+    width: 100%;
     height: 50px;
     background-color: white;
     color: rgb(4,191,191);
     border: solid;border-radius: 5px;
     border-color: rgb(4,191,191);
 }
-.conteiner-conteudos div button:hover{
+.painel-blogs button:hover{
     background-color: rgb(4,191,191, 0.2);
 }
 
@@ -109,9 +106,12 @@
     .conteiner-destaque{
         display: flex;
         flex-direction: column;
-        width: 348px;
-        height: 420px;
-        border-radius: 5px;
+        background-color:white;
+        width: 350px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        box-shadow:	10px 10px 60px gray;
        
     }
     .conteiner-destaque img{
@@ -119,7 +119,15 @@
         border-radius: 5px 5px 0px 0px;
     }
     .descricao-destaque{
-        width: 80%;
+        width: 90%;
     }
 
+}
+@media (max-width:380px){
+    .conteiner-destaque{
+        width: 80%;
+    }
+    .conteiner-conteudos div{
+        width: 90%;
+    }
 }

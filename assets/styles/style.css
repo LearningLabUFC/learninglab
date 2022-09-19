@@ -4,133 +4,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-    
 }
 
 body{
     background-color:rgb(239,246,245);
     font-family: "montserrat";  
-    font-weight: 550;
-   
+    font-weight: 500;
 }
+
 li{
-    
     list-style: none;
-    
 }
+
 a{
     text-decoration: none;  
 }
 
-
-header{
-   
-   
-    width: 90%;
-    max-width: 1100px;
-   margin: auto;
-   
-    
-}
-/*header{
-   
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    padding-top: 20px;
-    width: 90%;
-    max-width: 1100px;
-   margin: auto;
-   justify-content: space-between;
-    
-}
-
-nav ul{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding-top: 20px;
-}
-
-
-
-nav ul li a{
-    color: white;
-    font-size: 1rem;
-    
-    padding: 15px;
-}
-nav ul li a:hover{
-    background-color: transparent;      
-    border-bottom:  2px solid white;
-    border-radius: 0px; 
-    color: white;
-}
-
-
-.botao-header{
-   
-    background: white;
-    border: 2px solid white;
-    border-radius: 6px; 
-    color: rgb(242,99,126);
-    font-size: 0.8rem;
-   
-}
-
-
-
-.botao-header:hover {     
-     background-color: rgb(255,255,255,0.5); 
-     color: white;
-     border-radius: 6px; 
-}
-.menu-curso ul{
-    position: absolute;
-    display: none;
-    
-    background-color: white; 
-    border-radius: 5px;
-    padding: 10px 0px 10px 0px;
-    
-   
-   
-
-}
-.menu-curso ul li{
-    
-    margin: 20px 10px 20px 10px;  
-    height: 35px;    
-}
-.menu-curso ul li a{
-    color: #04bfbfb3;
-    font-size: 0.9rem;
-    
-}
-.menu-curso:hover ul{
-    display:block;
-    box-shadow: 10px 10px 50px gray;
-}
-.menu-curso:hover a img{
-    transform: rotate(180deg);
-}
-
-
-.menu-curso ul li:hover{
-    border-bottom: 1px solid rgb(4,191,191);
-    color:rgb(4,191,191) ;
-}
-.menu-curso ul a:hover{
-    
-    color:rgb(4,191,191) ;
-}*/
 .background-conteiner-incial{
-  
+   
     background-color:rgb(242,99,126);
     
     width: 100%;
-    margin-top: -90px
+    margin-top: -100px;
     
 }
 .conteiner-inicial{
@@ -143,10 +38,8 @@ nav ul li a:hover{
    max-width: 1100px;
    margin:auto;
    justify-content: space-between; 
-  
-   
-
 }
+
 .conteiner-inicial h2{
     
     font-family: "montserrat";
@@ -159,8 +52,6 @@ nav ul li a:hover{
 .conteiner-inicial img{
     width: 100%;
 }
-
-
 
 .conteiner-sobre{
    
@@ -338,10 +229,9 @@ nav ul li a:hover{
     width: 200px;
     border-radius: 10px;
     margin: 15px;
-    padding: 15px 15px;
-
-    
+    padding: 15px 15px; 
 }
+
 .comentarios img{
     
     border-radius: 100px;
@@ -437,17 +327,17 @@ nav ul li a:hover{
     flex-direction: column;
     width: 90%;
     margin: auto;
-    gap: 30px;
+    
 }
 .descricao-leitura p{
     color: grey;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .descricao-leitura button{
    width: 100%;
    height:40px;
    background-color: transparent;
-   color:  rgb(4,191,191);;
+   color:  rgb(4,191,191);
    border-radius: 5px;
    border: 2px solid rgb(4,191,191);
    margin:10px 0px 20px 0px;
@@ -456,202 +346,10 @@ nav ul li a:hover{
     background-color: rgb(4,191,191, 0.2);
     
 }
-footer{
-   
-    width: 90%;
-    max-width: 1100px;
-    margin:auto;
-    
-}
-.conteiner-footer{
-    display: flex;
-    margin-top: 50px;
-}
-.conteiner-footer div{
-    width: 200px;
-    margin: 30px;
-    
-}
-.conteiner-footer  li{
-    list-style: none;
-    margin-top: 15px;
-  
-   color: gray;
-   display: flex;
-    
-}
-.conteiner-footer a{
-    color: gray;
-}
-.conteiner-footer h4{
-    color:rgb(4,191,191) ;
-}
-footer p{
-    color: grey;
-}
 
-.icone-redeSocial{
-    margin-top: 20px;
-}
-@media(min-width:988px){
-    header{
-   
-        display: flex;
-        flex-direction:row;
-        align-items: center;
-        padding-top: 20px;
-        width: 90%;
-        max-width: 1100px;
-       margin: auto;
-       justify-content: space-between;
+ @media (max-width:1165px) { 
+    
         
-    }
-    
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-        padding-top: 20px;
-    }
-    
-    
-    
-    nav ul li a{
-        color: white;
-        font-size: 1rem;
-        
-        padding: 15px;
-    }
-    nav ul li a:hover{
-        background-color: transparent;      
-        border-bottom:  2px solid white;
-        border-radius: 0px; 
-        color: white;
-    }
-    
-    
-    .botao-header{
-       
-        background: white;
-        border: 2px solid white;
-        border-radius: 6px; 
-        color: rgb(242,99,126);
-        font-size: 0.8rem;
-       
-    }
-    
-    
-    
-    .botao-header:hover {     
-         background-color: rgb(255,255,255,0.5); 
-         color: white;
-         border-radius: 6px; 
-    }
-    .menu-curso ul{
-        position: absolute;
-        display: none;
-        
-        background-color: white; 
-        border-radius: 5px;
-        padding: 10px 0px 10px 0px;
-        
-       
-       
-    
-    }
-    .menu-curso ul li{
-        
-        margin: 20px 10px 20px 10px;  
-        height: 35px;    
-    }
-    .menu-curso ul li a{
-        color: #04bfbfb3;
-        font-size: 0.9rem;
-        
-    }
-    .menu-curso:hover ul{
-        display:block;
-        box-shadow: 10px 10px 50px gray;
-    }
-    .menu-curso:hover a img{
-        transform: rotate(180deg);
-    }
-    
-    
-    .menu-curso ul li:hover{
-        border-bottom: 1px solid rgb(4,191,191);
-        color:rgb(4,191,191) ;
-    }
-    .menu-curso ul a:hover{
-        
-        color:rgb(4,191,191) ;
-    }
-}
-
-
-@media (max-width: 1115px) {
-    html{
-        font-size:70%;
-    }
-}
-
-@media (max-width: 987px) {
-    
-
-    header nav {
-        width: 85%;
-        position: absolute;
-       
-     display: flex;
-      flex-direction: row-reverse;
-       
-       justify-content: space-between;
-       margin-top: -40px;
-    }
-    header nav ul{
-       width: 100%;
-        border-radius: 5px;
-        display: none;
-        background-color: white;
-
-    }
-    header nav ul li{
-        margin: 25px;
-    }
-    header nav ul li a{
-        color: black;
-        
-    }
-    
-    .icone-menu-mobile{
-        
-        width: 50px;
-        height: 50px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        border-radius: 5px;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-        
-    
-    }
-    .icone-menu-mobile span{
-        width: 30px;
-        height: 5px;
-        background-color: rgb(4,191,191);
-    }
-    .icone-menu-mobile:hover nav ul{
-        display: block;
-    }
-    .icone-menu-mobile:hover{
-        background-color:rgb(242,99,126,0.5) ;
-    }
-    .icone-menu-mobile:hover span{
-        background-color:yellow ;
-        
-    }
     .conteiner-inicial{
         width: 80%;
        display: flex;
@@ -698,6 +396,7 @@ footer p{
         width: 100%;
         max-width: 540px;
     }
+
     .background-conteier-leitura{
         width: 80%;
         max-width: 520px;
@@ -718,13 +417,48 @@ footer p{
        
     }
    
-    
-   
-    .conteiner-footer{
+ }
+@media(max-width: 800px){
+
+    .comentarios{
+        width:105%;
+        
+        overflow: hidden;
        
         display: flex;
-        flex-direction: column;
-        margin: auto;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+        gap:50px
+    }
+    .comentarios div{
+       position:relative;
+       animation: carrossel 15s infinite ease-out;
        
+    }
+    @keyframes carrossel{
+        0%{left:0px}
+        10%{left:0px}
+        12.5%{left:-200px}
+        22.5%{left: -200px;}
+        25%{left:-400px}
+        35%{left:-400px}
+        37.5%{left: -600px}
+        47.5%{left:-600px}
+        50%{ left:-800px}
+        60%{left: -800px}
+        62.5%{left:-1000px}
+        72.5%{left:-1000px}
+        75%{left: -1200px}
+        85%{left: -1200px}
+        87.5%{left: -1400px}
+        97.5%{left: -1400px}
+        100%{left:0px}
+
+    }
 }
+
+@media (max-width:400px){
+    .nav-menu{
+        width: 90%;
+    }
 }

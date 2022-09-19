@@ -18,7 +18,7 @@
                 <a><h4>Contato</h4></a>
                 <ul >
                     <li>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_email.png" alt="icone email">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_email.png" alt="icone email" >
                         <p>email@email.com</p>
                     </li>
                     <li>

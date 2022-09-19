@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-<section class="bakground-inicio-pageDetalheCurso">
+<section>
+    <div class="bakground-inicio-pageDetalheCurso"></div>
     <div class="conteiner-inicio-pageDetalheCurso">
         <div>
             <p>Programação</p>
