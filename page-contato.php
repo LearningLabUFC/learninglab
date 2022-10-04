@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main>
+
     <section class="container-contato">
         
         <div class="contato">
@@ -27,5 +27,5 @@
       
 
     </section>
-</main>
+
 <?php get_footer(); ?>

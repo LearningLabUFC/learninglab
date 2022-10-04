@@ -37,7 +37,7 @@
                         <li><a href="#">Ver todos os cursos</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="index.php/contato">Contato</a></li>
                 <li ><a href="#" class="botao-header" id="botao-header">Vem fazer parte do time </a></li>
             </ul>
             
