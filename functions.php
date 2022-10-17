@@ -23,12 +23,16 @@
         wp_enqueue_style('cursos', get_template_directory_uri().'/assets/styles/cursos.css', array(),'1.0.0', 'all');
 
         wp_enqueue_style('contato', get_template_directory_uri().'/assets/styles/contato.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('sobre', get_template_directory_uri().'/assets/styles/sobre.css', array(),'1.0.0', 'all');
     }
 
     if(is_front_page()) {
         wp_enqueue_style('front-page', get_template_directory_uri().'/assets/styles/front-page.css', array(),'1.0.0', 'all');
     }
-
+    if ( is_page('sobre') == true ) {
+        // só vai carregar se estiver na pag sobre
+        wp_enqueue_style('sobre', get_template_directory_uri() . '/assets/styles/sobre.css');
+    }
  
 
 
