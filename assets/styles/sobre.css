@@ -1,0 +1,217 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /*background-color: rgb(0, 154, 154);*/
+  flex-direction: column;
+  gap: 5rem;
+
+}
+
+.container-quem-somos {
+  /*margin-top: -7.625rem;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  background-color: rgb(0, 154, 154);
+  width: 100%;
+}
+
+
+.container-quem-somos h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 1.5em;
+
+}
+
+.container-sobre-projeto,
+.container-resultados,
+.container-membros,
+.container-momentos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo {
+  width: 90%;
+  max-width: 1100px;
+}
+
+.cabecalho {
+  width: 100%;
+  background-color: rgb(0, 154, 154);
+}
+
+.container-sobre-projeto .conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-sobre-projeto .conteudo .texto {
+  width: 30rem;
+}
+
+.container-sobre-projeto .conteudo .texto h1,
+.container-resultados .conteudo .texto h1,
+.container-membros .conteudo .texto h1,
+.container-momentos .conteudo h1 {
+  color: rgb(0, 154, 154);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.container-sobre-projeto .conteudo .texto p,
+.container-resultados .conteudo .texto p,
+.container-membros .conteudo .texto p {
+  line-height: 1.875rem;
+}
+
+.container-sobre-projeto .conteudo img {
+  margin-top: 2rem;
+  width: 30rem;
+  height: 25rem;
+}
+
+.container-resultados .conteudo .cards {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container-resultados .conteudo .cards .card {
+  width: 15.6rem;
+  height: 8.25rem;
+  border-radius: 0.625rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.875rem 1.875rem 1.875rem 3.687rem;
+}
+
+.container-resultados .conteudo .cards .card:nth-child(1) {
+  background-color: #04BFBF;
+}
+
+.container-resultados .conteudo .cards .card:nth-child(2) {
+  background-color: #FFBF28;
+}
+
+.container-resultados .conteudo .cards .card:nth-child(3) {
+  background-color: #F2637E;
+}
+
+.container-resultados .conteudo .cards .card:nth-child(4) {
+  background-color: #9747FF;
+}
+
+.container-membros .cards-membros {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  gap: .4rem;
+  justify-content: space-around;
+}
+
+.container-membros .cards-membros .membro {
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  background-color: white;
+  border-radius: .5rem;
+}
+
+.container-membros .cards-membros .membro .midias-sociais {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-momentos .conteudo .cards-momentos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.container-momentos .conteudo .cards-momentos .momento {
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+  padding: .9rem;
+  background-color: white;
+  border-radius: .5rem;
+
+}
+
+.container-momentos .conteudo .cards-momentos .momento img {
+  width: 19.25rem;
+  height: 14.875rem;
+}
+
+footer {
+  padding: 5.625rem 0;
+}
+
+@media (max-width: 505px) {
+  .container-sobre-projeto .conteudo {
+    flex-direction: column;
+  }
+
+  .container-resultados .conteudo .cards .card {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .container-membros .conteudo .cards-membros,
+  .container-momentos .conteudo .cards-momentos {
+    gap: 1.5rem;
+  }
+
+  .container-membros .conteudo .cards-membros .membro,
+  .container-momentos .conteudo .cards-momentos .momento {
+    width: 100%;
+  }
+
+  .container-membros .conteudo .cards-membros .membro img {
+    width: 90%;
+  }
+
+  .container-momentos .conteudo .cards-momentos .momento img {
+    width: 319px;
+
+    height: 270px;
+  }
+
+  .container-momentos .conteudo .cards-momentos .momento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .container-momentos .conteudo .cards-momentos .momento p {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+
+}

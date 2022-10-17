@@ -11,7 +11,7 @@
                 <a href="#"><button>Concluídos</button></a>
                 <a href="#"><button>Inscrições abertas</button></a>
                 <a href="#"><button>Iniciantes</button></a>
-                <a href="#"><button>Frnt-End</button></a>
+                <a href="#"><button>Front-End</button></a>
             </div>
         </div>
     </section>
