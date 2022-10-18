@@ -19,21 +19,35 @@
         wp_enqueue_style('style', get_template_directory_uri().'/assets/styles/style.css', array(),'1.0.0', 'all');
         wp_enqueue_style('footer', get_template_directory_uri().'/assets/styles/footer.css', array(),'1.0.0', 'all');
         wp_enqueue_style('header', get_template_directory_uri().'/assets/styles/header.css', array(),'1.0.0', 'all');
-        wp_enqueue_style('blog', get_template_directory_uri().'/assets/styles/blog.css', array(),'1.0.0', 'all');
-        wp_enqueue_style('cursos', get_template_directory_uri().'/assets/styles/cursos.css', array(),'1.0.0', 'all');
 
-        wp_enqueue_style('contato', get_template_directory_uri().'/assets/styles/contato.css', array(),'1.0.0', 'all');
-        wp_enqueue_style('sobre', get_template_directory_uri().'/assets/styles/sobre.css', array(),'1.0.0', 'all');
+
+        if(is_front_page() == true) {
+            wp_enqueue_style('home', get_template_directory_uri() . '/assets/styles/style.css', array(),'1.0.0', 'all'); }
+
+            if ( is_page('sobre') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('sobre', get_template_directory_uri() . '/assets/styles/sobre.css');
+            }
+         
+            if ( is_page('contato') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('contato', get_template_directory_uri() . '/assets/styles/contato.css');
+            }
+
+            if ( is_page('blog') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('blog', get_template_directory_uri() . '/assets/styles/blog.css');
+            }
+
+            if ( is_page('cursos') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('cursos', get_template_directory_uri() . '/assets/styles/cursos.css');
+            }
+        
     }
 
-    if(is_front_page()) {
-        wp_enqueue_style('front-page', get_template_directory_uri().'/assets/styles/front-page.css', array(),'1.0.0', 'all');
-    }
-    if ( is_page('sobre') == true ) {
-        // só vai carregar se estiver na pag sobre
-        wp_enqueue_style('sobre', get_template_directory_uri() . '/assets/styles/sobre.css');
-    }
- 
+  
+    
 
 
 

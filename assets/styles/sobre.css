@@ -9,7 +9,7 @@ main {
 
 }
 
-body {
+html, body {
   background-color: rgb(239, 246, 245);
   overflow-x: hidden;
 }
@@ -49,10 +49,9 @@ body {
   max-width: 1100px;
 }
 
-.cabecalho {
+body .cabecalho {
   width: 100%;
   background-color: rgb(0, 154, 154);
-
 }
 
 .container-sobre-projeto .conteudo {

@@ -26,8 +26,11 @@ a{
     background-color:rgb(242,99,126);
     
     width: 100%;
-    margin-top: -100px;
     
+}
+
+body .cabecalho {
+    background-color: rgb(242,99,126);
 }
 .conteiner-inicial{
    

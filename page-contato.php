@@ -16,7 +16,7 @@
 
         <div class="forms">
             <div class="formulario">
-            <?php echo do_shortcode( '[contact-form-7 id="12" title="Formulário de contato"]');?>
+            <?php echo do_shortcode( '[contact-form-7 id="32" title="Formulário de contato 1"]');?>
             </div>       
         </div>
 
