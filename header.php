@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
-
+<div class="cabecalho">
     <header>
         <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.png"  alt="logo" class="logo"></a>
         <nav>
@@ -43,4 +43,4 @@
             
         </nav>
     </header>
-    
+</div>

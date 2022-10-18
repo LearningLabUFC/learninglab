@@ -15,15 +15,11 @@
         </div>
 
         <div class="forms">
-            <form action="" class="formulario">
-                <input type="text" placeholder="Seu melhor email para contato">
-                <input type="text" placeholder="Digite seu nome">
-                <textarea
-                      placeholder="Escreva sua mensagem, sugestão, dúvida..."
-                    ></textarea>
-                    <button class="button">Enviar mensagem</button>
-            </form>
+            <div class="formulario">
+            <?php echo do_shortcode( '[contact-form-7 id="12" title="Formulário de contato"]');?>
+            </div>       
         </div>
+
       
 
     </section>
