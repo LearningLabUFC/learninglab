@@ -51,7 +51,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -61,7 +61,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -71,7 +71,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -91,7 +91,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -101,7 +101,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -111,7 +111,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -121,7 +121,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -131,7 +131,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
@@ -151,7 +151,7 @@
             </div>
           </div>
           <div class="membro">
-            <img src="imagens/imagem-membro.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
