@@ -26,8 +26,11 @@ a{
     background-color:rgb(242,99,126);
     
     width: 100%;
-    margin-top: -100px;
     
+}
+
+body .cabecalho {
+    background-color: rgb(242,99,126);
 }
 .conteiner-inicial{
    
@@ -163,6 +166,7 @@ a{
     color: grey;
 }
 .painel-curso button{
+    width: 100%;
     margin: 20px 0px 30px 0px;
    height:50px;
    background-color: rgb(4,191,191);
@@ -227,16 +231,16 @@ a{
 }
 .comentarios div{
     background: white;
-    width: 200px;
+    width: 20%;
     border-radius: 10px;
     margin: 15px;
     padding: 15px 15px; 
 }
 
 .comentarios img{
-    
+    width: 100%;
     border-radius: 100px;
-   border: solid;
+    border: solid;
     border-color: rgb(242,99,126);
     
 }
