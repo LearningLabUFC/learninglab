@@ -18,7 +18,7 @@
         
             <div class="icone-menu-mobile">
                 
-                <label for="checkbox-menu">
+                <label class="label-header" for="checkbox-menu">
                     <span></span>
                     <span></span>
                     <span></span>

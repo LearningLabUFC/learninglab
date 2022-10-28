@@ -5,6 +5,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 @media (min-width: 1166px) {
   header {
     display: flex;
@@ -15,6 +16,7 @@ header {
     max-width: 1100px;
     justify-content: space-between;
   }
+
   #checkbox-menu {
     display: none;
   }
@@ -31,6 +33,7 @@ header {
 
     padding: 15px;
   }
+
   nav ul li a:hover {
     background-color: transparent;
     border-bottom: 2px solid white;
@@ -51,6 +54,7 @@ header {
     color: white;
     border-radius: 6px;
   }
+
   .sub-menu ul {
     position: absolute;
     display: none;
@@ -60,18 +64,22 @@ header {
     padding: 10px 0px 10px 0px;
     z-index: 3;
   }
+
   .sub-menu ul li {
     margin: 20px 10px 20px 10px;
     height: 35px;
   }
+
   .sub-menu ul li a {
     color: #04bfbfb3;
     font-size: 0.9rem;
   }
+
   .sub-menu:hover ul {
     display: block;
     box-shadow: 10px 10px 50px gray;
   }
+
   .sub-menu:hover a img {
     transform: rotate(180deg);
   }
@@ -80,10 +88,12 @@ header {
     border-bottom: 1px solid rgb(4, 191, 191);
     color: rgb(4, 191, 191);
   }
+
   .sub-menu ul a:hover {
     color: rgb(4, 191, 191);
   }
 }
+
 @media (max-width: 1165px) {
   header {
     margin-top: 20px;
@@ -91,10 +101,12 @@ header {
     justify-content: space-between;
     align-items: flex-start;
   }
+
   header nav {
     display: flex;
     flex-direction: row-reverse;
   }
+
   .nav-menu {
     position: absolute;
     border-radius: 5px;
@@ -105,22 +117,28 @@ header {
     display: none;
     z-index: 2;
   }
+
   .nav-menu ul {
     padding-left: 0;
   }
+
   .nav-menu li {
     margin: 25px;
   }
+
   .nav-menu li a {
     color: black;
     font-weight: 500;
   }
+
   #item {
     color: grey;
   }
+
   #botao-header {
     color: rgb(242, 99, 126);
   }
+
   .icone-menu-mobile {
     display: flex;
     width: 50px;
@@ -131,6 +149,7 @@ header {
     margin-top: 10px;
     margin-right: 10px;
   }
+
   #checkbox-menu {
     position: absolute;
     width: 50px;
@@ -138,14 +157,15 @@ header {
     opacity: 0;
   }
 
-  label {
+  .label-header {
     cursor: pointer;
     position: relative;
     display: block;
     margin-top: 15px;
     margin-left: 10px;
   }
-  label span {
+
+  .label-header span {
     position: absolute;
     display: block;
     height: 5px;
@@ -154,39 +174,49 @@ header {
     background-color: rgb(4, 191, 191);
     transition: 0.25s ease-in-out;
   }
-  label span:nth-child(1) {
+
+  .label-header span:nth-child(1) {
     top: 0;
   }
-  label span:nth-child(2) {
+
+  .label-header span:nth-child(2) {
     top: 8px;
   }
-  label span:nth-child(3) {
+
+  .label-header span:nth-child(3) {
     top: 16px;
   }
-  #checkbox-menu:checked + .icone-menu-mobile label span:nth-child(1) {
+
+  #checkbox-menu:checked+.icone-menu-mobile .label-header span:nth-child(1) {
     transform: rotate(-45deg);
     top: 8px;
     background-color: rgb(242, 99, 126);
   }
-  #checkbox-menu:checked + .icone-menu-mobile label span:nth-child(2) {
+
+  #checkbox-menu:checked+.icone-menu-mobile .label-header span:nth-child(2) {
     opacity: 0;
   }
-  #checkbox-menu:checked + .icone-menu-mobile label span:nth-child(3) {
+
+  #checkbox-menu:checked+.icone-menu-mobile .label-header span:nth-child(3) {
     transform: rotate(45deg);
     top: 8px;
     background-color: rgb(242, 99, 126);
   }
-  #checkbox-menu:checked + .icone-menu-mobile {
+
+  #checkbox-menu:checked+.icone-menu-mobile {
     background-color: rgb(255, 232, 237);
   }
-  #checkbox-menu:checked ~ ul {
+
+  #checkbox-menu:checked~ul {
     display: block;
   }
 }
+
 @media (max-width: 320px) {
   body {
     font-size: 12px;
   }
+
   .logo {
     width: 80%;
   }
