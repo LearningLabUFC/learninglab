@@ -14,8 +14,9 @@
           <p>
             O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. O LearningLab nasceu durante a pandemia, imagine um texto legal aqui..</p>
         </div>
+        <div class="imagem">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-sobre-projeto.png" alt="imagem sobre o projeto">
-       
+        </div>
       </div>
     </section>
 
@@ -41,151 +42,99 @@
         </div>
         <div class="cards-membros">
           <div class="membro">
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          </div>
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+            </div>
             <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          </div>
             <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          </div>
             <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          </div>
             <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          </div>
             <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          </div>
             <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
-<<<<<<< HEAD
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
-            <h2>Fulano Ciclano</h2>
-=======
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">            <h2>Fulano Ciclano</h2>
->>>>>>> 79545d3c1ef37c4bb65628fd8dc2551d8704d6f2
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
-            </div>
           </div>
-          <div class="membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
             <h2>Fulano Ciclano</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
-            </div>
-          </div>
-          <div class="membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
-            <h2>Fulano Ciclano</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
-            </div>
-          </div>
-          <div class="membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
-            <h2>Fulano Ciclano</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
-            </div>
-          </div>
-          <div class="membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
-            <h2>Fulano Ciclano</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-              <a href=""><img src="imagens/icone-insta-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-face-verde.svg" alt=""></a>
-              <a href=""><img src="imagens/icone-linkedin-verde.svg" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
         </div>
@@ -197,17 +146,23 @@
         <h1>Alguns Momentos</h1>
         <div class="cards-momentos">
           <div class="momento">
-            <img src="imagens/imagem-sobre-projeto.png" alt="">
+            <div class="imagem-momento">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="Imagem momento projeto">
+          </div>
             <p>Aula de finalização do cuso de Figma</p>
             <p>12/08/2022</p>
           </div>
           <div class="momento">
-            <img src="imagens/imagem-sobre-projeto.png" alt="">
+          <div class="imagem-momento">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="Imagem momento projeto">
+          </div>
             <p>Aula de finalização do cuso de Figma</p>
             <p>12/08/2022</p>
           </div>
           <div class="momento">
-            <img src="imagens/imagem-sobre-projeto.png" alt="">
+            <div class="imagem-momento">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="Imagem momento projeto">
+          </div>
             <p>Aula de finalização do cuso de Figma</p>
             <p>12/08/2022</p>
           </div>

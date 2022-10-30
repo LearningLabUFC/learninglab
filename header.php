@@ -27,7 +27,7 @@
            
                 
             <ul class="nav-menu"> 
-                <li><a href="#">Sobre</a></li>
+                <li><a href="index.php/sobre">Sobre</a></li>
                 <li><a href="index.php/blog">Blog</a></li>
                 <li class="sub-menu">
                     <a href="index.php/cursos" id="item">Cursos <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/sinal-de-seta-para-baixo-para-navegar.png" alt="imagem setinha" > </a>

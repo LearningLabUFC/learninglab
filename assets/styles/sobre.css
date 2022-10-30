@@ -3,13 +3,13 @@ main {
   justify-content: center;
   align-items: center;
   height: 100%;
-  /*background-color: rgb(0, 154, 154);*/
   flex-direction: column;
   gap: 5rem;
 
 }
 
-html, body {
+html,
+body {
   background-color: rgb(239, 246, 245);
   overflow-x: hidden;
 }
@@ -57,10 +57,12 @@ body .cabecalho {
 .container-sobre-projeto .conteudo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .container-sobre-projeto .conteudo .texto {
-  width: 30rem;
+  max-width: 25rem;
 }
 
 .container-sobre-projeto .conteudo .texto h1,
@@ -80,10 +82,15 @@ body .cabecalho {
   line-height: 1.875rem;
 }
 
-.container-sobre-projeto .conteudo img {
+.container-sobre-projeto .conteudo .imagem {
   margin-top: 2rem;
-  width: 30rem;
-  height: 25rem;
+  max-width: 30rem;
+  max-height: 25rem;
+  min-width: 18rem;
+}
+
+.container-sobre-projeto .conteudo .imagem img {
+  width: 100%;
 }
 
 .container-resultados .conteudo .cards {
@@ -109,6 +116,7 @@ body .cabecalho {
 
 .container-resultados .conteudo .cards .card:nth-child(1) {
   background-color: #04BFBF;
+  text-align: center;
 }
 
 .container-resultados .conteudo .cards .card:nth-child(2) {
@@ -142,10 +150,31 @@ body .cabecalho {
   border-radius: .5rem;
 }
 
+.container-membros .cards-membros .membro .imagem-membro {
+  max-width: 15rem;
+  max-height: 14rem;
+}
+
+.container-membros .cards-membros .membro img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .container-membros .cards-membros .membro .midias-sociais {
   width: 60%;
   display: flex;
   justify-content: space-around;
+}
+
+.container-membros .cards-membros .membro .midias-sociais a {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.container-membros .cards-membros .membro .midias-sociais img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container-momentos .conteudo .cards-momentos {
@@ -165,10 +194,17 @@ body .cabecalho {
 
 }
 
-.container-momentos .conteudo .cards-momentos .momento img {
-  width: 19.25rem;
-  height: 14.875rem;
+.container-momentos .conteudo .cards-momentos .momento .imagem-momento {
+  max-width: 19.25rem;
+  max-height: 14.875rem;
+  margin-bottom: 1.5rem;
 }
+
+.container-momentos .conteudo .cards-momentos .momento .imagem-momento img {
+  width: 100%;
+  object-fit: cover;
+}
+
 
 footer {
   padding: 5.625rem 0;
@@ -182,7 +218,7 @@ footer {
   .container-resultados .conteudo .cards .card {
     width: 100%;
     text-align: left;
-    padding-left: 0;
+    padding-left: 0.5rem;
   }
 
   .container-membros .conteudo .cards-membros,
@@ -216,7 +252,4 @@ footer {
     display: flex;
     justify-content: flex-start;
   }
-
-
-
 }
