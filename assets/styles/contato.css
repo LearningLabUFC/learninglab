@@ -109,6 +109,9 @@ body .cabecalho {
   filter: brightness(120%);
 }
 
+footer {
+  padding-top: 50px;
+}
 /*Responsividade dispositivos*/
 @media (max-width: 915px) {
 

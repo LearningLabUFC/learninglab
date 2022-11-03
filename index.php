@@ -4,7 +4,7 @@
         <section class="background-conteiner-incial">
             <div class="conteiner-inicial">
                 <h2>Instigando sempre sua criatividade e inovação</h2>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imag2.png" alt="imagem com curiosidades">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imag2.svg" alt="imagem com curiosidades">
             </div>    
         </section>
     
@@ -16,11 +16,11 @@
                 <p>O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
                 O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
                 O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
-                O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
+                
                 </p>
-                <a href="https://www.youtube.com/"><button>Conhecer mais</button></a>
+                <a href="">Conhecer mais</a>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="Fot curso figma">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-sobre-projeto.svg" alt="Fot curso figma">
         </section>
 
         <section class="conteiner-cursos">
@@ -28,11 +28,11 @@
             <div class="paineis-de-cursos">
                 <div class="mais-cursos">
                     <h2>Nossos Cursos</h2>
-                    <a href="https://www.youtube.com/"><button>Ver mais cursos</button></a>
+                    <a href=""><button>Ver mais cursos</button></a>
                 </div>
                 
                 <div class="painel-curso">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.jpg" alt="Imagem curso web">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.svg" alt="Imagem curso web">
                     <div class="painel-descricao">
                         <h3>Desenvolvimeto Web</h3>
                         <p>Descrição do curso aqui, descrição do 
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="painel-curso">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.png" alt="Imagem curso SCRUM">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.svg" alt="Imagem curso SCRUM">
                     <div class="painel-descricao">
                         <h3>Scrum na prática</h3>
                         <p>Descrição do curso aqui, descrição do 

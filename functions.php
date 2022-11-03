@@ -60,4 +60,9 @@
         wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js', array('popper'));
     }
     add_action('wp_enqueue_scripts', 'scripts_files');  
+    add_action('get_header', 'remove_admin_login_header');
+
+function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
 ?>
