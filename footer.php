@@ -5,7 +5,7 @@
            <div>
                 <a><h4>Sobre</h4></a>
                 <ul>
-                    <li><a href="#">Nossa equipe</a></li>
+                    <li><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/sobre">Nossa equipe</a></li>
                     <li><a href="#">O projeto</a></li>
                     <li><a href="#">Iniciativas</a></li>
 
@@ -19,12 +19,11 @@
                 <ul >
                     <li>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_email.png" alt="icone email" >
-                        <p>email@email.com</p>
+                        <p>learninglab@ufc.br</p>
                     </li>
                     <li>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_tel.png" alt="icone telefone">
-                        <p>(99) 99999-9999 <br>
-                        (99) 99999-9999</p>
+                        <p>(88) 3411-2143</p>
                     </li>
                     
                 </ul>

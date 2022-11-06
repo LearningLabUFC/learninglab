@@ -2,6 +2,11 @@
   font-family: "montserrat";
   font-weight: 400;
 }
+
+body .cabecalho {
+  background-color: rgb(0, 154, 154);
+}
+
 .conteiner-inicial-blog {
   background-color: rgb(0, 154, 154);
   height: 370px;

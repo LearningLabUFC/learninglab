@@ -11,7 +11,7 @@
 <body>
 <div class="cabecalho">
     <header>
-        <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.png"  alt="logo" class="logo"></a>
+        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logotipo.png"  alt="logo" class="logo"></a>
         <nav>
        
          <input type="checkbox" id="checkbox-menu">
@@ -27,8 +27,8 @@
            
                 
             <ul class="nav-menu"> 
-                <li><a href="index.php/sobre">Sobre</a></li>
-                <li><a href="index.php/blog">Blog</a></li>
+                <li><a <?php if(is_page('sobre') == true ) { echo 'ativo';} ?>" aria-current="sobre" href="<?php echo get_home_url(); ?>/sobre">Sobre</a></li>
+                <li><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
                 <li class="sub-menu">
                     <a href="index.php/cursos" id="item">Cursos <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/sinal-de-seta-para-baixo-para-navegar.png" alt="imagem setinha" > </a>
                     <ul>

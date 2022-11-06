@@ -13,12 +13,9 @@
         <section class="conteiner-sobre">
             <div>
                 <h2>Sobre o projeto</h2>
-                <p>O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
-                O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
-                O LearningLab nasceu durante a pandemia, imagine um texto legal aqui.
-                
+                <p>O projeto LearningLab (Laboratório de Ensino e Pesquisa de Tecnologias alinhadas à Gestão do Conhecimento e Inovação em Processos de Software) propõe metodologias para a permanência de alunos nos cursos de Computação e garantia da conclusão dos cursos pelos alunos de graduação através de realizações de cursos e tutorias, divulgação de técnicas de gestão do conhecimento utilizadas no mercado, incentivo a participação de eventos de computação, dentre outros.
                 </p>
-                <a href="">Conhecer mais</a>
+                <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/sobre">Conhecer mais</a>
             </div>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-sobre-projeto.svg" alt="Fot curso figma">
         </section>
@@ -28,7 +25,7 @@
             <div class="paineis-de-cursos">
                 <div class="mais-cursos">
                     <h2>Nossos Cursos</h2>
-                    <a href=""><button>Ver mais cursos</button></a>
+                    <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/cursos"><button>Ver mais cursos</button></a>
                 </div>
                 
                 <div class="painel-curso">
@@ -38,7 +35,7 @@
                         <p>Descrição do curso aqui, descrição do 
                         curso aqui, descrição do curso aqui, HTML,
                         CSS, JS, etc.</p>
-                        <a href="#"></a><button>inscreva-se</button></a>
+                        <a href="#"></a><button>Inscreva-se</button></a>
                     </div>
                 </div>
                 <div class="painel-curso">
@@ -48,7 +45,7 @@
                         <p>Descrição do curso aqui, descrição do 
                         curso aqui, descrição do curso aqui, HTML,
                         CSS, JS, etc.</p>
-                        <a href="#"><button>inscreva-se</button></a>
+                        <a href="#"><button>Inscreva-se</button></a>
                     </div>
                 </div>
             </div>
@@ -146,7 +143,7 @@
             <div class="quadro-de-letura">
                 <div class="mais-noticias">
                 <h2>Para leitura</h2>
-                <button><a href="#"> Ler mais notícias </a></button>
+                <button><a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/blog"> Ler mais notícias </a></button>
             </div>
             <div class="paineis-leituras">
                 <div class="painel-leitura">
@@ -154,7 +151,7 @@
                     <div class="descricao-leitura">
                         <h3>Programa De Gestão De Ideias</h3>
                         <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time alinhado faz toda a diferença n negócio.</p>
-                        <a href="#"><button> Ler mais</button></a>
+                        <a ><button> Ler mais</button></a>
                     </div>
                 </div>
                     <div class="painel-leitura">

@@ -215,6 +215,11 @@ header {
   }
 }
 
+.logo {
+  width: 180px;
+  height: 110px;
+}
+
 @media (max-width: 320px) {
   body {
     font-size: 12px;
