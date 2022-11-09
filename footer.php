@@ -1,5 +1,5 @@
 <footer>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.png" alt="imagem logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-colorida-redimens.png" alt="imagem logo" class="logo">
         <div class="conteiner-footer">
             
            <div>

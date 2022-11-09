@@ -58,7 +58,6 @@
                 <div>
                     <p>Eu amei o curso, a organização do projeto é fantasica!</p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Ana Paula</figcaption>
                     </figure>
                
@@ -68,7 +67,6 @@
 
                     o projeto merece todo apoio</p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Flaviana</figcaption>
                     </figure>
                
@@ -78,7 +76,6 @@
                     gratuitos ganhou o meu coração
                     de estudante</p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Fernanda Souza</figcaption>
                     </figure>
                
@@ -87,7 +84,6 @@
                     <p>Gostei do curso que participei, os
                     professores são excelentes </p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Felipe Branco</figcaption>
                     </figure>
                
@@ -97,7 +93,6 @@
                     que produz esses conteúdos 
                     maravilhosos</p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>José Carlos</figcaption>
                     </figure>
                
@@ -108,7 +103,6 @@
                         universitário, a minha experiência
                         foi maravilhosa e voltarei parauma próxima turma de curso!</p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Leandro Lima</figcaption>
                     </figure>
                
@@ -119,7 +113,6 @@
                     matricula foi tudo perfeito e
                     organizado </p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Ana Paula</figcaption>
                     </figure>
                
@@ -128,7 +121,6 @@
                     <p>Experiência incrível, time
                     organizado e divertido!!! </p>
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cachorro.jfif" alt="foto de uma pessoa">
                         <figcaption>Solane Almeida</figcaption>
                     </figure>
                

@@ -82,7 +82,7 @@ body .cabecalho {
 }
 
 .conteiner-sobre p {
-    width: 80%;
+    width: 100%;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -109,8 +109,7 @@ body .cabecalho {
 
 .conteiner-sobre img {
     object-fit: cover;
-    width: 569px;
-    height: 435px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -209,8 +208,8 @@ body .cabecalho {
 }
 
 .conteiner-comentarios {
-    width: 90%;
-    max-width: 1100px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     margin-top: 100px;
 }
@@ -238,16 +237,16 @@ body .cabecalho {
 }
 
 .comentarios img {
-    width: 50%;
-    border-radius: 100px;
+    width: 30%;
+    border-radius: 50%;
     border: solid;
     border-color: rgb(242, 99, 126);
 }
 
 .comentarios figcaption {
     color: rgb(242, 99, 126);
+    font-size: 15px;
     margin-top: 15px;
-    margin-left: 10px;
 }
 
 .comentarios figure {
@@ -294,7 +293,7 @@ body .cabecalho {
 .mais-noticias button {
     margin-top: 20px;
     background: transparent;
-
+    transition: 0.4s;
     width: 150px;
     height: 45px;
     border-radius: 5px;
@@ -303,9 +302,9 @@ body .cabecalho {
 }
 
 .mais-noticias button:hover {
-    border: 2px solid;
-    border-color: rgb(4, 191, 191);
-    background-color: transparent;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: white;
+    border-radius: 6px;
 }
 
 .mais-noticias a {
@@ -355,10 +354,12 @@ body .cabecalho {
     border-radius: 5px;
     border: 2px solid rgb(4, 191, 191);
     margin: 10px 0px 20px 0px;
+    transition: 0.4s;
 }
 
 .descricao-leitura button:hover {
     background-color: rgb(4, 191, 191, 0.2);
+    color: white;
 }
 
 @media (max-width: 1165px) {
@@ -434,20 +435,36 @@ body .cabecalho {
 }
 
 @media (max-width: 800px) {
+
+    .comentarios img {
+        width: 100%;
+        border-radius: 50%;
+        border: solid;
+        border-color: rgb(242, 99, 126);
+    }
+
+    .comentarios figure {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .comentarios div {
+        position: relative;
+        animation: carrossel 15s infinite ease-out;
+        background: white;
+        width: 120%;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 15px 15px;
+    }
+    
     .comentarios {
-        width: 105%;
-
+        width: 100%;
         overflow: hidden;
-
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
         gap: 50px;
-    }
-
-    .comentarios div {
-        position: relative;
-        animation: carrossel 15s infinite ease-out;
     }
 
     @keyframes carrossel {
@@ -524,5 +541,13 @@ body .cabecalho {
 @media (max-width: 400px) {
     .nav-menu {
         width: 90%;
+    }
+    .conteiner-sobre h2 {
+        font-size: 30px;
+    }
+
+    .conteiner-sobre p {
+        font-size: 20px;
+        text-align: justify;
     }
 }
