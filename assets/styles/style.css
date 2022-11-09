@@ -82,7 +82,8 @@ body .cabecalho {
 }
 
 .conteiner-sobre p {
-    width: 100%;
+    text-align: justify;
+    width: 90%;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -162,6 +163,7 @@ body .cabecalho {
 .painel-curso p {
     margin: 20px 0px 10px 0px;
     color: grey;
+    text-align: justify;
 }
 
 .painel-curso button {
@@ -257,6 +259,7 @@ body .cabecalho {
 .comentarios p {
     font-size: 0.9rem;
     color: gray;
+    text-align: justify;
 }
 
 .conteiner-leitura {

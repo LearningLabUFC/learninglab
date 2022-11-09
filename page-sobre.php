@@ -143,7 +143,7 @@
     </section>
     <section class="container-momentos">
       <div class="conteudo">
-        <h1>Alguns Momentos</h1>
+        <h1>Alguns momentos</h1>
         <div class="cards-momentos">
           <div class="momento">
             <div class="imagem-momento">

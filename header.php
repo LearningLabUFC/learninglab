@@ -11,7 +11,7 @@
 <body>
 <div class="cabecalho">
     <header>
-        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logotipo.png"  alt="logo" class="logo"></a>
+        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-branca.png"  alt="logo" class="logo"></a>
         <nav>
        
          <input type="checkbox" id="checkbox-menu">

@@ -5,11 +5,11 @@
     <div class="contato">
                 <h1>Entre em contato com nossa equipe</h1>
         
-                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_email_branco.svg" alt="icone de email">email@email.com</a>
-                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_telefone_branco.svg" alt="icone de telefone">(99) 9 9999-9999 (99) 9 9999-9999</a>
+                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_email_branco.svg" alt="icone de email">learninglab@ufc.br</a>
+                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_telefone_branco.svg" alt="icone de telefone">(88) 3411-2143</a>
                 <div class="midias-sociais">
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_instagram_branco.svg" alt="icone do instagram">@learninglab</a>
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_facebook_branco.svg" alt="icone do facebook">@learninglab</a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_instagram_branco.svg" alt="icone do instagram">@learninglabufc</a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_facebook_branco.svg" alt="icone do facebook">@learninglabufc</a>
                 </div>
             
         </div>
