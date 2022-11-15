@@ -31,21 +31,21 @@
                 <div class="painel-curso">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.svg" alt="Imagem curso web">
                     <div class="painel-descricao">
-                        <h3>Desenvolvimeto Web</h3>
+                        <h3>Curso Scrum 2.0</h3>
                         <p>Descrição do curso aqui, descrição do 
                         curso aqui, descrição do curso aqui, HTML,
                         CSS, JS, etc.</p>
-                        <a href="#"></a><button>Inscreva-se</button></a>
+                        <a href=""></a><button disabled>Em breve</button></a>
                     </div>
                 </div>
                 <div class="painel-curso">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.svg" alt="Imagem curso SCRUM">
                     <div class="painel-descricao">
-                        <h3>Scrum na prática</h3>
+                        <h3>Curso de Latex</h3>
                         <p>Descrição do curso aqui, descrição do 
                         curso aqui, descrição do curso aqui, HTML,
                         CSS, JS, etc.</p>
-                        <a href="#"><button>Inscreva-se</button></a>
+                        <a href=""><button disabled>Em breve</button></a>
                     </div>
                 </div>
             </div>

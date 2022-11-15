@@ -3,15 +3,14 @@
 <section class="conteiner-incial-cursos">
         <div class="conteudo-inicial">
             <h1>Cursos</h1>
-            <input type="text" placeholder="Pesquise por Curso java, Como fazer café..."/>
             <div class="botoes-inicial">
-                <a href="#"><button>Designer</button></a>
-                <a href="#"><button>Engenharia</button></a>
-                <a href="#"><button>Todos os cursos</button></a>
-                <a href="#"><button>Concluídos</button></a>
-                <a href="#"><button>Inscrições abertas</button></a>
-                <a href="#"><button>Iniciantes</button></a>
-                <a href="#"><button>Front-End</button></a>
+                <a href="#"><button disabled>Designer</button></a>
+                <a href="#"><button disabled>Engenharia</button></a>
+                <a href="#"><button disabled>Cursos</button></a>
+                <a href="#"><button disabled>Concluídos</button></a>
+                <a href="#"><button disabled>Inscrições</button></a>
+                <a href="#"><button disabled>Iniciantes</button></a>
+                <a href="#"><button disabled>Front-End</button></a>
             </div>
         </div>
     </section>

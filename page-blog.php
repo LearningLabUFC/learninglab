@@ -5,60 +5,61 @@
     </section>
 
     <section class="conteiner-destaque">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="imagem">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novaidentidade.png" alt="imagem">
         <div class="descricao-destaque">
-            <h3>Premiação Top.awards: LearningLab leva 5 prêmios</h3>
-            <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
+            <h3 class="fw-bold">O fim ou uma nova fase?</h3>
+            <p>Conheça a nova identidade visual do projeto LearningLab</p>
+                <a href="https://www.instagram.com/p/CkLmNgbp_Am/"><button>Ver mais</button></a>
         </div>
     </section>
 
     <section class="conteiner-conteudos">
         <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt="imagem">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
             <div class="descricao-conteudo">
-                <h3>Google oferta mais de 50 bolsas para estudos</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
+                <h3 class="fw-bold">A nova fase do LearningLab</h3>
+                <p>Estamos de cara nova!!!! 🥳😍🥰
+
+                 Iniciamos uma nova fase por aqui, vocês estão preparad@s?</p>
+               
             </div>
+            <a href="https://www.instagram.com/p/CkOK4OouSKv/"><button>Ver mais</button></a>
         </div>
         <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img2.jpg" alt="imagem">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/ep1.jpeg" alt="imagem">
             <div class="descricao-conteudo">
-                <h3>Cientistas de dados: vem conhecer o futuro</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
+                <h3 class="fw-bold">Conheça nossa vila learniana</h3>
+                <p>Agora vamos iniciar uma nova série, venha conhecer a vila learnina.</p>
             </div>
+            <a href="#"><button>Ver mais</button></a>
+
         </div>
         <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img3.jpg" alt="imagem">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
             <div class="descricao-conteudo">
-                <h3>Gestão de ideias: conheça onde aplicar</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
+                <h3 class="fw-bold">Conheça o novo site do EU</h3>
+                <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀
+                </p>
             </div>
+            <a href="https://www.instagram.com/p/CjA7TuNuExX/"><button>Ver mais</button></a>
+
         </div>
         <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img4.jpg" alt="imagem">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem">
             <div class="descricao-conteudo">
-                <h3>Cresce em 50% o serviço dentro da realidade virtual</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
+                <h3>LearningLab é indicado ao Top Awards e vence em 4 categorias.</h3>
+                <p>Ficamos muito felizes em anunciar que fomos indicados a 4 categorias do prêmio TOP AWARDS 🥳🥳</p>
             </div>
+            <a href="https://www.instagram.com/p/CYtihdcOeAi/"><button>Ver mais</button></a>
         </div>
         <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img5.jpg" alt="imagem">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="imagem">
             <div class="descricao-conteudo">
-                <h3>Google inicia a compra de mais uma empresa...</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
+                <h3>Momentos do nosso primeiro curso presencial: Figma para iniciantes</h3>
+                <p>
+                O Figmatizando ideias 2.0 vem aí e em breve muitas novidades!</p>
             </div>
+            <a href="https://www.instagram.com/p/Cfc0tkQuD-1/"><button>Ver mais</button></a>
         </div>
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
@@ -66,36 +67,11 @@
                 <h3>Empresa oferta 120 bolsas para cursos da T.I</h3>
                 <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
                      alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
             </div>
+            <a href="#"><button>Ler mais</button></a>
+
         </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img7.jpg" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>Conheça os melhores programa de gestão</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
-            </div>
-        </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img8.jpg" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>Organize sua rotina com apenas 1 aplicativo</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
-            </div>
-        </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img9.jpg" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>Profissionais de T.I mais remunerados em 2023?</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
-                <a href="#"><button>Ler mais</button></a>
-            </div>
-        </div>
+
 
     </section>
 

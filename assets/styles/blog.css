@@ -64,15 +64,25 @@ body .cabecalho {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.descricao-conteudo {
+  height: 150px;
+  margin-bottom: .5rem;
+  text-align: start;
+}
 .painel-blogs {
   background-color: white;
+  text-align: center;
   width: 350px;
+  height: 440px;
   border-radius: 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   box-shadow: 10px 10px 60px gray;
 }
 .painel-blogs img {
+  object-fit: cover;
+  background-size: contain;
   width: 100%;
   height: 180px;
   border-radius: 5px 5px 0px 0px;
@@ -92,7 +102,8 @@ body .cabecalho {
   font-size: 14px;
 }
 .painel-blogs button {
-  width: 100%;
+  position: relative;
+  width: 90%;
   height: 50px;
   background-color: white;
   color: rgb(4, 191, 191);
