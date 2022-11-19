@@ -41,6 +41,43 @@
           <p>O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. O LearningLab nasceu durante a pandemia, imagine um texto legal aqui. </p>
         </div>
         <div class="cards-membros">
+          
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Adam Andrade</h2>
+            <p>Designer</p>
+            <div class="midias-sociais">
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gabi.G.jpeg" alt="imagem membro do projeto">
+            </div>
+            <h2>Gabriela Gama</h2>
+            <p>Consultor</p>
+            <div class="midias-sociais">
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Iago.jfif" alt="imagem membro do projeto">
+          </div>
+            <h2>Iago Wesley</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
           <div class="membro">
             <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="imagem membro do projeto">
@@ -55,10 +92,10 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Ricardo.png" alt="imagem membro do projeto">
-            </div>
-            <h2>Ricardo</h2>
-            <p>Consultor</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jacilane Rabelo_foto.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Jacilane Rabelo</h2>
+            <p>Líder</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
@@ -67,9 +104,9 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Riwne.png" alt="imagem membro do projeto">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/João.jpg" alt="imagem membro do projeto">
           </div>
-            <h2>Riane Oliveira</h2>
+            <h2>João Oliveira</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
@@ -81,7 +118,7 @@
             <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jonh.jpg" alt="imagem membro do projeto">
           </div>
-            <h2>Jonh Texter</h2>
+            <h2>Johnath Costa</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
@@ -91,9 +128,9 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jordas Felipe.JPG" alt="imagem membro do projeto">
           </div>
-            <h2>Fulano Ciclano</h2>
+            <h2>Jordas Felipe</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
@@ -103,9 +140,9 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="imagem membro do projeto">
           </div>
-            <h2>Fulano Ciclano</h2>
+            <h2>Marina Rocha</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
@@ -115,9 +152,9 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Riwne.png" alt="imagem membro do projeto">
           </div>
-            <h2>Fulano Ciclano</h2>
+            <h2>Riane</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
@@ -127,9 +164,21 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-membro.png" alt="imagem membro do projeto">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Ricardo.PNG" alt="imagem membro do projeto">
           </div>
-            <h2>Fulano Ciclano</h2>
+            <h2>Ricardo Davi</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-face-verde.svg" alt="icone facebook"></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/robson.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Robson Medeiros</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
@@ -139,7 +188,6 @@
           </div>
         </div>
       </div>
-
     </section>
     <section class="container-momentos">
       <div class="conteudo">
