@@ -15,7 +15,7 @@
         </div>
     </section>
     <section class="conteiner-paineis-cursos">
-        <p>Visualizando todos os cursos (18 cursos)</p>
+        <p>Visualizando todos os cursos (0 cursos)</p>
         <div class="cursos">
         <div class="curso-inscreva-se">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.jpg" alt="Imagem curso web">
@@ -24,27 +24,27 @@
                 <p>Descrição do curso aqui, descrição do 
                     curso aqui, descrição do curso aqui, HTML,
                  CSS, JS, etc.</p>
-                <a href="#"></a><button>inscreva-se</button></a>
+                <a href=""></a><button>Encerrado</button></a>
             </div>
         </div>
         <div class="curso-fila-de-espera">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img3.jpg" alt="Imagem curso web">
             <div class="descricao-curso">
-                 <h3>Desenvolvimeto Web</h3>
+                 <h3>HTML5 e CSS3</h3>
                 <p>Descrição do curso aqui, descrição do 
-                curso aqui, descrição do curso aqui, HTML,
-                CSS, JS, etc.</p>
-                <a href="#"></a><button>Entrar na fila de espera</button></a>
+                curso aqui, descrição do curso aqui, HTML e
+                CSS</p>
+                <a href="#"></a><button>Encerrado</button></a>
             </div>
         </div>
         <div class="curso-fila-de-espera">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt="Imagem curso web">
             <div class="descricao-curso">
-                <h3>Desenvolvimento mobile</h3>
+                <h3>React Native</h3>
                 <p>Descrição do curso aqui, descrição do 
                 curso aqui, descrição do curso aqui, HTML,
                 CSS, JS, etc.</p>
-                <a href="#"></a><button>Entrar na fila de espera</button></a>
+                <a href="#"></a><button>Encerrado</button></a>
             </div>
         </div>
         <div class="curso-inscreva-se">
@@ -54,7 +54,7 @@
                 <p>Descrição do curso aqui, descrição do 
                 curso aqui, descrição do curso aqui, HTML,
                 CSS, JS, etc.</p>
-                <a href="#"></a><button>inscreva-se</button></a>
+                <a href="#"></a><button>Encerrado</button></a>
             </div>
         </div>
         <div class="curso-inscreva-se">
@@ -64,7 +64,7 @@
                 <p>Descrição do curso aqui, descrição do 
                 curso aqui, descrição do curso aqui, HTML,
                 CSS, JS, etc.</p>
-                <a href="#"></a><button>inscreva-se</button></a>
+                <a href="#"></a><button>Em breve</button></a>
             </div>
         </div>
         <div class="curso-fila-de-espera">
@@ -74,40 +74,39 @@
                 <p>Descrição do curso aqui, descrição do 
                 curso aqui, descrição do curso aqui, HTML,
                 CSS, JS, etc.</p>
-                <a href="#"></a><button>Entrar na fila de espera</button></a>
+                <a href="#"></a><button>Em breve</button></a>
             </div>
         </div>
         <div class="curso-inscreva-se">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="Imagem curso web">
             <div class="descricao-curso">
-                <h3>Java</h3>
+                <h3>Flutter</h3>
                 <p>Descrição do curso aqui, descrição do 
                 curso aqui, descrição do curso aqui, HTML,
                 CSS, JS, etc.</p>
-                <a href="#"></a><button>inscreva-se</button></a>
-            </div>
-        </div>
-        <div class="curso-inscreva-se">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img7.jpg" alt="Imagem curso web">
-            <div class="descricao-curso">
-                <h3>Gestão do tempo</h3>
-                <p>Descrição do curso aqui, descrição do 
-                curso aqui, descrição do curso aqui, HTML,
-                CSS, JS, etc.</p>
-                <a href="#"></a><button>inscreva-se</button></a>
+                <a href="#"></a><button>Encerrado</button></a>
             </div>
         </div>
         <div class="curso-inscreva-se">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="Imagem curso web">
             <div class="descricao-curso">
-                <h3>Analise de requisitos</h3>
+                <h3>Latex</h3>
                 <p>Descrição do curso aqui, descrição do 
                 curso aqui, descrição do curso aqui, HTML,
                 CSS, JS, etc.</p>
-                <a href="#"></a><button>inscreva-se</button></a>
+                <a href="#"></a><button>Em breve</button></a>
             </div>
         </div>
-        
+        <div class="curso-inscreva-se">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="Imagem curso web">
+            <div class="descricao-curso">
+                <h3>Teste de software</h3>
+                <p>Descrição do curso aqui, descrição do 
+                curso aqui, descrição do curso aqui, HTML,
+                CSS, JS, etc.</p>
+                <a href="#"></a><button>Em breve</button></a>
+            </div>
+        </div>
     </div>
 
     </section>

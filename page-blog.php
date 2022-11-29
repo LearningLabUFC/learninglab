@@ -64,11 +64,10 @@
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
             <div class="descricao-conteudo">
-                <h3>Empresa oferta 120 bolsas para cursos da T.I</h3>
-                <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time
-                     alinhado faz toda a diferença no negócio.</p>
+                <h3>Cursos gratuitos e pagos oferecem formação para quem quer trabalhar com tecnologia</h3>
+                <p>Há chances para quem deseja entrar no mercado de trabalho, exclusivamente para mulheres e pessoas negras.</p>
             </div>
-            <a href="#"><button>Ler mais</button></a>
+            <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml"><button>Ler mais</button></a>
 
         </div>
 
