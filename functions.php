@@ -65,4 +65,6 @@
 function remove_admin_login_header() {
     remove_action('wp_head', '_admin_bar_bump_cb');
 }
+add_filter( 'wpcf7_validate_configuration', '__return_false' );
+
 ?>
