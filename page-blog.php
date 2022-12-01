@@ -65,7 +65,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
             <div class="descricao-conteudo">
                 <h3>Cursos gratuitos e pagos oferecem formação para quem quer trabalhar com tecnologia</h3>
-                <p>Há chances para quem deseja entrar no mercado de trabalho, exclusivamente para mulheres e pessoas negras.</p>
+                <p>Há chances para quem deseja entrar no mercado de trabalho.</p>
             </div>
             <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml"><button>Ler mais</button></a>
 

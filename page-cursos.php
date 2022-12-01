@@ -15,7 +15,7 @@
         </div>
     </section>
     <section class="conteiner-paineis-cursos">
-        <p>Visualizando todos os cursos (0 cursos)</p>
+        <p>Visualizando todos os cursos</p>
         <div class="cursos">
         <div class="curso-inscreva-se">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.jpg" alt="Imagem curso web">

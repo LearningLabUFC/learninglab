@@ -12,7 +12,6 @@ footer{
 }
 .conteiner-footer div{
     width: 200px;
-    margin: 30px;
     
 }
 .conteiner-footer div ul {
@@ -46,6 +45,10 @@ footer p{
        
        
        }
+       .conteiner-footer div{
+        width: 200px;
+        margin: 30px;
+    }
        .conteiner-footer{
            
             display: flex;

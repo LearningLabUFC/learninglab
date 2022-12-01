@@ -60,43 +60,6 @@ header {
     border-radius: 6px;
   }
 
-  .sub-menu ul {
-    position: absolute;
-    display: none;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px 0px 10px 0px;
-    z-index: 3;
-  }
-
-  .sub-menu ul li {
-    margin: 20px 10px 20px 10px;
-    height: 35px;
-    transition: 0.5s;
-    border-bottom: 2px solid rgb(255, 255, 255);    
-  }
-
-  .sub-menu ul li a {
-    color: #04bfbfb3;
-    font-size: 0.9rem;
-  }
-
-  .sub-menu:hover ul {
-    display: block;
-  }
-
-  .sub-menu:hover a img {
-    transform: rotate(180deg);
-  }
-
-  .sub-menu ul li:hover {
-    border-bottom: 2px solid rgb(4, 191, 191);
-    color: rgb(4, 191, 191);
-  }
-
-  .sub-menu ul a:hover {
-    color: rgb(4, 191, 191);
-  }
 }
 
 @media (max-width: 1165px) {

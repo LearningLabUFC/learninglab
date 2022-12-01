@@ -139,27 +139,27 @@
             </div>
             <div class="paineis-leituras">
                 <div class="painel-leitura">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/gestãoIdeias.png" alt="imagem">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
                     <div class="descricao-leitura">
-                        <h3>Programa De Gestão De Ideias</h3>
-                        <p>Um empreendedor nem sempre sabe como ser um gestor, mas um time alinhado faz toda a diferença n negócio.</p>
-                        <a ><button> Ler mais</button></a>
+                        <h3>O fim ou uma nova fase?</h3>
+                        <p>Conheça a nova identidade visual do projeto LearningLab</p>
+                        <a href="https://www.instagram.com/p/CkOK4OouSKv/"><button> Ler mais</button></a>
                     </div>
                 </div>
                     <div class="painel-leitura">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/engenharia_de_software.jpg" alt="imagem">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/ep1.jpeg" alt="imagem">
                     <div class="descricao-leitura">
-                        <h3>Como é a faculdade de Engenharia de Software?</h3>
-                        <p>Durante o curso de engenharia de software, o estudante tem a oportunidade de se aprofundar em técnicas e praticas de...</p>
-                        <a href="#"><button>Ler mais </button></a>
+                        <h3>Conheça nossa vila learniana</h3>
+                        <p>Agora vamos iniciar uma nova série, venha conhecer a vila learnina.</p>
+                        <a href="https://www.instagram.com/p/CkOK4OouSKv/"><button>Ler mais </button></a>
                     </div>
                 </div>
                 <div class="painel-leitura" >
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/gestao_do _conhecimento.jpg" alt="imagem">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
                     <div class="descricao-leitura">
-                        <h3>Gestão do conhecimento</h3>
-                        <p>Gesão do conhecimento é um conceito bastante amplo, que engloba uma série de ações que as empresas já fazem ou...</p>
-                        <a href="#"></a><button>Ler mais </button></a>
+                        <h3>Conheça o novo site do EU</h3>
+                        <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀</p>
+                        <a href="https://www.instagram.com/p/CjA7TuNuExX/"></a><button>Ler mais </button></a>
                     </div>
                 </div>
             </div>

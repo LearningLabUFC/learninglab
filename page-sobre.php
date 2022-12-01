@@ -34,7 +34,7 @@
         </div>
       </div>
     </section>
-    <section class="container-membros">
+    <section class="container-membros" id="container-membros">
       <div class="conteudo">
         <div class="texto">
           <h1>Membros</h1>

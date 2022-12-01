@@ -1,13 +1,12 @@
 <footer>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-colorida.png" alt="imagem logo" class="logo">
+        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-colorida.png" alt="imagem logo" class="logo"></a> 
         <div class="conteiner-footer">
             
            <div>
                 <a><h4>Sobre</h4></a>
                 <ul>
                     <li><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/sobre">Nossa equipe</a></li>
-                    <li><a href="#">O projeto</a></li>
-                    <li><a href="#">Iniciativas</a></li>
+                    <li><a a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Iniciativas</a></li>
 
                 </ul>
                 <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_insta.png" alt="icone instagram" class="icone-redeSocial"></a>
@@ -30,14 +29,14 @@
 
             </div> 
             <div>
-                <a><h4>Cursos disponíveis</h4></a>
+                <a><h4>Alguns dos nossos cursos</h4></a>
                 <ul>
-                    <li><a href="#">SCRUM na prática</a></li>
-                    <li><a href="#">Desenvolvimento web</a></li>
-                    <li><a href="#">Git e Github</a></li>
-                    <li><a href="#">Código limpo</a></li>
-                    <li><a href="#">Java</a></li>
-                    <li><a href="#">Figmatizando ideias: figma para iniciantes</a></li>
+                    <li>SCRUM na prática</li>
+                    <li>Desenvolvimento web</li>
+                    <li>Git e Github</li>
+                    <li>Código limpo</li>
+                    <li>Java</li>
+                    <li>Figmatizando ideias</li>
 
                 </ul>
 
