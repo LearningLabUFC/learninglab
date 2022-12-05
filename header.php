@@ -30,7 +30,7 @@
                 <li><a <?php if(is_page('sobre') == true ) { echo 'ativo';} ?>" aria-current="sobre" href="<?php echo get_home_url(); ?>/sobre">Sobre</a></li>
                 <li><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
                 <li class="sub-menu">
-                    <a href="index.php/cursos" id="item">Cursos </a>
+                    <a href="index.php/cursos" id="item">Cursos</a>
                 </li>
                 <li><a href="index.php/contato">Contato</a></li>
                 <li ><a href="#" class="botao-header" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="botao-header">Vem fazer parte do time </a></li>
