@@ -102,12 +102,12 @@ body .cabecalho {
 }
 
 .container-resultados .conteudo .cards .card {
-  width: 15.6rem;
-  height: 8.25rem;
+  width: 16rem;
+  height: 9.5rem;
   border-radius: 0.625rem;
   color: white;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,6 +129,10 @@ body .cabecalho {
 
 .container-resultados .conteudo .cards .card:nth-child(4) {
   background-color: #9747FF;
+}
+
+.container-resultados .conteudo .cards .card:nth-child(5) {
+  background-color: rgb(11, 103, 198);
 }
 
 .container-membros .cards-membros {

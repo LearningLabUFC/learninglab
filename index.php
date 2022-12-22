@@ -4,7 +4,7 @@
         <section class="background-conteiner-incial">
             <div class="conteiner-inicial">
                 <h2>Instigando sempre sua criatividade e inovação</h2>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imag2.svg" alt="imagem com curiosidades">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-painel-index.svg" alt="imagem com curiosidades">
             </div>    
         </section>
     
@@ -32,9 +32,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.svg" alt="Imagem curso web">
                     <div class="painel-descricao">
                         <h3>Curso Scrum 2.0</h3>
-                        <p>Descrição do curso aqui, descrição do 
-                        curso aqui, descrição do curso aqui, HTML,
-                        CSS, JS, etc.</p>
+                        <p>O curso de Scrum 2.0 é um curso com o objetivo de mostrar na prática como é o Scrum e como implementar dentro da organização no qual o aluno faz parte, sendo um curso com a ministração da segunda versão. </p>
                         <a href=""></a><button disabled>Em breve</button></a>
                     </div>
                 </div>
@@ -42,9 +40,9 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.svg" alt="Imagem curso SCRUM">
                     <div class="painel-descricao">
                         <h3>Curso de Latex</h3>
-                        <p>Descrição do curso aqui, descrição do 
-                        curso aqui, descrição do curso aqui, HTML,
-                        CSS, JS, etc.</p>
+                        <p>O LaTeX é um sistema de composição tipográfica de qualidade, que inclui recursos destinados à produção de documentos técnicos e científicos. O curso tem como objetivo a utilização e estruturação de recursos em documentos reais. 
+
+</p>
                         <a href=""><button disabled>Em breve</button></a>
                     </div>
                 </div>
@@ -56,72 +54,60 @@
             
             <div class="comentarios">
                 <div>
-                    <p>Eu amei o curso, a organização do projeto é fantasica!</p>
+                    <p>Achei bem interessante, me abriu mais a mente em relação ao assunto, assim como o interesse, e conseguir abstrair bastante conteúdo, seria massa um 2.0 desse curso</p>
                     <figure>
-                        <figcaption>Ana Paula</figcaption>
+                        <figcaption>Davi Gomes</figcaption>
                     </figure>
                
                 </div>
                 <div>
-                    <p>A metodologia do curso foi TUDO! 
+                    <p>Olá, o curso foi ótimo e acho que fiz bom proveito de todo o conteúdo dado, pena que os dispositivos do laboratório não cooperaram, mas foi muito bom na medida do possível. Foi ótimo quando implenebtram a ferramenta web
 
-                    o projeto merece todo apoio</p>
+                    </p>
                     <figure>
-                        <figcaption>Flaviana</figcaption>
+                        <figcaption>Ruan Pablo</figcaption>
                     </figure>
                
                  </div>
                 <div>
-                    <p>A ideia de cursos práticos e
-                    gratuitos ganhou o meu coração
-                    de estudante</p>
+                    <p>O curso é ótimo, sempre é bom está aprimorando os conhecimentos, conhecendo novas tecnologias, nesses 5 dias me fez entender melhor como o flutter e o dart trabalham no mercado das tecnologias. </p>
                     <figure>
-                        <figcaption>Fernanda Souza</figcaption>
+                        <figcaption>Rayan Victor</figcaption>
                     </figure>
                
                 </div>
                 <div>
-                    <p>Gostei do curso que participei, os
-                    professores são excelentes </p>
+                    <p>O curso foi excelente, o professor tem grande conhecimento e didática, além das aulas serem super práticas e direto ao ponto.</p>
                     <figure>
-                        <figcaption>Felipe Branco</figcaption>
+                        <figcaption>Wesley Jonatha</figcaption>
                     </figure>
                
                 </div>
                 <div>
-                    <p>Só tenho a agradecer a equipe
-                    que produz esses conteúdos 
-                    maravilhosos</p>
+                    <p>Gostei muito da espontaneidade dos professores, da suas disáticas e principalmente do aprendizado que eu obtive.</p>
                     <figure>
-                        <figcaption>José Carlos</figcaption>
+                        <figcaption>Antonio Kawn</figcaption>
                     </figure>
                
                 </div>
                 <div>
-                    <p>Muito bacana ver conteúdo atuais
-                        sendo compartilhados no meio
-                        universitário, a minha experiência
-                        foi maravilhosa e voltarei parauma próxima turma de curso!</p>
+                    <p>O curso me mostrou uma tecnologia muita utilizada no mercado, como ela funciona e o seu resultado.</p>
                     <figure>
-                        <figcaption>Leandro Lima</figcaption>
+                        <figcaption>Arthur Levi</figcaption>
                     </figure>
                
                 </div>
                 <div>
-                    <p> Sem palavras, desde da inscrição,
-                    até o processo de confirmar a
-                    matricula foi tudo perfeito e
-                    organizado </p>
+                    <p>Eu achei o curso ótimo, aprendi demais com todos os alunos que dirigiram as aulas, com diversas formas de apresentar o conteúdo. O projeto final foi essencial pra colocar tudo que vimos no curso em prática. Obrigada a todos os envolvidos e que vocês possam ir longe com o projeto.</p>
                     <figure>
-                        <figcaption>Ana Paula</figcaption>
+                        <figcaption>Nathalya Cardoso</figcaption>
                     </figure>
                
                 </div>
                 <div>
-                    <p>Experiência incrível, time
-                    organizado e divertido!!! </p>
+                    <p>Curti demais, achei sensacional, não só a parte das explicações, mas também a ajuda que era dada para quem estivesse com alguma dificuldade. Todos que explicaram, conseguiram transmitir bem o conteúdo e foi muito bom os últimos dois dias, por colocar em prática tudo que nos foi ensinado. Boa sorte para a equipe, vocês são feras!!!</p>
                     <figure>
-                        <figcaption>Solane Almeida</figcaption>
+                        <figcaption>Pedro Henrique</figcaption>
                     </figure>
                
                 </div>

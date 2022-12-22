@@ -33,10 +33,10 @@
                     <a href="index.php/cursos" id="item">Cursos</a>
                 </li>
                 <li><a href="index.php/contato">Contato</a></li>
-                <li ><a href="#" class="botao-header" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="botao-header">Vem fazer parte do time </a></li>
+                <li ><a href="https://docs.google.com/forms/d/e/1FAIpQLScKtgsGPqCVdwckhiwWWxP02ZwL-NtxzwndQ-7jc3mBbkKlmw/viewform" target="_blank" class="botao-header" >Vem fazer parte do time </a></li>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
@@ -44,11 +44,12 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                    No momento nosso processo seletivo não está aberto ;)
+                    <p>Link do formulário para preenchimento:</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScKtgsGPqCVdwckhiwWWxP02ZwL-NtxzwndQ-7jc3mBbkKlmw/viewform" target="_blank">Increva-se</a>
                 </div>                   
                     </div>
-                </div>
-                </div>
+                </div> -->
+                <!-- </div> -->
             </ul>
             
         </nav>
