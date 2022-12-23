@@ -35,7 +35,6 @@
                     <li>Desenvolvimento web</li>
                     <li>Git e Github</li>
                     <li>Código limpo</li>
-                    <li>Java</li>
                     <li>Figmatizando ideias</li>
 
                 </ul>

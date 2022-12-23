@@ -39,7 +39,7 @@
       <div class="conteudo">
         <div class="texto">
           <h1>Membros</h1>
-          <p>OO LearningLab iniciou suas atividades com três membros e hoje conta com dezessete membros para a realização das atividades. Hoje o LerningLab é separado por setores e cada setor tem um membro responsável para que as atividades possam ser desenvolvidas com qualidade.  </p>
+          <p>LearningLab iniciou suas atividades com três membros e hoje conta com dezessete membros para a realização das atividades. Hoje o LerningLab é separado por setores e cada setor tem um membro responsável para que as atividades possam ser desenvolvidas com qualidade.  </p>
         </div>
         <div class="cards-membros">
           
@@ -100,12 +100,12 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jacilane Rabelo_foto.jpeg" alt="imagem membro do projeto">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="imagem membro do projeto">
           </div>
             <h2>Jacilane Rabelo</h2>
             <p>Coordenadora</p>
             <div class="midias-sociais">
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.instagram.com/jacy_rabelo/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
