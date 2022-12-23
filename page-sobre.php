@@ -29,7 +29,7 @@
         <div class="cards">
           <div class="card">+400 pessoas que participaram de palestras</div>
           <div class="card">+360 pessoas certificadas através de palestras</div>
-          <div class="card">+5 cursos desenvolvidos</div>
+          <div class="card">+7 cursos desenvolvidos</div>
           <div class="card">+150 estudantes beneficiados com nossos cursos</div>
           <div class="card">+130 estudantes certificados através dos nossos cursos</div>
         </div>
@@ -113,7 +113,7 @@
             <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/João.jpg" alt="imagem membro do projeto">
           </div>
-            <h2>João Pará</h2>
+            <h2>João Paulo</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="https://www.instagram.com/j.paulo18/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
