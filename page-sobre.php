@@ -198,21 +198,21 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/momentocurso1.jpg" alt="Imagem momento projeto">
           </div>
             <p>Aula de finalização do cuso de Figma</p>
-            <p>12/08/2022</p>
+            <p>30/06/2022</p>
           </div>
           <div class="momento">
           <div class="imagem-momento">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/momentocurso2.jpg" alt="Imagem momento projeto">
           </div>
             <p>Aula de finalização do cuso de Figma</p>
-            <p>12/08/2022</p>
+            <p>30/06/2022</p>
           </div>
           <div class="momento">
             <div class="imagem-momento">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/momentocurso3.jpg" alt="Imagem momento projeto">
           </div>
             <p>Aula de finalização do cuso de Figma</p>
-            <p>12/08/2022</p>
+            <p>30/06/2022</p>
           </div>
         </div>
       </div>

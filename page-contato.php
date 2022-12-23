@@ -9,7 +9,7 @@
                 <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_telefone_branco.svg" alt="icone de telefone">(88) 3411-2143</a>
                 <div class="midias-sociais">
                     <a href="https://www.instagram.com/learninglabufc/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_instagram_branco.svg" alt="icone do instagram">@learninglabufc</a>
-                    <a href="https://www.linkedin.com/company/projeto-learninglab/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_facebook_branco.svg" alt="icone do facebook">LearningLab</a>
+                    <a href="https://www.linkedin.com/company/projeto-learninglab/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone_linkedin_branco.svg" alt="icone do linkedin">LearningLab</a>
                 </div>
             
         </div>
