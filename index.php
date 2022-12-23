@@ -129,7 +129,7 @@
                     <div class="descricao-leitura">
                         <h3>O fim ou uma nova fase?</h3>
                         <p>Conheça a nova identidade visual do projeto LearningLab</p>
-                        <a href="https://www.instagram.com/p/CkOK4OouSKv/"><button> Ler mais</button></a>
+                        <a href="https://www.instagram.com/p/CkOK4OouSKv/" target="_blank"><button> Ler mais</button></a>
                     </div>
                 </div>
                     <div class="painel-leitura">
@@ -137,7 +137,7 @@
                     <div class="descricao-leitura">
                         <h3>Conheça nossa vila learniana</h3>
                         <p>Agora vamos iniciar uma nova série, venha conhecer a vila learnina.</p>
-                        <a href="https://www.instagram.com/p/CkOK4OouSKv/"><button>Ler mais </button></a>
+                        <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ler mais </button></a>
                     </div>
                 </div>
                 <div class="painel-leitura" >
@@ -145,7 +145,7 @@
                     <div class="descricao-leitura">
                         <h3>Conheça o novo site do EU</h3>
                         <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀</p>
-                        <a href="https://www.instagram.com/p/CjA7TuNuExX/"></a><button>Ler mais </button></a>
+                        <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ler mais </button></a>
                     </div>
                 </div>
             </div>

@@ -91,11 +91,11 @@
             <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="imagem membro do projeto">
           </div>
-            <h2>Israely Couto</h2>
+            <h2>Israely Lima</h2>
             <p>Engenharia de software</p>
             <div class="midias-sociais">
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/israelylima/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAB09RiMBObgPgXvxyiBXVtvglY4hmedZKtk&keywords=israely&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=64e0116d-6af2-440b-89d3-945091e8210a&sid=HQ0" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin" target="_blank"></a>
             </div>
           </div>
           <div class="membro">
@@ -106,7 +106,7 @@
             <p>Coordenadora</p>
             <div class="midias-sociais">
             <a href="https://www.instagram.com/jacy_rabelo/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            <a href="https://www.linkedin.com/in/jacilane-rabelo-b842378b/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
@@ -117,7 +117,7 @@
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="https://www.instagram.com/j.paulo18/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-oliveira-130a261b4" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
@@ -128,7 +128,7 @@
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
             <a href="https://www.instagram.com/johnath_costa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="http://linkedin.com/in/johnath-costa-24626825b"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            <a href="http://linkedin.com/in/johnath-costa-24626825b" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">

@@ -9,7 +9,7 @@
         <div class="descricao-destaque">
             <h3 class="fw-bold">O fim ou uma nova fase?</h3>
             <p>Conheça a nova identidade visual do projeto LearningLab</p>
-                <a href="https://www.instagram.com/p/CkLmNgbp_Am/"><button>Ver mais</button></a>
+                <a href="https://www.instagram.com/p/CkLmNgbp_Am/" target="_blank"><button>Ver mais</button></a>
         </div>
     </section>
 
@@ -23,7 +23,7 @@
                  Iniciamos uma nova fase por aqui, vocês estão preparad@s?</p>
                
             </div>
-            <a href="https://www.instagram.com/p/CkOK4OouSKv/"><button>Ver mais</button></a>
+            <a href="https://www.instagram.com/p/CkOK4OouSKv/" target="_blank"><button>Ver mais</button></a>
         </div>
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/ep1.jpeg" alt="imagem">
@@ -31,7 +31,7 @@
                 <h3 class="fw-bold">Conheça nossa vila learniana</h3>
                 <p>Agora vamos iniciar uma nova série, venha conhecer a vila learnina.</p>
             </div>
-            <a href="#"><button>Ver mais</button></a>
+            <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ver mais</button></a>
 
         </div>
         <div class="painel-blogs">
@@ -41,7 +41,7 @@
                 <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀
                 </p>
             </div>
-            <a href="https://www.instagram.com/p/CjA7TuNuExX/"><button>Ver mais</button></a>
+            <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ver mais</button></a>
 
         </div>
         <div class="painel-blogs">
@@ -50,7 +50,7 @@
                 <h3>LearningLab é indicado ao Top Awards e vence em 4 categorias.</h3>
                 <p>Ficamos muito felizes em anunciar que fomos indicados a 4 categorias do prêmio TOP AWARDS 🥳🥳</p>
             </div>
-            <a href="https://www.instagram.com/p/CYtihdcOeAi/"><button>Ver mais</button></a>
+            <a href="https://www.instagram.com/p/CYtihdcOeAi/" target="_blank"><button>Ver mais</button></a>
         </div>
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/cursoFigma.jpeg" alt="imagem">
@@ -59,7 +59,7 @@
                 <p>
                 O Figmatizando ideias 2.0 vem aí e em breve muitas novidades!</p>
             </div>
-            <a href="https://www.instagram.com/p/Cfc0tkQuD-1/"><button>Ver mais</button></a>
+            <a href="https://www.instagram.com/p/Cfc0tkQuD-1/" target="_blank"><button>Ver mais</button></a>
         </div>
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
@@ -67,7 +67,7 @@
                 <h3>Cursos gratuitos e pagos oferecem formação para quem quer trabalhar com tecnologia</h3>
                 <p>Há chances para quem deseja entrar no mercado de trabalho.</p>
             </div>
-            <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml"><button>Ler mais</button></a>
+            <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais</button></a>
 
         </div>
 

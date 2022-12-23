@@ -554,4 +554,13 @@ body .cabecalho {
         font-size: 20px;
         text-align: justify;
     }
+
+    .conteiner-inicial h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .conteiner-comentarios h2{
+        font-size: 1.5rem;
+    }
 }

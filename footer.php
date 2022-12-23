@@ -9,8 +9,8 @@
                     <li><a a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Iniciativas</a></li>
 
                 </ul>
-                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_insta.png" alt="icone instagram" class="icone-redeSocial"></a>
-                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_face.png" alt="icone facebook" class="icone-redeSocial"></a>
+                <a href="https://www.instagram.com/learninglabufc/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_insta.png" alt="icone instagram" class="icone-redeSocial"></a>
+                <a href="https://www.linkedin.com/company/projeto-learninglab/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin" class="icone-redeSocial"></a>
 
            </div> 
            <div>
