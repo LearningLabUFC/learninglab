@@ -29,4 +29,4 @@ Project architected and developed by:
 </ul>
 
 <h1> </h1>
-<p align="center">Made with by <a href="https://www.instagram.com/learninglabufc/">LearningLab - Laboratório de pesquisa da UFC</a></p>
+<p align="center">Made with by <a href="https://learninglab.com.br/">LearningLab - Laboratório de pesquisa da UFC</a></p>
