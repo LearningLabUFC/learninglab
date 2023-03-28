@@ -21,11 +21,12 @@ footer{
     padding-left: 0;
   
 }
-.conteiner-footer div ul li{
+.conteiner-footer div ul li, .conteiner-footer div ul li a{
     margin-bottom:  10px;
     display: flex;
     align-items: flex-start;
 }
+
 .conteiner-footer a{
     color: gray;
 }

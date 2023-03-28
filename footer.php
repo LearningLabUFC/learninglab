@@ -17,12 +17,16 @@
                 <a><h4>Contato</h4></a>
                 <ul >
                     <li>
+                        <a href="mailto:learninglab@ufc.br">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_email.png" alt="icone email" >
                         <p>learninglab@ufc.br</p>
+                        </a>
                     </li>
                     <li>
+                        <a href="tel:+558834112143">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_tel.png" alt="icone telefone">
                         <p>(88) 3411-2143</p>
+                        </a>
                     </li>
                     
                 </ul>
