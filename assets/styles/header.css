@@ -102,7 +102,10 @@ header {
   .nav-menu li a {
     color: black;
     font-weight: 500;
+    border-left: 3px solid rgb(242, 99, 126);
+    padding-left: .5rem;
   }
+
 
   #item {
     color: grey;
