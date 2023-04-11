@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body .cabecalho {
+    background-color: rgb(0, 154, 154);
+    height: 300px;
+  }
+
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 20px;
+}
+
+.conteiner-noticia{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+.conteiner-noticia p, h4{
+    text-align:left
+}
+.conteiner-noticia img{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.conteiner-noticia .img-inicial{
+    
+    margin-top: -80px;
+    width: 100%;
+}
