@@ -3,7 +3,7 @@
 <body>
 <section class="container-gameficacao"> 
     <div class="conteudo">
-      <h1>GAMEFICAÇÃO</h1>
+      <h1>GAMIFICAÇÃO</h1>
     </div>     
  </section>
 

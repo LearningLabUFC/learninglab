@@ -186,9 +186,165 @@
             <a href="https://www.linkedin.com/in/robson-medeiros-ab8653236/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/fotoeurilany.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Eurilany Lucas</h2>
+            <p>Ciencia da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/eurilany_lucas/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/eurilany-lucas-773298146/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gio.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Giovana Ramalho</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/eu_ge_ramalho/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gisele.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Gisele Barbosa</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/giseleumb/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/hony.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Honycleytton</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/hony_wt/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/honycleytton-rebou%C3%A7as-856455261/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jeiel.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Jeiel Lucas</h2>
+            <p>Ciencia da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/jejeu_lucs/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/jeiel-lucas-329799236/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jessica.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Jéssica Pontes</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/jessicapontes16/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Jorge Sousa</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/_eujorge/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/jorge-s-815478117/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/larissa.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Larissa Maria</h2>
+            <p>Ciencia da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/_itz.lari_/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/laura.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Laura Pulga</h2>
+            <p>Ciencia da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/puga_lauraa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/leticia.png" alt="imagem membro do projeto">
+          </div>
+            <h2>Leticia Pulga</h2>
+            <p>Ciencia da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/puga_leticiaa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/ligia.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Sufia Rios</h2>
+            <p>Ciencia da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/sufia_rios/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/sufia-rios-7972b8263/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Lívia Nascimento.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Lívia Nascimento</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/livia_nasciiimento/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+          
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/saldanha.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Junior Saldanha</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/juniiorsaldanha/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/francisco-geovan-de-sousa-saldanha-j%C3%BAnior-910016200/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/vinicius.jpg" alt="imagem membro do projeto">
+          </div>
+            <h2>Vinicius Moreira</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/viniciusmoreira4/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/viniciusmoreira4/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+         
         </div>
       </div>
     </section>
+
     <section class="container-momentos">
       <div class="conteudo">
         <h1>Alguns momentos</h1>
