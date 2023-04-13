@@ -1,0 +1,138 @@
+.container-gameficacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  background-color: #f2637e;
+  width: 100%;
+}
+
+.container-gameficacao h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 1.5em;
+}
+
+.conteudo {
+  width: 90%;
+  max-width: 1100px;
+}
+
+.subtitulo {
+  color: #04bfbf;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+
+.introducao {
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto {
+  max-width: 864px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela{
+    margin-top: 2rem;
+}
+
+.premio .conteudo .texto {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.premio .conteudo .texto .subtexto p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.premio .conteudo .texto .terceira-caixa-texto {
+  margin-bottom: 2rem;
+}
+
+.regras {
+  margin-bottom: 5rem;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-9wq8 {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tg .tg-baqh {
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-c3ow {
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-uzvj {
+  border-color: inherit;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tg .tg-7btt {
+  border-color: inherit;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg-uzvj, .tg-7btt{
+    background-color: #f3f3f3;
+}

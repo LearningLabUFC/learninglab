@@ -43,6 +43,12 @@
                 // só vai carregar se estiver na pag sobre
                 wp_enqueue_style('cursos', get_template_directory_uri() . '/assets/styles/cursos.css');
             }
+
+            if ( is_page('gameficacao') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('gameficacao', get_template_directory_uri() . '/assets/styles/gameficacao.css');
+            }
+
             if ( is_page('noticiaComputerOnTheBeach') == true ) {
                 // só vai carregar se estiver na pag sobre
                 wp_enqueue_style('cursos', get_template_directory_uri() . '/assets/styles/noticia.css');

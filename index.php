@@ -176,14 +176,7 @@
                         <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ler mais </button></a>
                     </div>
                 </div>
-                <div class="painel-leitura" >
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
-                    <div class="descricao-leitura">
-                        <h3>Computer on The Beach</h3>
-                        <p>Campus da Ufc de Russas participa do Computer on The Beach</p>
-                        <a href="http://localhost/learninglab/index.php/noticiacomputeronthebeach/" target="_blank"><button>Ler mais </button></a>
-                    </div>
-                </div>
+                
             </div>
         </section>
 

@@ -12,7 +12,7 @@ body {
     font-family: "montserrat";
 }
 
-li {
+header li {
     list-style: none;
 }
 
@@ -226,8 +226,6 @@ body .cabecalho {
 }
 
 .slide{
-    border:solid 5px;
-    border-color:rgb(242, 99, 126);
     height: 70vh;
 } 
 .carousel-indicators .active{

@@ -31,7 +31,8 @@
                 <li><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
                 <li><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/cursos">Cursos</a></li>
                 <li><a <?php if(is_page('contato') == true ) { echo 'ativo';} ?>" aria-current="contato" href="<?php echo get_home_url(); ?>/contato">Contato</a></li> 
-                <li ><a href="https://docs.google.com/forms/d/e/1FAIpQLScKtgsGPqCVdwckhiwWWxP02ZwL-NtxzwndQ-7jc3mBbkKlmw/viewform" target="_blank" class="botao-header" >Vem fazer parte do time </a></li>
+                <li><a <?php if(is_page('gameficacao') == true ) { echo 'ativo';} ?>" aria-current="gameficacao" href="<?php echo get_home_url(); ?>/gameficacao">Gameficação</a></li> 
+                
 
                 <!-- Modal -->
                 <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
