@@ -176,6 +176,14 @@
                         <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ler mais </button></a>
                     </div>
                 </div>
+                <div class="painel-leitura" >
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
+                    <div class="descricao-leitura">
+                        <h3>Computer on The Beach</h3>
+                        <p>Campus da Ufc de Russas participa do Computer on The Beach.</p>
+                        <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais </button></a>
+                    </div>
+                </div>
                 
             </div>
         </section>
