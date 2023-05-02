@@ -151,40 +151,64 @@
                 <h2>Para leitura</h2>
                 <button><a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/blog"> Ler mais notícias </a></button>
             </div>
-            <div class="paineis-leituras">
-                <div class="painel-leitura">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
-                    <div class="descricao-leitura">
-                        <h3>O fim ou uma nova fase?</h3>
-                        <p>Conheça a nova identidade visual do projeto LearningLab</p>
-                        <a href="https://www.instagram.com/p/CkOK4OouSKv/" target="_blank"><button> Ler mais</button></a>
+            <div class="swiper">
+                <div class="slide-content">
+                    <div  class=" card-wrapper swiper-wrapper">
+                        <div class="card-noticia swiper-slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>O fim ou uma nova fase?</h3>
+                                <p>Conheça a nova identidade visual do projeto LearningLab</p>
+                                <a href="https://www.instagram.com/p/CkOK4OouSKv/" target="_blank"><button> Ler mais</button></a>
+                            </div>
+                        </div>
+                        <div class="card-noticia swiper-slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/ep1.jpeg" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>Conheça nossa vila learniana</h3>
+                                <p>Agora vamos iniciar uma nova série, venha conhecer a vila learnina.</p>
+                                <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ler mais </button></a>
+                            </div>
+                        </div>
+                        <div class="card-noticia swiper-slide" >
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>Conheça o novo site do EU</h3>
+                                <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀</p>
+                                <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ler mais </button></a>
+                            </div>
+                        </div>
+                        <div class="card-noticia swiper-slide" >
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>Computer on The Beach</h3>
+                                <p>Campus da Ufc de Russas participa do Computer on The Beach.</p>
+                                <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais </button></a>
+                            </div>
+                        </div>
+                        <div class="card-noticia swiper-slide" >
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem"> 
+                            <div class="descricao-noticia">
+                                <h3>LearningLab é indicado ao Top Awards e vence em 4 categorias.</h3>
+                                <p>Ficamos muito felizes em anunciar que fomos indicados a 4 categorias do prêmio TOP AWARDS 🥳🥳</p>
+                                <a href="https://www.instagram.com/p/CYtihdcOeAi/" target="_blank"><button>Ler mais </button></a>
+                            </div>
+                        </div>
+                        <div class="card-noticia swiper-slide" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>Cursos oferecem formação para quem quer trabalhar com tecnologia</h3>
+                                <p>Há chances para quem deseja entrar no mercado de trabalho.</p>
+                                <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais </button></a>
+                            </div>
+                        </div>
+
                     </div>
+            
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                     <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>            
                 </div>
-                    <div class="painel-leitura">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/ep1.jpeg" alt="imagem">
-                    <div class="descricao-leitura">
-                        <h3>Conheça nossa vila learniana</h3>
-                        <p>Agora vamos iniciar uma nova série, venha conhecer a vila learnina.</p>
-                        <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ler mais </button></a>
-                    </div>
-                </div>
-                <div class="painel-leitura" >
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
-                    <div class="descricao-leitura">
-                        <h3>Conheça o novo site do EU</h3>
-                        <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀</p>
-                        <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ler mais </button></a>
-                    </div>
-                </div>
-                <div class="painel-leitura" >
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
-                    <div class="descricao-leitura">
-                        <h3>Computer on The Beach</h3>
-                        <p>Campus da Ufc de Russas participa do Computer on The Beach.</p>
-                        <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais </button></a>
-                    </div>
-                </div>
-                
             </div>
         </section>
 

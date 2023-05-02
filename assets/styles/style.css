@@ -210,8 +210,8 @@ body .cabecalho {
 
 .conteiner-comentarios {
     width: 100%;
-    
     max-width: 1100px;
+    height: 55vh;
     margin: auto;
     margin-top: 100px;
      
@@ -226,7 +226,7 @@ body .cabecalho {
 }
 
 .slide{
-    height: 70vh;
+    height: 55vh;
 } 
 .carousel-indicators .active{
     background-color: rgb(242, 99, 126);
@@ -239,9 +239,8 @@ body .cabecalho {
 }
 .comentarios{
     display: flex;
-    
     align-items: center;
-    height: 70vh;
+    height: 50vh;
     
 }
 
@@ -333,24 +332,24 @@ body .cabecalho {
     color: white;
 }
 
-.paineis-leituras {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-}
 
-.painel-leitura {
+.slide-content{
+    
+    margin: 40px 40px;
+    overflow: hidden;
+    
+  }
+
+
+.card-noticia {
     display: flex;
     flex-direction: column;
-    width: 35%;
     background-color: white;
-    margin: 15px;
     border-radius: 10px;
-    box-shadow: 10px 10px 60px black;
     text-align: left;
 }
 
-.painel-leitura img {
+.card-noticia img {
     object-fit: cover;
     background-size: contain;
     width: 100%;
@@ -358,33 +357,57 @@ body .cabecalho {
     border-radius: 10px 10px 0px 0px;
 }
 
-.descricao-leitura {
+.descricao-noticia {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: auto;
+    margin: 10px;
+    height: 230px;
+    justify-content:space-between;
+}
+.descricao-noticia h3 {
+    
+    font-size: 1.0rem;
 }
 
-.descricao-leitura p {
+.descricao-noticia p {
     color: grey;
     font-size: 0.9rem;
 }
 
-.descricao-leitura button {
+.descricao-noticia button {
+    margin-bottom: 0px;
     width: 100%;
     height: 40px;
     background-color: transparent;
     color: rgb(4, 191, 191);
     border-radius: 5px;
     border: 2px solid rgb(4, 191, 191);
-    margin: 10px 0px 20px 0px;
+    
     transition: 0.4s;
 }
 
-.descricao-leitura button:hover {
+.descricao-noticia button:hover {
     background-color: rgb(4, 191, 191, 0.2);
     color: white;
 }
+.swiper-navBtn{
+    color:#6E93f7 ;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color:#4070F4 ;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 40px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
 
 @media (max-width: 1165px) {
    
@@ -444,18 +467,7 @@ body .cabecalho {
         margin: auto;
     }
 
-    .paineis-leituras {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        padding: 30px;
-    }
-
-    .painel-leitura {
-        width: 100%;
-        max-width: 540px;
-        margin: auto;
-    }
+    
 }
 
 @media (max-width: 910px) {
@@ -463,11 +475,16 @@ body .cabecalho {
         width: 70%;
         
     }
+    
+    
+      .swiper-navBtn{
+        display: none;
+      }
    
    
 }
 
-@media (max-width: 530px) {
+@media (max-width: 605px) {
     .nav-menu {
         width: 90%;
     }
@@ -484,8 +501,32 @@ body .cabecalho {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
+    
+    .conteiner-comentarios{
+        height: 70vh;
+    }
+    .slide, .comentarios{
+        height: 60vh;
+    }
+    
 
     .conteiner-comentarios h2{
         font-size: 1.5rem;
+    }
+    .swiper{
+        width: 100%;
+        
+    }
+    .slide-content{
+        width: 100%;
+        margin: 25px 0;
+    }
+}
+@media (max-width: 280px) {
+    .conteiner-comentarios{
+        height: 90vh;
+    }
+    .slide, .comentarios{
+        height: 85vh;
     }
 }

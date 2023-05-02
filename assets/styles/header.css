@@ -14,6 +14,7 @@ header {
 }
 
 
+
 @media (min-width: 1166px) {
   header {
     display: flex;
@@ -190,7 +191,7 @@ header {
 
 
 
-.logo {
+ .logo {
   width: 170px;
   height: 110px;
 }
@@ -200,9 +201,7 @@ header {
     font-size: 12px;
   }
 
-  .logo {
-    width: 80%;
-  }
+  
 }
 
 /* .modal {
