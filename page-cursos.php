@@ -3,14 +3,14 @@
 <section class="conteiner-incial-cursos">
         <div class="conteudo-inicial">
             <h1>Cursos</h1>
-            <div class="botoes-inicial">
+            <!--<div class="botoes-inicial">
                 <a href="#"><button disabled>#Designer</button></a>
                 <a href="#"><button disabled>#Engenharia</button></a>
                 <a href="#"><button disabled>#Cursos</button></a>
                 <a href="#"><button disabled>#Inscrições</button></a>
                 <a href="#"><button disabled>#Iniciantes</button></a>
                 <a href="#"><button disabled>#Front-End</button></a>
-            </div>
+            </div>-->
         </div>
     </section>
     <section class="conteiner-paineis-cursos">

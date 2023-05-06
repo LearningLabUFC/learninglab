@@ -31,7 +31,12 @@
                 <li><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
                 <li><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/cursos">Cursos</a></li>
                 <li><a <?php if(is_page('contato') == true ) { echo 'ativo';} ?>" aria-current="contato" href="<?php echo get_home_url(); ?>/contato">Contato</a></li> 
-                <li><a <?php if(is_page('gameficacao') == true ) { echo 'ativo';} ?>" aria-current="gameficacao" href="<?php echo get_home_url(); ?>/gameficacao">Gamificação</a></li> 
+                <li><a class="link-gamificacao">Gamificação</a>
+                <ul class="submenu">
+                <li><a <?php if(is_page('gameficacao-sescomp') == true ) { echo 'ativo';} ?>" aria-current="gameficacao-sescomp" href="<?php echo get_home_url(); ?>/gameficacao-sescomp">Gamificacao Sescomp</a></li>
+                <li><a <?php if(is_page('gameficacao') == true ) { echo 'ativo';} ?>" aria-current="gameficacao" href="<?php echo get_home_url(); ?>/gameficacao">Gamificacao EEEP</a></li>
+                </ul>
+            </li> 
                 
 
                 <!-- Modal -->

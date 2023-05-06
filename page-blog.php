@@ -70,6 +70,15 @@
             <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais</button></a>
 
         </div>
+        <div class="painel-blogs">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3>Computer on The Beach</h3>
+                <p>Campus da Ufc de Russas participa do Computer on The Beach.</p>
+            </div>
+            <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais</button></a>
+
+        </div>
 
 
     </section>

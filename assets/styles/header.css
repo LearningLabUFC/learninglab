@@ -13,6 +13,41 @@ header {
   padding-top: 20px;
 }
 
+.nav-menu .submenu{
+  position: absolute;
+  display: none;
+  margin: 0!important;
+  padding: 1rem!important;
+  border-radius: .5rem;
+  background-color: white;
+}
+
+.nav-menu .submenu li{
+  position: relative;
+}
+
+.link-gamificacao{
+  color: white;
+  cursor: pointer;
+}
+
+.nav-menu .submenu li:nth-child(1){
+  margin-bottom: 1rem;
+}
+
+.nav-menu .submenu li:hover{
+  filter: brightness(120%);
+}
+
+.nav-menu .submenu li a{
+  color: rgb(242, 99, 126);
+}
+
+nav .nav-menu li:hover>ul{
+  display: block;
+}
+
+
 
 @media (min-width: 1166px) {
   header {
@@ -97,6 +132,7 @@ header {
 
   .nav-menu li {
     margin: 25px;
+    position: relative;
   }
 
   .nav-menu li a {
@@ -105,7 +141,6 @@ header {
     border-left: 3px solid rgb(242, 99, 126);
     padding-left: .5rem;
   }
-
 
   #item {
     color: grey;
@@ -190,7 +225,7 @@ header {
 
 
 
-.logo {
+ .logo {
   width: 170px;
   height: 110px;
 }
@@ -200,9 +235,7 @@ header {
     font-size: 12px;
   }
 
-  .logo {
-    width: 80%;
-  }
+  
 }
 
 /* .modal {
