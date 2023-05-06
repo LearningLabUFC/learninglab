@@ -361,7 +361,13 @@ body .cabecalho {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: auto;
+    margin: 10px;
+    height: 230px;
+    justify-content:space-between;
+}
+.descricao-noticia h3 {
+    
+    font-size: 1.0rem;
 }
 
 .descricao-noticia p {
@@ -381,15 +387,7 @@ body .cabecalho {
     transition: 0.4s;
 }
 
-.swiper-slide{
-    padding-bottom: 1rem;
-}
-
-.swiper-slide h3{
-    margin-top: 1rem;
-}
-
-.descricao-noticia button:hover {
+.descricao-leitura button:hover {
     background-color: rgb(4, 191, 191, 0.2);
     color: white;
 }
