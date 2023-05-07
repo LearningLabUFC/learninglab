@@ -10,7 +10,7 @@
 <section class="introducao">
     <div class="conteudo">
         <div class="texto">
-            <h2 class="subtitulo">QUER GANHAR PRÊMIOS ASSISTINDO NOSSAS ATIVIDADES NA SESCOMP?</h2>
+            <h2 class="subtitulo">QUER GANHAR PRÊMIOS ASSISTINDO NOSSAS ATIVIDADES NA EEEP?</h2>
             <p>Olá Learnian@!</p>
             <p>Queremos presentear você, Learnian@ fiel. Elaboramos um sistema de gameficação para premiar sua participação em nossas atividades durante o minicurso de Figma. </p>
             <p>Participe de todas as nossas atividades, para você acumular pontos e trocar por brindes, consulte a tabela.</p>
