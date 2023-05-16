@@ -12,6 +12,22 @@ header {
 .cabecalho {
   padding-top: 20px;
 }
+.logo-header {
+  /*width: 170px;
+  height: 110px;*/
+  width: 120px;
+  height: 80px;
+}
+
+.menu-item a:hover{
+ border-bottom:  2px solid white;
+   
+ }
+ .menu-item a:active{
+  color: rgb(240, 64, 96);
+  border:0px;
+ }
+ 
 
 .nav-menu .submenu{
   position: absolute;
@@ -226,10 +242,7 @@ nav .nav-menu li:hover>ul{
 
 
 
- .logo {
-  width: 170px;
-  height: 110px;
-}
+ 
 
 @media (max-width: 320px) {
   body {

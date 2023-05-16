@@ -478,7 +478,8 @@ body .cabecalho {
     
     
       .swiper-navBtn{
-        display: none;
+        /*display:none;*/
+        opacity: 0;
       }
    
    

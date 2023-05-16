@@ -9,6 +9,11 @@
                     <li><a a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Iniciativas</a></li>
 
                 </ul>
+               
+           </div> 
+           <div>
+                <a><h4>Redes Sociais</h4></a>
+                
                 <a href="https://www.instagram.com/learninglabufc/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/icone_insta.png" alt="icone instagram" class="icone-redeSocial"></a>
                 <a href="https://www.linkedin.com/company/projeto-learninglab/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin" class="icone-redeSocial"></a>
 
@@ -42,6 +47,10 @@
                     <li>Figmatizando ideias</li>
 
                 </ul>
+
+            </div> 
+            <div>
+                <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-page-inicial.svg" alt="icone pagina inicial" class="icone-inicial"></a>
 
             </div> 
 

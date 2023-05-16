@@ -11,7 +11,7 @@
 <body>
 <div class="cabecalho">
     <header>
-        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-branca.png"  alt="logo" class="logo"></a>
+        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-branca.png"  alt="logo" class="logo-header"></a>
         <nav>
        
          <input type="checkbox" id="checkbox-menu">
@@ -27,11 +27,11 @@
            
                 
             <ul class="nav-menu"> 
-                <li><a <?php if(is_page('sobre') == true ) { echo 'ativo';} ?>" aria-current="sobre" href="<?php echo get_home_url(); ?>/sobre">Sobre</a></li>
-                <li><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
-                <li><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/cursos">Cursos</a></li>
-                <li><a <?php if(is_page('contato') == true ) { echo 'ativo';} ?>" aria-current="contato" href="<?php echo get_home_url(); ?>/contato">Contato</a></li> 
-                <li><a class="link-gamificacao">Gamificação</a>
+                <li class="menu-item"><a <?php if(is_page('sobre') == true ) { echo 'ativo';} ?>" aria-current="sobre" href="<?php echo get_home_url(); ?>/sobre">Sobre</a></li>
+                <li class="menu-item"><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
+                <li class="menu-item"><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/cursos">Cursos</a></li>
+                <li class="menu-item"><a <?php if(is_page('contato') == true ) { echo 'ativo';} ?>" aria-current="contato" href="<?php echo get_home_url(); ?>/contato">Contato</a></li> 
+                <li ><a class="link-gamificacao">Gamificação</a>
                 <ul class="submenu">
                 <li><a <?php if(is_page('gameficacao-sescomp') == true ) { echo 'ativo';} ?>" aria-current="gameficacao-sescomp" href="<?php echo get_home_url(); ?>/gameficacao-sescomp">Gamificacao Sescomp</a></li>
                 <li><a <?php if(is_page('gameficacao') == true ) { echo 'ativo';} ?>" aria-current="gameficacao" href="<?php echo get_home_url(); ?>/gameficacao">Gamificacao EEEP</a></li>
