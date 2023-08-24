@@ -79,6 +79,24 @@
             <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais</button></a>
 
         </div>
+        <div class="painel-blogs">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/chatgpt.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3>ChatGPT</h3>
+                <p>O que é o Chat GPT e como usá-lo no dia a dia.</p>
+            </div>
+            <a <?php if(is_page('noticiachatgpt') == true ) { echo 'ativo';} ?>" aria-current="noticiachatgpt" href="<?php echo get_home_url(); ?>/noticiachatgpt"><button>Ler mais</button></a>
+
+        </div>
+        <div class="painel-blogs">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imglogo.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3>StudyUFC</h3>
+                <p>Alunos do projeto Learning Lab, criam sistema para ajudar outros alunos</p>
+            </div>
+            <a <?php if(is_page('noticiastudyufc') == true ) { echo 'ativo';} ?>" aria-current="noticiastudyufc" href="<?php echo get_home_url(); ?>/noticiastudyufc"><button>Ver mais</button></a>
+
+        </div>
 
 
     </section>

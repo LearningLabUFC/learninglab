@@ -61,7 +61,18 @@
                 // só vai carregar se estiver na pag sobre
                 wp_enqueue_style('noticia', get_template_directory_uri() . '/assets/styles/noticia.css');
             }
-        
+            if ( is_page('noticiachatgpt') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('noticia', get_template_directory_uri() . '/assets/styles/noticia.css');
+            }
+            if ( is_page('noticiastudyufc') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('noticia', get_template_directory_uri() . '/assets/styles/noticia.css');
+            }
+            if ( is_page('produto') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('produto', get_template_directory_uri() . '/assets/styles/produto.css');
+            }
     }
 
   

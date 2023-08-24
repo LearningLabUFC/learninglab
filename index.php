@@ -202,6 +202,14 @@
                                 <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais </button></a>
                             </div>
                         </div>
+                        <div class="card-noticia swiper-slide" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imglogo.png" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>StudyUFC</h3>
+                                <p>Alunos do projeto Learning Lab, criam sistema para ajudar outros alunos.</p>
+                                <a <?php if(is_page('noticiastudyufc') == true ) { echo 'ativo';} ?>" aria-current="noticiastudyufc" href="<?php echo get_home_url(); ?>/noticiastudyufc"><button>Ler mais </button></a>
+                            </div>
+                        </div>
 
                     </div>
             
