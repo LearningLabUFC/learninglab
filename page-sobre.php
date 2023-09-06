@@ -67,17 +67,6 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gabi.G.jpeg" alt="imagem membro do projeto">
-            </div>
-            <h2>Gabriela Gama</h2>
-            <p>Engenharia de software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/gabgamaa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/gabriela-gama-4436b4174/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Iago.jfif" alt="imagem membro do projeto">
           </div>
             <h2>Iago Wesley</h2>
@@ -171,8 +160,8 @@
             <h2>Ricardo Davi</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-            <a href="https://www.instagram.com/_ricardoddavi/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/ricardo-davi-da-silva-batista-4a9b03245/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            <a href="https://instagram.com/dvfrei?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/davi-freire-4984b8186" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
@@ -195,28 +184,6 @@
             <div class="midias-sociais">
             <a href="https://www.instagram.com/eurilany_lucas/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
             <a href="https://www.linkedin.com/in/eurilany-lucas-773298146/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gio.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Giovana Ramalho</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/eu_ge_ramalho/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gisele.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Gisele Barbosa</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/giseleumb/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            
             </div>
           </div>
           <div class="membro">
@@ -331,6 +298,189 @@
           </div>
           <div class="membro">
             <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Alisson.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Alisson Rubens</h2>
+            <p>Ciência da Computação</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Allan.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Allan Cardoso</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gabriel.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Gabriel Ennos</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Davi.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Davi Freire</h2>
+            <p>Ciência da Computação</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/juniiorsaldanha/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+            <a href="https://www.linkedin.com/in/francisco-geovan-de-sousa-saldanha-j%C3%BAnior-910016200/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Arthur.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Arthur Salvatore</h2>
+            <p>Ciência da Computação</p>
+            <div class="midias-sociais">
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Anny.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Anny Karolyne</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/anacecilia.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Ana Cecilia</h2>
+            <p>Ciência da Computação</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Wesley.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Wesley Santos</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Roberio.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Roberio Girão</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Raí.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Raí da Silva</h2>
+            <p>Ciência da Computação</p>
+            <div class="midias-sociais">
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="imagem membro do projeto">
+          </div>
+            <h2>Pedro Karin</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            <a href="https://www.instagram.com/karinpedro/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/otavio.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Otávio</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Marciano.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Marciano Alberto</h2>
+            <p>Ciência da Computação</p>
+            <div class="midias-sociais">
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luana.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Luana Negreiros</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+           
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Herverson.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Herverson SIlva</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            
+            
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luan.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Luan Roger</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/João Marcelo.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>João Marcelo</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+           
+            </div>
+          </div>
+          <div class="membro">
+            <div class="imagem-membro">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Lila.jpeg" alt="imagem membro do projeto">
+          </div>
+            <h2>Lila Maria</h2>
+            <p>Engenharia de Software</p>
+            <div class="midias-sociais">
+            </div>
+          </div>
+          <div class="membro"> 
+            <div class="imagem-membro">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/vinicius.jpg" alt="imagem membro do projeto">
           </div>
             <h2>Vinicius Moreira</h2>
@@ -344,7 +494,7 @@
         </div>
       </div>
     </section>
-
+ 
     <section class="container-momentos">
       <div class="conteudo">
         <h1>Alguns momentos</h1>
