@@ -372,7 +372,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Wesley.jpeg" alt="imagem membro do projeto">
           </div>
             <h2>Wesley Santos</h2>
-            <p>Engenharia de Software</p>
+            <p>Ciência da Computação</p>
             <div class="midias-sociais">
             
             </div>
@@ -382,7 +382,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Roberio.jpeg" alt="imagem membro do projeto">
           </div>
             <h2>Roberio Girão</h2>
-            <p>Engenharia de Software</p>
+            <p>Ciência da Computação</p>
             <div class="midias-sociais">
             
             </div>
@@ -457,7 +457,7 @@
             <h2>Luan Roger</h2>
             <p>Engenharia de Software</p>
             <div class="midias-sociais">
-           
+            <a href="https://www.linkedin.com/in/luan-roger" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
             </div>
           </div>
           <div class="membro">
