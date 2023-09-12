@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name') . ' | ' .  bloginfo('description') ?></title>
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/imgs/logocolorida.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/icons/logocolorida.png" type="image/x-icon">
     <?php wp_head(); ?>
 </head>
 <body>
 <div class="cabecalho">
     <header>
-        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-branca.png"  alt="logo" class="logo-header"></a>
+        <a <?php if(is_page('home') == true ) { echo 'ativo';} ?> aria-current="home" href="<?php echo get_home_url(); ?>/home"><img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-branca.png"  alt="logo" class="logo-header"></a>
         <nav>
        
          <input type="checkbox" id="checkbox-menu">
