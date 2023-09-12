@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name') . ' | ' .  bloginfo('description') ?></title>
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-projeto.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/imgs/logocolorida.png" type="image/x-icon">
     <?php wp_head(); ?>
 </head>
 <body>
