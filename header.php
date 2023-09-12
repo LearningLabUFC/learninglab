@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name') . ' | ' .  bloginfo('description') ?></title>
-    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/imgs/logotipo.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-projeto.png" type="image/x-icon">
     <?php wp_head(); ?>
 </head>
 <body>
@@ -31,7 +31,6 @@
                 <li class="menu-item"><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
                 <li class="menu-item"><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/cursos">Cursos</a></li>
                 <li class="menu-item"><a <?php if(is_page('contato') == true ) { echo 'ativo';} ?>" aria-current="contato" href="<?php echo get_home_url(); ?>/contato">Contato</a></li> 
-               
                 <li ><a class="link-gamificacao">Gamificação</a>
                 <ul class="submenu">
                 <li><a <?php if(is_page('gameficacao-sescomp') == true ) { echo 'ativo';} ?>" aria-current="gameficacao-sescomp" href="<?php echo get_home_url(); ?>/gameficacao-sescomp">Gamificacao Sescomp</a></li>
