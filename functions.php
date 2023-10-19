@@ -52,6 +52,11 @@
                 wp_enqueue_style('gameficacao', get_template_directory_uri() . '/assets/styles/gameficacao.css');
             }
 
+            if ( is_page('gameficacao-intensivao') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('gameficacao-intensivao', get_template_directory_uri() . '/assets/styles/gameficacao.css');
+            }
+
             if ( is_page('gameficacao-eep') == true ) {
                 // só vai carregar se estiver na pag sobre
                 wp_enqueue_style('gameficacao-eep', get_template_directory_uri() . '/assets/styles/gameficacao.css');

@@ -34,6 +34,7 @@
                 <li ><a class="link-gamificacao">Gamificação</a>
                 <ul class="submenu">
                 <li><a <?php if(is_page('gameficacao') == true ) { echo 'ativo';} ?>" aria-current="gameficacao" href="<?php echo get_home_url(); ?>/gameficacao">Gamificacao Estadual</a></li>
+                <li><a <?php if(is_page('gameficacao-intensivao') == true ) { echo 'ativo';} ?>" aria-current="gameficacao-intensivao" href="<?php echo get_home_url(); ?>/gameficacao-intensivao">Gamificacao Intensivão</a></li>
                 <li><a <?php if(is_page('gameficacao-eep') == true ) { echo 'ativo';} ?>" aria-current="gameficacao-eep" href="<?php echo get_home_url(); ?>/gameficacao-eep">Gamificacao EEEP</a></li>
                 <li><a <?php if(is_page('gameficacao-sescomp') == true ) { echo 'ativo';} ?>" aria-current="gameficacao-sescomp" href="<?php echo get_home_url(); ?>/gameficacao-sescomp">Gamificacao Sescomp</a></li>
                 </ul>
