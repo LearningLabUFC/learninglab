@@ -47,9 +47,9 @@ header {
   cursor: pointer;
 }
 
-.nav-menu .submenu li:nth-child(1){
+/*.nav-menu .submenu li:nth-child(1){
   margin-bottom: 1rem;
-}
+}*/
 
 .nav-menu .submenu li:hover{
   filter: brightness(120%);
