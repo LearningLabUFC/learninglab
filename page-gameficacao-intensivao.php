@@ -57,7 +57,7 @@
     <td class="tg-0pky">1 selo cores e<br>1 selo rosa<br></td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Participar de pelo menos um curso</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Participar de pelo menos dois curso</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1 selo amarelo</span></td>
     <td class="tg-9wq8" rowspan="3">1 selo #Aventureir@LL<br>(o resgate desse selo só ocorre <br>com a acumulação de três selos amarelos)</td>
   </tr>
