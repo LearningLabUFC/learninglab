@@ -66,23 +66,12 @@
                 // só vai carregar se estiver na pag sobre
                 wp_enqueue_style('gameficacao-sescomp', get_template_directory_uri() . '/assets/styles/gameficacao.css');
             }
+            
+            if ( is_page('equipe-desenvolvimento-learninlab') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('equipe-desenvolvimento-learninlab', get_template_directory_uri() . '/assets/styles/equipe-desenvolvimento-learninlab.css');
+            }
 
-            if ( is_page('noticiaComputerOnTheBeach') == true ) {
-                // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('noticia', get_template_directory_uri() . '/assets/styles/noticia.css');
-            }
-            if ( is_page('noticiachatgpt') == true ) {
-                // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('noticia', get_template_directory_uri() . '/assets/styles/noticia.css');
-            }
-            if ( is_page('noticiastudyufc') == true ) {
-                // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('noticia', get_template_directory_uri() . '/assets/styles/noticia.css');
-            }
-            if ( is_page('produto') == true ) {
-                // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('produto', get_template_directory_uri() . '/assets/styles/produto.css');
-            }
     }
 
   

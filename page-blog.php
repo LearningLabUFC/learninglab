@@ -4,16 +4,28 @@
         <h1>Blog</h1>
     </section>
 
+
     <section class="conteiner-destaque">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novaidentidade.png" alt="imagem">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/equipe-dev.jpeg" alt="imagem">
         <div class="descricao-destaque">
-            <h3 class="fw-bold">O fim ou uma nova fase?</h3>
-            <p>Conheça a nova identidade visual do projeto LearningLab</p>
-                <a href="https://www.instagram.com/p/CkLmNgbp_Am/" target="_blank"><button>Ver mais</button></a>
+            <h3 class="fw-bold">Conheça a atual equipe de desenvolvimento do LearningLab</h3>
+            <p>Saiba quem trabalha no setor e os projetos concluídos e em andamento</p>
+            <a <?php if(is_page('equipe-desenvolvimento-learninglab') == true ) { echo 'ativo';} ?>" aria-current="equipe-desenvolvimento-learninglab" href="<?php echo get_home_url(); ?>/equipe-desenvolvimento-learninglab"><button>Ver mais</button></a>
         </div>
     </section>
 
     <section class="conteiner-conteudos">
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novaidentidade.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3 class="fw-bold">O fim ou uma nova fase?</h3>
+                <p>Conheça a nova identidade visual do projeto LearningLab</p>
+            </div>
+            <a href="https://www.instagram.com/p/CkLmNgbp_Am/" target="_blank"><button>Ver mais</button></a>
+
+        </div>
+
+
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
             <div class="descricao-conteudo">

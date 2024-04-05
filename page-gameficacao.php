@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
 <body>
 <section class="container-gameficacao"> 
     <div class="conteudo">
