@@ -67,9 +67,9 @@
                 wp_enqueue_style('gameficacao-sescomp', get_template_directory_uri() . '/assets/styles/gameficacao.css');
             }
             
-            if ( is_page('equipe-desenvolvimento-learninlab') == true ) {
+            if ( is_page('equipe-desenvolvimento-learninglab') == true ) {
                 // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('equipe-desenvolvimento-learninlab', get_template_directory_uri() . '/assets/styles/equipe-desenvolvimento-learninlab.css');
+                wp_enqueue_style('equipe-desenvolvimento-learninglab', get_template_directory_uri() . '/assets/styles/equipe-desenvolvimento-learninglab.css');
             }
 
     }

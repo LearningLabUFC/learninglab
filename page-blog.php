@@ -4,7 +4,6 @@
         <h1>Blog</h1>
     </section>
 
-
     <section class="conteiner-destaque">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/equipe-dev.jpeg" alt="imagem">
         <div class="descricao-destaque">
