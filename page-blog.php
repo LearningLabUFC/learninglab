@@ -73,44 +73,6 @@
             </div>
             <a href="https://www.instagram.com/p/Cfc0tkQuD-1/" target="_blank"><button>Ver mais</button></a>
         </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>Cursos gratuitos e pagos oferecem formação para quem quer trabalhar com tecnologia</h3>
-                <p>Há chances para quem deseja entrar no mercado de trabalho.</p>
-            </div>
-            <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais</button></a>
-
-        </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>Computer on The Beach</h3>
-                <p>Campus da Ufc de Russas participa do Computer on The Beach.</p>
-            </div>
-            <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais</button></a>
-
-        </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/chatgpt.png" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>ChatGPT</h3>
-                <p>O que é o Chat GPT e como usá-lo no dia a dia.</p>
-            </div>
-            <a <?php if(is_page('noticiachatgpt') == true ) { echo 'ativo';} ?>" aria-current="noticiachatgpt" href="<?php echo get_home_url(); ?>/noticiachatgpt"><button>Ler mais</button></a>
-
-        </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imglogo.png" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>StudyUFC</h3>
-                <p>Alunos do projeto Learning Lab, criam sistema para ajudar outros alunos</p>
-            </div>
-            <a <?php if(is_page('noticiastudyufc') == true ) { echo 'ativo';} ?>" aria-current="noticiastudyufc" href="<?php echo get_home_url(); ?>/noticiastudyufc"><button>Ver mais</button></a>
-
-        </div>
-
-
     </section>
 
     <?php get_footer(); ?>
