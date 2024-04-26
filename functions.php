@@ -72,6 +72,11 @@
                 wp_enqueue_style('equipe-desenvolvimento-learninglab', get_template_directory_uri() . '/assets/styles/equipe-desenvolvimento-learninglab.css');
             }
 
+            if ( is_page('llgirls') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('llgirls', get_template_directory_uri() . '/assets/styles/llgirls.css');
+            }
+
     }
 
   
