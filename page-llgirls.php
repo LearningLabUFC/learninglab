@@ -47,9 +47,9 @@
 
         <p>Jacilane também destacou positivamente essa colaboração entre homens e mulheres. “O legal do LLGirls é que a gente consegue trabalhar junto com os meninos […] O próprio pessoal do projeto começou a ver que existem poucas meninas dentro do setor de desenvolvimento, e os meninos começaram a treinar as meninas para essa área. Eu acho isso um diferencial em um projeto que atende a um público bastante diverso”, comentou a coordenadora.</p>
 
-        <h2>Quer ser uma LLGirl? As inscrições estão abertas!</h2>
+        <h2>Quer fazer parte do LLGirls? As inscrições estão abertas!</h2>
 
-        <p>Caso você se identifique com o gênero feminino e queira ser uma LLGirl, o LearningLab abriu um novo processo seletivo para bolsistas voluntárias para o projeto. Isso mesmo: um <strong>edital exclusivo para mulheres</strong> que queiram fazer parte desse time que não para de crescer!</p>
+        <p>Caso você se identifique com o gênero feminino e queira fazer parte do LLGirls, o LearningLab abriu um novo processo seletivo para bolsistas voluntárias para o projeto. Isso mesmo: um <strong>edital exclusivo para mulheres</strong> que queiram fazer parte desse time que não para de crescer!</p>
 
         <p>O objetivo do LLGirls é fornecer uma capacitação às participantes, as quais serão submetidas a treinamentos nas seguintes áreas de atuação:</p>
 

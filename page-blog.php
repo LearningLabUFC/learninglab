@@ -8,7 +8,7 @@
     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">
         <div class="descricao-destaque">
             <h3 class="fw-bold">LLGirls: programa incentiva a participação feminina no LearningLab</h3>
-            <p>Conheça o programa e saiba como se inscrever para ser uma LLGirl</p>
+            <p>Conheça o programa e saiba como se inscrever para fazer parte do LLGirls</p>
             <a <?php if(is_page('llgirls') == true ) { echo 'ativo';} ?>" aria-current="llgirls" href="<?php echo get_home_url(); ?>/llgirls"><button>Ver mais</button></a>
         </div>
     </section>
