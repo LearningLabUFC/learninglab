@@ -55,7 +55,7 @@
             </div> 
 
         </div>
-        <p>Todos os direitos reservados. 2022.</p>
+        <p>Todos os direitos reservados. 2024.</p>
     </footer>
 
 <?php wp_footer(); ?>
