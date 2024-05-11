@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 10rem;
-  background-color: rgb(0, 154, 154);
+  background-color: #009a9a;
   width: 100%;
 }
 
@@ -27,7 +27,7 @@ body {
 .container-quem-somos h1 {
   color: white;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-top: 1.5em;
 
@@ -36,7 +36,8 @@ body {
 .container-sobre-projeto,
 .container-resultados,
 .container-membros,
-.container-momentos {
+.container-momentos,
+.container-pilares {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -46,11 +47,25 @@ body {
 .conteudo {
   width: 90%;
   max-width: 1100px;
+
 }
 
 body .cabecalho {
   width: 100%;
   background-color: rgb(0, 154, 154);
+}
+
+.pilares-triplo {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between; 
+  gap: 2rem;
+}
+
+.missao,
+.visao,
+.valores {
+  flex: 1; 
 }
 
 .container-sobre-projeto .conteudo {
@@ -64,10 +79,11 @@ body .cabecalho {
   max-width: 25rem;
 }
 
-.container-sobre-projeto .conteudo .texto h1,
-.container-resultados .conteudo .texto h1,
-.container-membros .conteudo .texto h1,
-.container-momentos .conteudo h1 {
+.container-sobre-projeto .conteudo .texto h2,
+.container-resultados .conteudo .texto h2,
+.container-membros .conteudo .texto h2,
+.container-momentos .conteudo h2,
+.container-pilares .conteudo h2 {
   color: rgb(0, 154, 154);
   font-weight: 700;
   font-size: 2.5rem;
@@ -75,7 +91,15 @@ body .cabecalho {
   margin-bottom: 1.5rem;
 }
 
-.container-sobre-projeto .conteudo .texto p,
+h3 {
+  color: rgb(0, 154, 154);
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.container-sobre-projeto .conteudo .texto p, .container-pilares .conteudo .texto p,
 .container-resultados .conteudo .texto p,
 .container-membros .conteudo .texto p {
   line-height: 1.875rem;
@@ -115,7 +139,6 @@ body .cabecalho {
 
 .container-resultados .conteudo .cards .card:nth-child(1) {
   background-color: #04BFBF;
-  text-align: center;
 }
 
 .container-resultados .conteudo .cards .card:nth-child(2) {
@@ -134,55 +157,16 @@ body .cabecalho {
   background-color: rgb(11, 103, 198);
 }
 
-.container-membros .cards-membros {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 1.5rem;
-  gap: .4rem;
-  justify-content: space-around;
+.container-resultados .conteudo .cards .card:nth-child(6) {
+  background-color: rgb(160, 18, 93);
 }
 
-.container-membros .cards-membros .membro {
-  padding: 0.9rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.9rem;
-  background-color: white;
-  border-radius: .5rem;
+.container-resultados .conteudo .cards .card:nth-child(7) {
+  background-color: rgb(45, 152, 246);
 }
 
-.container-membros .cards-membros .membro h2 {
-  font-size: 1.5rem;
-}
-
-.container-membros .cards-membros .membro .imagem-membro {
-  max-width: 15rem;
-  max-height: 15rem;
-}
-
-.container-membros .cards-membros .membro img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.container-membros .cards-membros .membro .midias-sociais {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.container-membros .cards-membros .membro .midias-sociais a {
-  max-width: 24px;
-  max-height: 24px;
-}
-
-.container-membros .cards-membros .membro .midias-sociais img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.container-resultados .conteudo .cards .card:nth-child(8) {
+  background-color: rgb(0, 199, 63);
 }
 
 .container-momentos .conteudo .cards-momentos {

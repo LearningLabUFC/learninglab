@@ -8,14 +8,37 @@
     <section class="container-sobre-projeto">
       <div class="conteudo">
         <div class="texto">
-          <h1>Sobre o projeto</h1>
+          <h2>Sobre o projeto</h2>
           <p>O LearningLab (Laboratório de Ensino e Pesquisa de Tecnologias Alinhadas à Gestão do Conhecimento e Inovação em Processos de Software) tem como objetivo contribuir para o processo de formação dos estudantes dos cursos de Ciência da Computação e Engenharia de Software.  </p>
           <br>
-          <p>As atividades do LearningLab iniciaram em maio de 2020 com apenas três alunos voluntários juntamente com a coordenadora, Jacilane Rabelo.
-
-</p>        </div>
+          <p>As atividades do LearningLab iniciaram em maio de 2020 com apenas três alunos voluntários juntamente com a coordenadora, Jacilane Rabelo.</p> 
+        </div>
         <div class="imagem">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-sobre-projeto.png" alt="imagem sobre o projeto">
+        </div>
+      </div>
+    </section>
+
+    <section class="container-pilares">
+      <div class="conteudo">
+        <div class="texto">
+          <h3> O que fazemos e por que?</h3>
+          <p>O LearningLab oferece uma experiência abrangente aos estudantes de computação, por meio de cursos práticos, palestras ministradas por profissionais da área e atuação em áreas como pesquisa e extensão. Internamente, investimos na capacitação dos membros do projeto, incentivando o desenvolvimento de habilidades interpessoais e promovendo a participação em eventos relevantes para o setor.</p>
+
+          <div class="pilares-triplo">
+            <div class="missao">
+              <h3>Missão</h3>
+              <p>Transformar conhecimento teórico em prático, ajudar, apoiar e incentivar estudantes de computação a entrarem no mercado de trabalho, proporcionando cursos e mentorias para o aumento de desempenho neste âmbito.</p>
+            </div>
+            <div class="visao">
+              <h3>Visão</h3>
+              <p>A grande missão do projeto LearningLab é ser uma referência de laboratório atingindo um grande público nacional para cada vez mais impactar pessoas da área da tecnologia.</p>
+            </div>
+            <div class="visao">
+              <h3>Valores</h3>
+              <p>O projeto LearningLab tem como principais valores norteadores de sua atuação Gestão do conhecimento, Inovação, Trabalho colaborativo, Capacitação, Responsabilidade e Comprometimento.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -23,481 +46,26 @@
     <section class="container-resultados">
       <div class="conteudo">
         <div class="texto">
-          <h1>Resultados</h1>
-          <p>Esses são alguns dos nossos resultados obtidos no ano de 2022.</p>
+          <h2>Resultados</h2>
+          <p>Esses são alguns dos nossos resultados obtidos até agora pelo LearningLab.</p>
         </div>
         <div class="cards">
-          <div class="card">+400 pessoas que participaram de palestras</div>
+          <div class="card">+400 pessoas impactadas por nossas palestras</div>
           <div class="card">+360 pessoas certificadas através de palestras</div>
           <div class="card">+7 cursos desenvolvidos</div>
-          <div class="card">+150 estudantes beneficiados com nossos cursos</div>
+          <div class="card">+150 estudantes impactados por nossos cursos</div>
           <div class="card">+130 estudantes certificados através dos nossos cursos</div>
+          <div class="card">+11 artigos escritos</div>
+          <div class="card">+7 artigos aprovados e publicados</div>
+          <div class="card">+55 pessoas capacitadas em cursos de extensão</div>
         </div>
       </div>
     </section>
-    <section class="container-membros" id="container-membros">
-      <div class="conteudo">
-        <div class="texto">
-          <h1>Membros</h1>
-          <p>LearningLab iniciou suas atividades com três membros e hoje conta com dezessete membros para a realização das atividades. Hoje o LerningLab é separado por setores e cada setor tem um membro responsável para que as atividades possam ser desenvolvidas com qualidade.  </p>
-        </div>
-        <div class="cards-membros">
-          
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Adam Andrade</h2>
-            <p>Engenharia de software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/fcoadam/"  target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/adam-andrade-90aa881b5/"  target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/aline.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Aline Alves</h2>
-            <p>Ciência da computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/_aline.py/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/aline-h-alves/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Iago.jfif" alt="imagem membro do projeto">
-          </div>
-            <h2>Iago Wesley</h2>
-            <p>Engenharia de software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/iagowesleey/"  target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/iago-wesley-0663361a4/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Israely Lima</h2>
-            <p>Engenharia de software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/israelylima/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAB09RiMBObgPgXvxyiBXVtvglY4hmedZKtk&keywords=israely&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=64e0116d-6af2-440b-89d3-945091e8210a&sid=HQ0" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin" target="_blank"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Jacilane Rabelo</h2>
-            <p>Coordenadora</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/jacy_rabelo/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/jacilane-rabelo-b842378b/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/João.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>João Paulo</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/j.paulo18/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-oliveira-130a261b4" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jonh.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Johnath Costa</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/johnath_costa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="http://linkedin.com/in/johnath-costa-24626825b" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jordas Felipe.JPG" alt="imagem membro do projeto">
-          </div>
-            <h2>Jordas Felipe</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/jordas_felipe/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/jordas-felipe-9b4b79236/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="imagem membro do projeto">
-          </div>
-            <h2>Marina Rocha</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/_marinars/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/marina-rocha-9b88721b0/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Riwne.png" alt="imagem membro do projeto">
-          </div>
-            <h2>Riane</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/riwne/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/riane-carla-b688a8206/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Ricardo.PNG" alt="imagem membro do projeto">
-          </div>
-            <h2>Ricardo Davi</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://instagram.com/dvfrei?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/davi-freire-4984b8186" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/robson.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Robson Medeiros</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/robson.medeiross/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/robson-medeiros-ab8653236/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/fotoeurilany.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Eurilany Lucas</h2>
-            <p>Ciencia da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/eurilany_lucas/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/eurilany-lucas-773298146/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/hony.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Honycleytton</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/hony_wt/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/honycleytton-rebou%C3%A7as-856455261/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jeiel.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Jeiel Lucas</h2>
-            <p>Ciencia da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/jejeu_lucs/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/jeiel-lucas-329799236/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jessica.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Jéssica Pontes</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/jessicapontes16/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-           
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Jorge Sousa</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/_eujorge/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/jorge-s-815478117/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/larissa.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Larissa Maria</h2>
-            <p>Ciencia da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/_itz.lari_/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/laura.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Laura Pulga</h2>
-            <p>Ciencia da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/puga_lauraa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/leticia.png" alt="imagem membro do projeto">
-          </div>
-            <h2>Leticia Pulga</h2>
-            <p>Ciencia da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/puga_leticiaa/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/ligia.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Sufia Rios</h2>
-            <p>Ciencia da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/sufia_rios/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/sufia-rios-7972b8263/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Lívia Nascimento.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Lívia Nascimento</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/livia_nasciiimento/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-          
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/saldanha.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Junior Saldanha</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/juniiorsaldanha/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/francisco-geovan-de-sousa-saldanha-j%C3%BAnior-910016200/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Alisson.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Alisson Rubens</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Allan.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Allan Cardoso</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gabriel.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Gabriel Ennos</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Davi.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Davi Freire</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/juniiorsaldanha/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/francisco-geovan-de-sousa-saldanha-j%C3%BAnior-910016200/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Arthur.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Arthur Salvatore</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-           
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Anny.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Anny Karolyne</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/anacecilia.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Ana Cecilia</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Wesley.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Wesley Santos</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Roberio.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Roberio Girão</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Raí.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Raí da Silva</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-           
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="imagem membro do projeto">
-          </div>
-            <h2>Pedro Karin</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/karinpedro/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-           
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/otavio.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Otávio</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Marciano.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Marciano Alberto</h2>
-            <p>Ciência da Computação</p>
-            <div class="midias-sociais">
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luana.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Luana Negreiros</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-           
-           
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Herverson.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Herverson SIlva</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            
-            
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luan.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Luan Roger</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.linkedin.com/in/luan-roger" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/João Marcelo.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>João Marcelo</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-           
-            </div>
-          </div>
-          <div class="membro">
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Lila.jpeg" alt="imagem membro do projeto">
-          </div>
-            <h2>Lila Maria</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            </div>
-          </div>
-          <div class="membro"> 
-            <div class="imagem-membro">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/vinicius.jpg" alt="imagem membro do projeto">
-          </div>
-            <h2>Vinicius Moreira</h2>
-            <p>Engenharia de Software</p>
-            <div class="midias-sociais">
-            <a href="https://www.instagram.com/viniciusmoreira4/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-insta-verde.svg" alt="icone instagram"></a>
-            <a href="https://www.linkedin.com/in/viniciusmoreira4/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icone-linkedin-verde.svg" alt="icone linkedin"></a>
-            </div>
-          </div>
-         
-        </div>
-      </div>
-    </section>
+
  
     <section class="container-momentos">
       <div class="conteudo">
-        <h1>Alguns momentos</h1>
+        <h2>Alguns momentos</h2>
         <div class="cards-momentos">
           <div class="momento">
             <div class="imagem-momento">

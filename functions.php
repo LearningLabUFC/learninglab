@@ -77,6 +77,11 @@
                 wp_enqueue_style('llgirls', get_template_directory_uri() . '/assets/styles/llgirls.css');
             }
 
+            if ( is_page('membros') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('membros', get_template_directory_uri() . '/assets/styles/membros.css');
+            }
+
     }
 
   

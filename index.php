@@ -29,10 +29,10 @@
                 </div>
                 
                 <div class="painel-curso">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.svg" alt="Imagem curso web">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/teste.jpg" alt="Imagem curso web">
                     <div class="painel-descricao">
-                        <h3>Curso Scrum 2.0</h3>
-                        <p>O curso de Scrum 2.0 é um curso com o objetivo de mostrar na prática como é o Scrum e como implementar dentro da organização no qual o aluno faz parte, sendo um curso com a ministração da segunda versão. </p>
+                        <h3>Teste de software</h3>
+                        <p>O curso de teste de software consistirá na prática de ensinar desde o planejamento até a execução de casos de testes. Ademais, será utilizado um projeto real para simular uma completa cobertura de qualidade para o software. </p>
                         <a href=""></a><button disabled>Em breve</button></a>
                     </div>
                 </div>
@@ -40,9 +40,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.svg" alt="Imagem curso SCRUM">
                     <div class="painel-descricao">
                         <h3>Curso de Latex</h3>
-                        <p>O LaTeX é um sistema de composição tipográfica de qualidade, que inclui recursos destinados à produção de documentos técnicos e científicos. O curso tem como objetivo a utilização e estruturação de recursos em documentos reais. 
-
-</p>
+                        <p>O LaTeX é um sistema de composição tipográfica de qualidade, que inclui recursos destinados à produção de documentos técnicos e científicos. O curso tem como objetivo a utilização e estruturação de recursos em documentos reais.</p>
                         <a href=""><button disabled>Em breve</button></a>
                     </div>
                 </div>
@@ -155,6 +153,26 @@
                 <div class="slide-content">
                     <div  class=" card-wrapper swiper-wrapper">
                         <div class="card-noticia swiper-slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>LLGirls: programa incentiva a participação feminina no LearningLab</h3>
+                                <p>Conheça o programa e saiba como se inscrever para fazer parte do LLGirls</p>
+                                <a <?php if(is_page('llgirls') == true ) { echo 'ativo';} ?>" aria-current="llgirls" href="<?php echo get_home_url(); ?>/llgirls"><button>Ler mais</button></a>
+                            </div>
+                        </div>
+                    
+
+
+                        <div class="card-noticia swiper-slide">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/equipe-dev.jpeg" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>Conheça a atual equipe de desenvolvimento do LearningLab</h3>
+                                <p>Saiba quem trabalha no setor e os projetos concluídos e em andamento</p>
+                                <a <?php if(is_page('equipe-desenvolvimento-learninglab') == true ) { echo 'equipe-desenvolvimento-learninglab';} ?>" aria-current="equipe-desenvolvimento-learninglab" href="<?php echo get_home_url(); ?>/equipe-desenvolvimento-learninglab"><button>Ler mais</button></a>
+                            </div>
+                        </div>
+
+                        <div class="card-noticia swiper-slide">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
                             <div class="descricao-noticia">
                                 <h3>O fim ou uma nova fase?</h3>
@@ -179,14 +197,6 @@
                             </div>
                         </div>
                         <div class="card-noticia swiper-slide" >
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/computer.png" alt="imagem">
-                            <div class="descricao-noticia">
-                                <h3>Computer on The Beach</h3>
-                                <p>Campus da Ufc de Russas participa do Computer on The Beach.</p>
-                                <a <?php if(is_page('noticiaComputerOnTheBeach') == true ) { echo 'ativo';} ?>" aria-current="noticiaComputerOnTheBeach" href="<?php echo get_home_url(); ?>/noticiaComputerOnTheBeach"><button>Ler mais </button></a>
-                            </div>
-                        </div>
-                        <div class="card-noticia swiper-slide" >
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem"> 
                             <div class="descricao-noticia">
                                 <h3>LearningLab é indicado ao Top Awards e vence em 4 categorias.</h3>
@@ -202,14 +212,7 @@
                                 <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais </button></a>
                             </div>
                         </div>
-                        <div class="card-noticia swiper-slide" >
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imglogo.png" alt="imagem">
-                            <div class="descricao-noticia">
-                                <h3>StudyUFC</h3>
-                                <p>Alunos do projeto Learning Lab, criam sistema para ajudar outros alunos.</p>
-                                <a <?php if(is_page('noticiastudyufc') == true ) { echo 'ativo';} ?>" aria-current="noticiastudyufc" href="<?php echo get_home_url(); ?>/noticiastudyufc"><button>Ler mais </button></a>
-                            </div>
-                        </div>
+
 
                     </div>
             
