@@ -26,7 +26,7 @@
                 <div class="profile-label scrum">Scrum Master</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
                 <div class="profile-label design">Designer</div>
             </div>
@@ -46,7 +46,7 @@
 
         <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/herverson.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Herverson.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Heverson</div>
                 <div class="profile-label back"><em>back end</em></div>
             </div>
@@ -91,7 +91,7 @@
 
         <div class="container">
             <div class="profile">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/adam.jpeg" alt="foto" class="profile-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Adam</div>
                 <div class="profile-label requisitos">requisitos</div>
             </div>
@@ -116,12 +116,12 @@
                 <div class="profile-label front"><em>front end</em></div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriel.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gabriel.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriel</div>
                 <div class="profile-label back"><em>back end</em></div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/luan.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luan.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Luan</div>
                 <div class="profile-label back"><em>back end</em></div>
             </div>
