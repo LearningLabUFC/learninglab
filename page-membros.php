@@ -203,6 +203,7 @@
         <p>Nesta seção, vamos conhecer todos os membros que fazem parte atualmente do LearningLab (inclusive os líderes), bem como quais os setores nos quais eles fazem parte!</p>
 
         <div class="container-membros">
+            
             <div class="membro">
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
@@ -233,16 +234,37 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/avallos.png" alt="foto" class="profile-image">
+                    <h1>Avallos</h1>
+                    <p>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/cauã.png" alt="foto" class="profile-image">
                     <h1>Cauã</h1>
-                    <p>extensão</p>
+                    <p>extensão <br>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/ana-cecilia.jpeg" alt="foto" class="profile-image">
+                    <h1>Cecília</h1>
+                    <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Davi.jpeg" alt="foto" class="profile-image">
                     <h1>Davi</h1>
-                    <p>cursos <br>palestras <br>análises <br>desenvolvimento <br>extensão</p>
+                    <p>cursos <br>palestras <br>análises <br>processos <br>extensão</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/douglas.jpg" alt="foto" class="profile-image">
+                    <h1>Douglas</h1>
+                    <p>desenvolvimento <br>pesquisa</p>
                 </div>
             </div>
             <div class="membro">
@@ -254,8 +276,29 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriel.jpeg" alt="foto" class="profile-image">
+                    <h1>Gabriel</h1>
+                    <p>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gerhard.png" alt="foto" class="profile-image">
+                    <h1>Gerhard</h1>
+                    <p>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/guilherme.png" alt="foto" class="profile-image">
                     <h1>Guilherme</h1>
+                    <p>processos <br>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gustavo.png" alt="foto" class="profile-image">
+                    <h1>Gustavo</h1>
                     <p>desenvolvimento</p>
                 </div>
             </div>
@@ -263,14 +306,21 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/herverson.jpeg" alt="foto" class="profile-image">
                     <h1>Herverson</h1>
-                    <p>pesquisa</p>
+                    <p>desenvolvimento <br>pesquisa</p>
                 </div>
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/hony.jpg" alt="foto" class="profile-image">
                     <h1>Hony</h1>
-                    <p>redes e mídias <br>palestras <br>análises <br>desenvolvimento</p>
+                    <p>redes e mídias <br>palestras <br>processos <br>análises <br>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Iago.jpg" alt="foto" class="profile-image">
+                    <h1>Iago</h1>
+                    <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -310,9 +360,16 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/kaue.png" alt="foto" class="profile-image">
+                    <h1>Kauê</h1>
+                    <p>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/larissa.jpg" alt="foto" class="profile-image">
                     <h1>Larissa</h1>
-                    <p>cursos <br>análises <br>desenvolvimento <br>redes e mídias</p>
+                    <p>cursos <br>análises <br>processos <br>redes e mídias</p>
                 </div>
             </div>
             <div class="membro">
@@ -324,9 +381,16 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/luan.jpeg" alt="foto" class="profile-image">
+                    <h1>Luan</h1>
+                    <p>desenvolvimento</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/placeholder.jpg" alt="foto" class="profile-image">
                     <h1>Kelly</h1>
-                    <p>análises</p>
+                    <p>análises <br>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -334,6 +398,13 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marcelo.jpeg" alt="foto" class="profile-image">
                     <h1>Marcelo</h1>
                     <p>redes e mídias <br>palestras</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Marciano.jpeg" alt="foto" class="profile-image">
+                    <h1>Marciano</h1>
+                    <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -347,7 +418,7 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
                     <h1>Pedro</h1>
-                    <p>extensão <br> pesquisa <br> análises <br> palestras</p>
+                    <p>extensão <br> pesquisa <br> análises <br> palestras <br>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -375,14 +446,21 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Roberio.jpeg" alt="foto" class="profile-image">
                     <h1>Robério</h1>
-                    <p>extensão</p>
+                    <p>extensão <br>redes e mídias</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/robson.jpeg" alt="foto" class="profile-image">
+                    <h1>Robson</h1>
+                    <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/ligia.jpg" alt="foto" class="profile-image">
                     <h1>Sufia</h1>
-                    <p>redes e mídias</p>
+                    <p>redes e mídias <br>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -396,7 +474,7 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/yvens.png" alt="foto" class="profile-image">
                     <h1>Yvens</h1>
-                    <p>análise</p>
+                    <p>análise <br>desenvolvimento</p>
                 </div>
             </div>
             

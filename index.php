@@ -39,7 +39,7 @@
                 <div class="painel-curso">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.svg" alt="Imagem curso SCRUM">
                     <div class="painel-descricao">
-                        <h3>Curso de Latex</h3>
+                        <h3>Curso de LaTex</h3>
                         <p>O LaTeX é um sistema de composição tipográfica de qualidade, que inclui recursos destinados à produção de documentos técnicos e científicos. O curso tem como objetivo a utilização e estruturação de recursos em documentos reais.</p>
                         <a href=""><button disabled>Em breve</button></a>
                     </div>

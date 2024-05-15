@@ -95,17 +95,18 @@ body .cabecalho {
 }
 
 .conteiner-sobre a {
+    padding: 7px 10px;
     font-size: 15px;
     font-weight: 600;
-    color: rgb(4, 191, 191);
-    border-bottom: 2px solid rgb(4, 191, 191);
+    color: white;
+    border-radius: 10px;
     margin-top: 20px;
     transition: 0.4s;
+    background-color: #04bebe;
 }
 
 .conteiner-sobre a:hover {
-    color: rgb(242, 99, 126);
-    border-bottom: 2px solid rgb(242, 99, 126);
+    background-color: rgb(242, 99, 126);
 }
 
 .conteiner-sobre img {
