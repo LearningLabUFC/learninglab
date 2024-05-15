@@ -276,7 +276,7 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriel.jpeg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Gabriel.jpeg" alt="foto" class="profile-image">
                     <h1>Gabriel</h1>
                     <p>desenvolvimento</p>
                 </div>
@@ -304,7 +304,7 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/herverson.jpeg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Herverson.jpeg" alt="foto" class="profile-image">
                     <h1>Herverson</h1>
                     <p>desenvolvimento <br>pesquisa</p>
                 </div>
@@ -318,14 +318,14 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Iago.jpg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/iago.jpg" alt="foto" class="profile-image">
                     <h1>Iago</h1>
                     <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                     <h1>Israely</h1>
                     <p>pesquisa</p>
                 </div>
@@ -381,7 +381,7 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/luan.jpeg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luan.jpeg" alt="foto" class="profile-image">
                     <h1>Luan</h1>
                     <p>desenvolvimento</p>
                 </div>
