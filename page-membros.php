@@ -57,7 +57,7 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eriky.png" alt="foto" class="profile-image lider">
                     <h1>Eriky</h1>
-                    <p class="label">Concebe ideias e estratégias para futuros cursos e estabelece metas e praxos para as atividades do setor. </p>
+                    <p class="label">Concebe ideias e estratégias para futuros cursos e estabelece metas e prazos para as atividades do setor. </p>
                 </div>
             </div>
         </div>
