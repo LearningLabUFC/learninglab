@@ -52,7 +52,7 @@ body {
 
 body .cabecalho {
   width: 100%;
-  background-color: rgb(0, 154, 154);
+  background-color: #009a9a;
 }
 
 .pilares-triplo {
@@ -62,10 +62,32 @@ body .cabecalho {
   gap: 2rem;
 }
 
-.missao,
-.visao,
-.valores {
+.pilar {
   flex: 1; 
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.pilar.titulo {
+  display: flex;
+}
+
+.pilar h1 {
+  color: #009a9a;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pilar p {
+  margin-top: 1.5rem;
+}
+
+.pilar img {
+  width: 13%;
+  float: left;
+  margin-right: 1rem;
 }
 
 .container-sobre-projeto .conteudo {
@@ -84,20 +106,13 @@ body .cabecalho {
 .container-membros .conteudo .texto h2,
 .container-momentos .conteudo h2,
 .container-pilares .conteudo h2 {
-  color: rgb(0, 154, 154);
+  color: #009a9a;
   font-weight: 700;
   font-size: 2.5rem;
   text-align: left;
   margin-bottom: 1.5rem;
 }
 
-h3 {
-  color: rgb(0, 154, 154);
-  font-weight: 700;
-  font-size: 2rem;
-  text-align: left;
-  margin-bottom: 1.5rem;
-}
 
 .container-sobre-projeto .conteudo .texto p, .container-pilares .conteudo .texto p,
 .container-resultados .conteudo .texto p,
@@ -182,8 +197,8 @@ h3 {
   gap: .9rem;
   padding: .9rem;
   background-color: white;
-  border-radius: .5rem;
-
+  border-radius: 0.8rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .container-momentos .conteudo .cards-momentos .momento .imagem-momento {
@@ -195,8 +210,21 @@ h3 {
 .container-momentos .conteudo .cards-momentos .momento .imagem-momento img {
   width: 100%;
   object-fit: cover;
+  border-radius: 0.8rem;
 }
 
+.momento h1 {
+  color: #009a9a;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.momento p {
+  color: #696b6b;
+  font-style: italic;
+
+}
 
 footer {
   padding: 5.625rem 0;
@@ -244,4 +272,14 @@ footer {
     display: flex;
     justify-content: flex-start;
   }
+  
+  .pilares-triplo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pilar {
+    width: 100%;
+  }
+
 }
