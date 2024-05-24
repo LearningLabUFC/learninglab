@@ -339,23 +339,22 @@
     <p>Conheça os pesquisadores:</p>
 
 
-
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
-                <div class="profile-name">Jorge</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eriky.png" alt="foto" class="profile-image">
+                <div class="profile-name">Eriky</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Jorge</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eriky.png" alt="foto" class="profile-image">
-                <div class="profile-name">Eriky</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">

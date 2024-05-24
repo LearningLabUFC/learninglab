@@ -29,11 +29,11 @@
                 </div>
                 
                 <div class="painel-curso">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/teste.jpg" alt="Imagem curso web">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt="Imagem curso de React">
                     <div class="painel-descricao">
-                        <h3>Teste de software</h3>
-                        <p>O curso de teste de software consistirá na prática de ensinar desde o planejamento até a execução de casos de testes. Ademais, será utilizado um projeto real para simular uma completa cobertura de qualidade para o software. </p>
-                        <a href=""></a><button disabled>Em breve</button></a>
+                        <h3>React Native 2.0</h3>
+                        <p>Após o sucesso do primeiro curso, estão abertas as inscrições para o "React Descomplicado: Fundamentos do Front-End Moderno", o qual abordará de maneira dinâmica e prática o universo da programação com a tecnologia. </p>
+                        <div class="inscricao"><a href="https://forms.gle/WAPjAFG355ik9xpAA" target="_blank">Inscreva-se</a></div>
                     </div>
                 </div>
                 <div class="painel-curso">
@@ -41,7 +41,7 @@
                     <div class="painel-descricao">
                         <h3>Curso de LaTex</h3>
                         <p>O LaTeX é um sistema de composição tipográfica de qualidade, que inclui recursos destinados à produção de documentos técnicos e científicos. O curso tem como objetivo a utilização e estruturação de recursos em documentos reais.</p>
-                        <a href=""><button disabled>Em breve</button></a>
+                        <div class="em-breve">Em breve</a></div>
                     </div>
                 </div>
             </div>
@@ -153,6 +153,14 @@
                 <div class="slide-content">
                     <div  class=" card-wrapper swiper-wrapper">
                         <div class="card-noticia swiper-slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
+                            <div class="descricao-noticia">
+                                <h3>Conheça mais sobre os artigos do LearningLab já aceitos e publicados</h3>
+                                <p>Veja também quem são os autores responsáveis por cada um deles</p>
+                                <a <?php if(is_page('artigos') == true ) { echo 'ativo';} ?>" aria-current="artigos" href="<?php echo get_home_url(); ?>/artigos"><button>Ler mais</button></a>
+                            </div>
+                        </div>
+                        <div class="card-noticia swiper-slide">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">
                             <div class="descricao-noticia">
                                 <h3>LLGirls: programa incentiva a participação feminina no LearningLab</h3>
@@ -160,8 +168,6 @@
                                 <a <?php if(is_page('llgirls') == true ) { echo 'ativo';} ?>" aria-current="llgirls" href="<?php echo get_home_url(); ?>/llgirls"><button>Ler mais</button></a>
                             </div>
                         </div>
-                    
-
 
                         <div class="card-noticia swiper-slide">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/equipe-dev.jpeg" alt="imagem">
@@ -169,15 +175,6 @@
                                 <h3>Conheça a atual equipe de desenvolvimento do LearningLab</h3>
                                 <p>Saiba quem trabalha no setor e os projetos concluídos e em andamento</p>
                                 <a <?php if(is_page('equipe-desenvolvimento-learninglab') == true ) { echo 'equipe-desenvolvimento-learninglab';} ?>" aria-current="equipe-desenvolvimento-learninglab" href="<?php echo get_home_url(); ?>/equipe-desenvolvimento-learninglab"><button>Ler mais</button></a>
-                            </div>
-                        </div>
-
-                        <div class="card-noticia swiper-slide">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
-                            <div class="descricao-noticia">
-                                <h3>O fim ou uma nova fase?</h3>
-                                <p>Conheça a nova identidade visual do projeto LearningLab</p>
-                                <a href="https://www.instagram.com/p/CkOK4OouSKv/" target="_blank"><button> Ler mais</button></a>
                             </div>
                         </div>
                         <div class="card-noticia swiper-slide">
@@ -189,27 +186,11 @@
                             </div>
                         </div>
                         <div class="card-noticia swiper-slide" >
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
-                            <div class="descricao-noticia">
-                                <h3>Conheça o novo site do EU</h3>
-                                <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀</p>
-                                <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ler mais </button></a>
-                            </div>
-                        </div>
-                        <div class="card-noticia swiper-slide" >
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem"> 
                             <div class="descricao-noticia">
                                 <h3>LearningLab é indicado ao Top Awards e vence em 4 categorias.</h3>
                                 <p>Ficamos muito felizes em anunciar que fomos indicados a 4 categorias do prêmio TOP AWARDS 🥳🥳</p>
                                 <a href="https://www.instagram.com/p/CYtihdcOeAi/" target="_blank"><button>Ler mais </button></a>
-                            </div>
-                        </div>
-                        <div class="card-noticia swiper-slide" >
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
-                            <div class="descricao-noticia">
-                                <h3>Cursos oferecem formação para quem quer trabalhar com tecnologia</h3>
-                                <p>Há chances para quem deseja entrar no mercado de trabalho.</p>
-                                <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais </button></a>
                             </div>
                         </div>
 

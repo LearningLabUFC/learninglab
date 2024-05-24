@@ -26,7 +26,7 @@ a {
 }
 
 body .cabecalho {
-    background-color: rgb(242, 99, 126);
+    background-color: #f2637e;
 }
 
 .conteiner-inicial {
@@ -73,7 +73,7 @@ body .cabecalho {
 #circulo {
     position: absolute;
     display: flex;
-    background-color: rgb(4, 191, 191, 0.7);
+    background-color: #04bfbfb3;
     width: 5vw;
     height: 20vh;
     border-radius: 0px 150px 150px 0px;
@@ -95,19 +95,19 @@ body .cabecalho {
 }
 
 .conteiner-sobre a {
-    padding: 7px 10px;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 1.3rem;
     color: white;
-    border-radius: 10px;
-    margin-top: 20px;
-    transition: 0.4s;
+    font-weight: bold;
     background-color: #04bebe;
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .conteiner-sobre a:hover {
-    background-color: rgb(242, 99, 126);
-}
+    background-color: #f2637e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.1rem;}
 
 .conteiner-sobre img {
     object-fit: cover;
@@ -157,14 +157,59 @@ body .cabecalho {
     margin: auto;
 }
 
+.paineis-de-cursos h2 {
+    font-weight: bold;
+}
+
 .painel-curso h3 {
     margin: 20px 0px 10px 0px;
+    font-weight: bold;
 }
 
 .painel-curso p {
     margin: 20px 0px 10px 0px;
     color: grey;
     text-align: justify;
+}
+
+.painel-curso .inscricao {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.painel-curso a {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: #04bebe;
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.painel-curso a:hover {
+    background-color: #f2637e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.1rem;
+}
+
+.painel-curso .em-breve {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(158, 158, 158);
+    border-radius: 4px;
+    padding: 0.2rem 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .painel-curso button {
@@ -215,8 +260,6 @@ body .cabecalho {
     height: 55vh;
     margin: auto;
     margin-top: 100px;
-     
-    
 }
 
 .conteiner-comentarios h2 {
@@ -285,7 +328,6 @@ body .cabecalho {
     text-align: center;
     width: 90%;
     max-width: 1100px;
-
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -299,6 +341,10 @@ body .cabecalho {
 
 .quadro-de-letura {
     margin-top: -500px;
+}
+
+.quadro-de-letura h2 {
+    font-weight: bold;
 }
 
 .mais-noticias {
@@ -324,14 +370,17 @@ body .cabecalho {
 }
 
 .mais-noticias button:hover {
-    background-color: rgb(255, 255, 255, 0.5);
-    color: white;
-    border-radius: 6px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(242, 99, 126);
+    color: #fff;
 }
 
 .mais-noticias a {
     color: white;
 }
+
+
 
 
 .slide-content{
@@ -368,7 +417,8 @@ body .cabecalho {
 }
 .descricao-noticia h3 {
     
-    font-size: 1.0rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .descricao-noticia p {
@@ -434,8 +484,11 @@ body .cabecalho {
 
     .conteiner-sobre p {
         margin: auto;
+        margin-bottom: 15px;
+
     }
 
+  
     .background-conteiner-cursos {
         width: 80%;
         max-width: 520px;

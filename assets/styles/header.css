@@ -24,7 +24,7 @@ header {
    
  }
  .menu-item a:active{
-  color: rgb(240, 64, 96);
+  color: #f04060;
   border:0px;
  }
  

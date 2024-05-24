@@ -75,6 +75,28 @@ h2 {
     padding: 6%;
 }
 
+.curso .inscricao {
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.curso a {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: #04bebe;
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.curso a:hover {
+    background-color: #f2637e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.1rem;
+}
 
 .curso h1 {
     margin-top: 10px;
