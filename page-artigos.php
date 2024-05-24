@@ -152,7 +152,7 @@
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
@@ -193,7 +193,7 @@
                 <div class="profile-name">Robson</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
@@ -235,7 +235,7 @@
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
@@ -273,7 +273,7 @@
                 <div class="profile-name">Jorge</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
@@ -303,11 +303,11 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/adam.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Adam</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
@@ -346,7 +346,7 @@
                 <div class="profile-name">Jorge</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/israely.jpg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
