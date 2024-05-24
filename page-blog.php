@@ -5,16 +5,25 @@
     </section>
 
     <section class="conteiner-destaque">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
         <div class="descricao-destaque">
-            <h3 class="fw-bold">LLGirls: programa incentiva a participação feminina no LearningLab</h3>
-            <p>Conheça o programa e saiba como se inscrever para fazer parte do LLGirls</p>
-            <a <?php if(is_page('llgirls') == true ) { echo 'ativo';} ?>" aria-current="llgirls" href="<?php echo get_home_url(); ?>/llgirls"><button>Ver mais</button></a>
+            <h3 class="fw-bold">Conheça mais sobre os artigos do LearningLab já aceitos e publicados</h3>
+            <p>Veja também quem são os autores responsáveis por cada um deles</p>
+            <a <?php if(is_page('artigos') == true ) { echo 'ativo';} ?>" aria-current="artigos" href="<?php echo get_home_url(); ?>/artigos"><button>Ver mais</button></a>
         </div>
     </section>
 
 
     <section class="conteiner-conteudos">
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3 class="fw-bold">LLGirls: programa incentiva a participação feminina no LearningLab</h3>
+                <p>Conheça o programa e saiba como se inscrever para fazer parte do LLGirls</p>
+            </div>
+            <a <?php if(is_page('llgirls') == true ) { echo 'ativo';} ?>" aria-current="llgirls" href="<?php echo get_home_url(); ?>/llgirls"><button>Ver mais</button></a>
+        </div>
         
         <div class="painel-blogs">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/equipe-dev.jpeg" alt="imagem">

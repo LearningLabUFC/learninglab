@@ -82,6 +82,11 @@
                 wp_enqueue_style('membros', get_template_directory_uri() . '/assets/styles/membros.css');
             }
 
+            if ( is_page('artigos') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('artigos', get_template_directory_uri() . '/assets/styles/artigos.css');
+            }
+
     }
 
   
