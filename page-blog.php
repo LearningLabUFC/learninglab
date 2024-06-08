@@ -4,17 +4,27 @@
         <h1>Blog</h1>
     </section>
 
+
+
     <section class="conteiner-destaque">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/eriky-sbsc.jpeg">
         <div class="descricao-destaque">
-            <h3 class="fw-bold">Conheça mais sobre os artigos do LearningLab já aceitos e publicados</h3>
-            <p>Veja também quem são os autores responsáveis por cada um deles</p>
-            <a <?php if(is_page('artigos') == true ) { echo 'ativo';} ?>" aria-current="artigos" href="<?php echo get_home_url(); ?>/artigos"><button>Ver mais</button></a>
+            <h3 class="fw-bold">Conheça os eventos científicos nos quais o LearningLab já marcou presença</h3>
+            <p>Veja também quais trabalhos foram apresentados em cada um deles</p>
+            <a <?php if(is_page('eventos') == true ) { echo 'ativo';} ?>" aria-current="eventos" href="<?php echo get_home_url(); ?>/eventos"><button>Ver mais</button></a>
         </div>
     </section>
 
-
     <section class="conteiner-conteudos">
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
+        <div class="descricao-conteudo">
+                <h3 class="fw-bold">Conheça mais sobre os artigos do LearningLab já aceitos e publicados</h3>
+                <p>Veja também quem são os autores responsáveis por cada um deles</p>
+            </div>
+            <a <?php if(is_page('artigos') == true ) { echo 'ativo';} ?>" aria-current="artigos" href="<?php echo get_home_url(); ?>/artigos"><button>Ver mais</button></a>
+        </div>
 
         <div class="painel-blogs">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">

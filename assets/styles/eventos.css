@@ -3,27 +3,6 @@
     text-align: center;
     padding: 2rem;
 }
-.profile {
-    display: inline-block;
-    margin: 0 10px;
-    text-align: center;
-}
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-
-}
-.profile-name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 20px;
-
-}
-
-/* adicionados agora */
 
 .container-titulo {
     display: flex;
@@ -41,8 +20,6 @@
       max-width: 1100px;
       margin: auto;
       padding-bottom: 1em;
-
-    
   }
   
   .container-titulo h1 {
@@ -84,45 +61,60 @@
     
   }
 
-
-  .conteudo a {
-    color: #04bfbf;
-  }
-
-  .conteudo a:hover {
-    text-decoration: underline;
-    font-weight: bold;
+  .image-container {
+    text-align: center;
 }
 
-  @media only screen and (max-width: 768px) {
+  .image-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    height: auto;
+    border-radius: 1%;
+  }
+
+  .image-container figcaption {
+    text-align: center;
+    margin-top: 0.3rem;
+    font-style: italic;
+    color: rgb(131, 130, 130);
+}
+
+.conteudo ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    
+}
 
 
-    .container-titulo h1 {
+.conteudo a {
+    color: #04bfbf;
+}
+
+.conteudo a:hover {
+    color: #f2637e;
+}
+
+.ultimo-paragrafo {
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .container-titulo h1 {
  
-      font-size: 2rem;
-      margin: auto;
-  
-    }
-
-    body {
-        font-size: 1rem;
-    }
-
-
-    .profile-image {
-      width: 75px;
-      height: 75px;
-      border-radius: 50%;
-  }
-  .profile-name {
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 10px;
-      margin-bottom: 10px;
-
+    font-size: 2rem;
+    margin: auto;
   }
 
-  
+  body {
+    font-size: 1rem;
+  }
+
+  .image-container img { 
+    max-width: 95%;
+  }
 
 
 }

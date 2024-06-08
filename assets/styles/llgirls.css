@@ -89,20 +89,17 @@
     color: #f2637e;
 }
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 
-    .container-titulo h1 {
+  .container-titulo h1 {
  
-      font-size: 2rem;
-      margin: auto;
-  
-    }
+    font-size: 2rem;
+    margin: auto;
+  }
 
-    body {
-        font-size: 1rem;
-    }
-
-
+  body {
+    font-size: 1rem;
+  }
 
 }

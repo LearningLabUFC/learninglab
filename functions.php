@@ -87,12 +87,13 @@
                 wp_enqueue_style('artigos', get_template_directory_uri() . '/assets/styles/artigos.css');
             }
 
+            if ( is_page('eventos') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('eventos', get_template_directory_uri() . '/assets/styles/eventos.css');
+            }
+
     }
-
   
-    
-
-
 
     add_action('wp_enqueue_scripts', 'css_files');
 

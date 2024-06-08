@@ -152,6 +152,14 @@
             <div class="swiper">
                 <div class="slide-content">
                     <div  class=" card-wrapper swiper-wrapper">
+                        <div class="card-noticia swiper-slide" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/eriky-sbsc.jpeg">
+                        <div class="descricao-noticia">
+                                <h3>Conheça os eventos científicos nos quais o LearningLab já marcou presença</h3>
+                                <p>Veja também quais trabalhos foram apresentados em cada um deles</p>
+                                <a <?php if(is_page('eventos') == true ) { echo 'ativo';} ?>" aria-current="eventos" href="<?php echo get_home_url(); ?>/eventos"><button>Ler mais</button></a>
+                            </div>
+                        </div>
                         <div class="card-noticia swiper-slide">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
                             <div class="descricao-noticia">
@@ -185,15 +193,6 @@
                                 <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ler mais </button></a>
                             </div>
                         </div>
-                        <div class="card-noticia swiper-slide" >
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem"> 
-                            <div class="descricao-noticia">
-                                <h3>LearningLab é indicado ao Top Awards e vence em 4 categorias.</h3>
-                                <p>Ficamos muito felizes em anunciar que fomos indicados a 4 categorias do prêmio TOP AWARDS 🥳🥳</p>
-                                <a href="https://www.instagram.com/p/CYtihdcOeAi/" target="_blank"><button>Ler mais </button></a>
-                            </div>
-                        </div>
-
 
                     </div>
             
