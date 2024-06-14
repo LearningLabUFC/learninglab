@@ -53,7 +53,7 @@
             </div>
         </div>
 
-    <p>Você pode conferir a pesquisa completa por <a href="https://sol.sbc.org.br/index.php/educomp/article/view/23891/23719 target="_blank"">esse link</a>.</p>
+    <p>Você pode conferir a pesquisa completa por <a href="https://sol.sbc.org.br/index.php/educomp/article/view/23891/23719" target="_blank">esse link</a>.</p>
 
     <h2>Remote Teaching of Scrum in Practice: an analysis of participants' perception</h2>
 
@@ -148,7 +148,7 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.JPG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
@@ -201,7 +201,7 @@
                 <div class="profile-name">George</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Ricardo.PNG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Ricardo.png" alt="foto" class="profile-image">
                 <div class="profile-name">Ricardo</div>
             </div>
             <div class="profile">
@@ -231,7 +231,7 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.JPG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
@@ -319,7 +319,7 @@
                 <div class="profile-name">Giovana</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Riane.png" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/riane.png" alt="foto" class="profile-image">
                 <div class="profile-name">Riane</div>
             </div>
             <div class="profile">

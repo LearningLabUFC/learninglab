@@ -423,7 +423,7 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Rai.jpeg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/rai.jpeg" alt="foto" class="profile-image">
                     <h1>Raí</h1>
                     <p>palestras <br>pesquisa</p>
                 </div>
