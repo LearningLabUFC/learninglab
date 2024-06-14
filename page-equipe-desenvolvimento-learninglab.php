@@ -96,7 +96,7 @@
                 <div class="profile-label requisitos">requisitos</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jordas-felipe.JPG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jordas</div>
                 <div class="profile-label requisitos">requisitos</div>
             </div>
@@ -166,7 +166,7 @@
                 <div class="profile-label front"><em>front end</em></div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eurilany.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/eurilany.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Eurilany</div>
                 <div class="profile-label front"><em>front end</em></div>
             </div>

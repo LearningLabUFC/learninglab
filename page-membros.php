@@ -89,7 +89,7 @@
             </div>
             <div class="membro lider">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jonh.jpg" alt="foto" class="profile-image lider">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/johnatan.jpg" alt="foto" class="profile-image lider">
                     <h1>Johnatan</h1>
                     <p class="label">Líder responsável por todas as atividades que envolvam produção audiovisual no projeto. </p>
                 </div>
@@ -332,21 +332,14 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jeiel.jpeg" alt="foto" class="profile-image">
-                    <h1>Jeiel</h1>
-                    <p>cursos</p>
-                </div>
-            </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/joao.png" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/joao-eduardo.png" alt="foto" class="profile-image">
                     <h1>João E.</h1>
                     <p>redes e mídias</p>
                 </div>
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Jonh.jpg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/johnatan.jpg" alt="foto" class="profile-image">
                     <h1>Johnatan</h1>
                     <p>redes e mídias <br>extensão</p>
                 </div>
@@ -430,7 +423,7 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Raí.jpeg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Rai.jpeg" alt="foto" class="profile-image">
                     <h1>Raí</h1>
                     <p>palestras <br>pesquisa</p>
                 </div>
@@ -477,14 +470,177 @@
                     <p>análise <br>desenvolvimento</p>
                 </div>
             </div>
-            
-
-
-
-
 
         </div>
 
+        <h2>Membros egressos</h2>
+
+        <p>Ao longo desses aninhos de existência, muita gente boa já passou pelo Learning! Confira abaixo os membros egressos do projeto — ou seja, aqueles que já não fazem mais parte do nosso time.</p>
+
+        <div class="container-membros">
+            
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/aline-alves.jpeg" alt="foto" class="profile-image">
+                    <h1>Aline A.</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/aline-lima.png" alt="foto" class="profile-image">
+                    <h1>Aline L.</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/arthur.jpeg" alt="foto" class="profile-image">
+                    <h1>Arthur</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/caio.png" alt="foto" class="profile-image">
+                    <h1>Caio</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/deivison.png" alt="foto" class="profile-image">
+                    <h1>Deivison</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/eurilany.jpeg" alt="foto" class="profile-image">
+                    <h1>Eurilany</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/gabriela-gama.jpeg" alt="foto" class="profile-image">
+                    <h1>Gabriela</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/giovana.jpeg" alt="foto" class="profile-image">
+                    <h1>Giovana</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/gisele.jpg" alt="foto" class="profile-image">
+                    <h1>Gisele</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jeiel.jpeg" alt="foto" class="profile-image">
+                    <h1>Jeiel</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jessica.jpg" alt="foto" class="profile-image">
+                    <h1>Jéssica</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/joao-marcelo.jpeg" alt="foto" class="profile-image">
+                    <h1>João M.</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/joao-paulo.jpg" alt="foto" class="profile-image">
+                    <h1>João P.</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.jpg" alt="foto" class="profile-image">
+                    <h1>Jordas</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/junior.jpeg" alt="foto" class="profile-image">
+                    <h1>Júnior</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/laura.jpeg" alt="foto" class="profile-image">
+                    <h1>Laura</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/leticia.png" alt="foto" class="profile-image">
+                    <h1>Letícia</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/livia.jpg" alt="foto" class="profile-image">
+                    <h1>Lívia</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/luana.jpeg" alt="foto" class="profile-image">
+                    <h1>Luana</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/mateus.png" alt="foto" class="profile-image">
+                    <h1>Mateus</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/otavio.jpeg" alt="foto" class="profile-image">
+                    <h1>Otávio</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/pedro-italo.png" alt="foto" class="profile-image">
+                    <h1>Pedro I.</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/rafael.png" alt="foto" class="profile-image">
+                    <h1>Rafael</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/riane.png" alt="foto" class="profile-image">
+                    <h1>Riane</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/ricardo.png" alt="foto" class="profile-image">
+                    <h1>Ricardo</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/thiago.png" alt="foto" class="profile-image">
+                    <h1>Thiago</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/vinicius.png" alt="foto" class="profile-image">
+                    <h1>Vinícius</h1>
+                </div>
+            </div>
     </div>
 </body>
 

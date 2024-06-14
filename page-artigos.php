@@ -32,7 +32,7 @@
                 <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabi-a.png" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriela-andrade.png" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriela</div>
             </div>
             <div class="profile">
@@ -69,7 +69,7 @@
                 <div class="profile-name">Mateus</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabi-a.png" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriela-andrade.png" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriela</div>
             </div>
             <div class="profile">
@@ -81,7 +81,7 @@
                 <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gio.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/giovana.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Giovana</div>
             </div>
             <div class="profile">
@@ -110,7 +110,7 @@
                 <div class="profile-name">Mateus</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabi-a.png" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriela-andrade.png" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriela</div>
             </div>
             <div class="profile">
@@ -148,7 +148,7 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jordas-felipe.JPG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.JPG" alt="foto" class="profile-image">
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
@@ -156,7 +156,7 @@
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/aline-alves.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/aline-alves.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Aline</div>
             </div>
             <div class="profile">
@@ -201,7 +201,7 @@
                 <div class="profile-name">George</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Ricardo.PNG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Ricardo.PNG" alt="foto" class="profile-image">
                 <div class="profile-name">Ricardo</div>
             </div>
             <div class="profile">
@@ -231,7 +231,7 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jordas-felipe.JPG" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.JPG" alt="foto" class="profile-image">
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
@@ -315,11 +315,11 @@
                 <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gio.jpeg" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/giovana.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Giovana</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Riane.png" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Riane.png" alt="foto" class="profile-image">
                 <div class="profile-name">Riane</div>
             </div>
             <div class="profile">
