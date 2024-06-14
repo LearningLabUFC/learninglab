@@ -201,7 +201,7 @@
                 <div class="profile-name">George</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Ricardo.png" alt="foto" class="profile-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/ricardo.png" alt="foto" class="profile-image">
                 <div class="profile-name">Ricardo</div>
             </div>
             <div class="profile">
