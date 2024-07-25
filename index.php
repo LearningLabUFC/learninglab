@@ -28,19 +28,27 @@
                     <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/cursos"><button>Ver mais cursos</button></a>
                 </div>
                 
-                <div class="painel-curso">
+                <!-- <div class="painel-curso">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt="Imagem curso de React">
                     <div class="painel-descricao">
                         <h3>React Native 2.0</h3>
                         <p>Após o sucesso do primeiro curso, estão abertas as inscrições para o "React Descomplicado: Fundamentos do Front-End Moderno", o qual abordará de maneira dinâmica e prática o universo da programação com a tecnologia. </p>
                         <div class="inscricao"><a href="https://forms.gle/WAPjAFG355ik9xpAA" target="_blank">Inscreva-se</a></div>
                     </div>
-                </div>
+                </div> -->
                 <div class="painel-curso">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-scrum.svg" alt="Imagem curso SCRUM">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/latex.jpeg" alt="Imagem curso web">
                     <div class="painel-descricao">
                         <h3>Curso de LaTex</h3>
                         <p>O LaTeX é um sistema de composição tipográfica de qualidade, que inclui recursos destinados à produção de documentos técnicos e científicos. O curso tem como objetivo a utilização e estruturação de recursos em documentos reais.</p>
+                        <div class="em-breve">Em breve</a></div>
+                    </div>
+                </div>
+                <div class="painel-curso">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/teste.jpg" alt="Imagem curso web">
+                    <div class="painel-descricao">
+                        <h3>Teste de software</h3>
+                        <p>O curso de teste de software consistirá na prática de ensinar desde o planejamento até a execução de casos de testes. Ademais, será utilizado um projeto real para simular uma completa cobertura de qualidade para o software.</p>
                         <div class="em-breve">Em breve</a></div>
                     </div>
                 </div>

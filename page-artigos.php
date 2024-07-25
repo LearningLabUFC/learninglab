@@ -364,6 +364,87 @@
 
 
     <p>Confira o artigo completo clicando <a href="https://sol.sbc.org.br/index.php/sbsc/article/view/28114/27924" target="_blank">aqui</a>.</p>
+    
+    <h2>LearningLab - Uma Trajetória de Quatro Anos de Sucesso nas Ações de Permanência e Formação dos Estudantes de Computação do Interior Cearense</h2>
+
+    <p>O artigo em questão é um apanhado geral sobre o LearningLab, o qual visa mostrar como o projeto contribui para a formação dos estudantes de computaçao na UFC campus de Russas por meio de ações como cursos, palestras, campanhas, conteúdos em suas redes sociais e extensão.</p>
+    
+    <p>O artigo mostra um apanhado dessas ações, bem como seus resultados — como os 274 certificados gerados para cursos e os 605 gerados para palestras, as quais contaram com participantes de 13 universidades em 6 estados do Brasil.</p>
+
+    <p>Conheça os pesquisadores:</p>
+
+    <div class="container">
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Israely</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Adam</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Jorge</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/rai.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Raí</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriela-andrade.png" alt="foto" class="profile-image">
+                <div class="profile-name">Gabriela</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Jacilane</div>
+            </div>
+    </div>
+
+    <p>Confira o artigo completo clicando <a href="https://sol.sbc.org.br/index.php/wei/article/view/29619" target="_blank">aqui</a>.</p>
+
+    <h2>Versionamento de Projeto na Prática com Git e GitHub: Um Relato de Experiência do Curso Ofertado pelo Projeto LearningLab No Interior Cearense</h2>
+
+    <p>O domínio de técnicas modernas de controle de versão é um requisito básico para trabalhar com software atualmente — especialmente caso o trabalho envolva mais de uma pessoa. Por isso, o LearningLab ofereceu um curso de Git e GitHbu para capacitar estudantes com a tecnologia.</p>
+
+    <p>Esse artigo é um relato de experiência sobre a aplicação do curso, o qual contou com a participação de 34 alunos e foi aplicado na Universidade Federal do Ceará (campus de Russas).</p>
+
+    <div class="container">
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Israely</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Adam</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/leticia.png" alt="foto" class="profile-image">
+                <div class="profile-name">Letícia</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/laura.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Laura</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/aline-alves.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Aline</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/livia.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Lívia</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Jacilane</div>
+            </div>
+    </div>
+
+    <p>Confira o artigo completo clicando <a href="https://sol.sbc.org.br/index.php/wei/article/view/29624" target="_blank">aqui</a>.</p>
+
 
     <p>O que acharam dos nossos artigos? Muita coisa já produzida, não?</p>
 

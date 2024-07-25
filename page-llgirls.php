@@ -1,5 +1,12 @@
 <?php get_header(); ?>
-
+<?php
+function custom_title() {
+    if (is_page('blog')) { 
+        echo '<title>LearningLab - Blog</title>';
+    }
+}
+add_action('wp_head', 'custom_title');
+?>
 <body>    
     <div class="container-titulo">
         <div class="texto">

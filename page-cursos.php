@@ -16,14 +16,14 @@
         <h2>Cursos futuros</h2>
 
         <div class="container-cursos">
-            <div class="curso curso-futuro">
+            <!-- <div class="curso curso-futuro">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt="Imagem curso React">
                 <div class="texto">
                     <h1>React Native 2.0</h1>
                     <p>Após o sucesso do primeiro curso, estão abertas as inscrições para o "React Descomplicado: Fundamentos do Front-End Moderno", o qual abordará de maneira dinâmica e prática o universo da programação com a tecnologia.</p>
                     <div class="inscricao"><a href="https://forms.gle/WAPjAFG355ik9xpAA" target="_blank">Inscreva-se</a></div>
                 </div>
-            </div>
+            </div> -->
             <div class="curso curso-futuro">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/latex.jpeg" alt="Imagem curso web">
                 <div class="texto">
@@ -43,6 +43,13 @@
         <h2>Cursos encerrados</h2>
 
         <div class="container-cursos">
+            <div class="curso curso-encerrado">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt="Imagem curso React">
+                <div class="texto">
+                    <h1>React Native 2.0</h1>
+                    <p>Após o sucesso do primeiro curso, curso "React Descomplicado: Fundamentos do Front-End Moderno" abordou de maneira dinâmica e prática o universo da programação com a tecnologia.</p>
+                </div>
+            </div>
             <div class="curso curso-encerrado">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-web.jpg" alt="Imagem curso web">
                 <div class="texto">
