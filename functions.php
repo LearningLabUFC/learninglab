@@ -74,7 +74,7 @@
 
             if ( is_page('llgirls') == true ) {
                 // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('llgirls', get_template_directory_uri() . '/assets/styles/llgirls.css');
+                wp_enqueue_style('llgirls', get_template_directory_uri() . '/assets/styles/noticia.css');
             }
 
             if ( is_page('membros') == true ) {
@@ -89,7 +89,12 @@
 
             if ( is_page('eventos') == true ) {
                 // só vai carregar se estiver na pag sobre
-                wp_enqueue_style('eventos', get_template_directory_uri() . '/assets/styles/eventos.css');
+                wp_enqueue_style('eventos', get_template_directory_uri() . '/assets/styles/noticia.css');
+            }
+
+            if ( is_page('cursos-ministrados-learninglab') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('cursos-ministrados-learninglab', get_template_directory_uri() . '/assets/styles/noticia.css');
             }
 
     }

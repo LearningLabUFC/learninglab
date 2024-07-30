@@ -5,17 +5,25 @@
     </section>
 
 
-
     <section class="conteiner-destaque">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/eriky-sbsc.jpeg">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/blog/curso-codesmells.jpg">
         <div class="descricao-destaque">
-            <h3 class="fw-bold">Conheça os eventos científicos nos quais o LearningLab já marcou presença</h3>
-            <p>Veja também quais trabalhos foram apresentados em cada um deles</p>
-            <a <?php if(is_page('eventos') == true ) { echo 'ativo';} ?>" aria-current="eventos" href="<?php echo get_home_url(); ?>/eventos"><button>Ver mais</button></a>
+            <h3 class="fw-bold">Saiba como atua e entenda a relevância do setor de cursos para o LearningLab</h3>
+            <p>Entenda como a abordagem focada na prática trouxe bons resultados para o setor</p>
+            <a <?php if(is_page('cursos-ministrados-learninglab') == true ) { echo 'ativo';} ?>" aria-current="cursos-ministrados-learninglab" href="<?php echo get_home_url(); ?>/cursos-ministrados-learninglab"><button>Ver mais</button></a>
         </div>
     </section>
 
     <section class="conteiner-conteudos">
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/eriky-sbsc.jpeg">
+        <div class="descricao-conteudo">
+                <h3 class="fw-bold">Conheça os eventos científicos nos quais o LearningLab já marcou presença</h3>
+                <p>Veja também quais trabalhos foram apresentados em cada um deles</p>
+            </div>
+            <a <?php if(is_page('eventos') == true ) { echo 'ativo';} ?>" aria-current="eventos" href="<?php echo get_home_url(); ?>/eventos"><button>Ver mais</button></a>
+        </div>
 
         <div class="painel-blogs">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
@@ -75,16 +83,7 @@
             <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ver mais</button></a>
 
         </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3 class="fw-bold">Conheça o novo site do EU</h3>
-                <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀
-                </p>
-            </div>
-            <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ver mais</button></a>
 
-        </div>
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem">
             <div class="descricao-conteudo">

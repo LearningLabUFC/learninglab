@@ -184,9 +184,16 @@
         <div class="container-membros">
             <div class="membro lider">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eriky.png" alt="foto" class="profile-image lider">
+                    <h1>Eriky</h1>
+                    <p class="label">Atua como líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
+                </div>
+            </div>
+            <div class="membro lider">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image lider">
                     <h1>Marina</h1>
-                    <p class="label">Atua como líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
+                    <p class="label">Atua como vice-líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
                 </div>
             </div>
             <div class="membro lider">
@@ -349,13 +356,6 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                     <h1>Israely</h1>
                     <p>pesquisa</p>
-                </div>
-            </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/joao-eduardo.png" alt="foto" class="profile-image">
-                    <h1>João E.</h1>
-                    <p>redes e mídias <br>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -585,6 +585,12 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jessica.jpg" alt="foto" class="profile-image">
                     <h1>Jéssica</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/joao-eduardo.png" alt="foto" class="profile-image">
+                    <h1>João E.</h1>
                 </div>
             </div>
             <div class="membro">

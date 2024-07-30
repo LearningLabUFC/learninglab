@@ -63,8 +63,8 @@
         <div class="card">+400 pessoas impactadas por nossas palestras</div>
         <div class="card">+360 pessoas certificadas através de palestras</div>
         <div class="card">+7 cursos desenvolvidos</div>
-        <div class="card">+150 estudantes impactados por nossos cursos</div>
-        <div class="card">+130 estudantes certificados através dos nossos cursos</div>
+        <div class="card">+290 estudantes impactados por nossos cursos</div>
+        <div class="card">+270 estudantes certificados através dos nossos cursos</div>
         <div class="card">+11 artigos escritos</div>
         <div class="card">+7 artigos aprovados e publicados</div>
         <div class="card">+55 pessoas capacitadas em cursos de extensão</div>
