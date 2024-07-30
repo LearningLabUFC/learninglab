@@ -159,6 +159,14 @@
 
   .container-citacao {
     flex-direction: column;
+    max-width: none;
+
+
+    }
+
+    .container-citacao img.profile {
+        width: 130px;
+        height: 130px;
 
     }
 
