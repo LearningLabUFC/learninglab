@@ -9,7 +9,7 @@
     <div class="conteudo">
       <div class="texto">
         <h2>Sobre o projeto</h2>
-        <p>O LearningLab (Laboratório de Ensino e Pesquisa de Tecnologias Alinhadas à Gestão do Conhecimento e Inovação em Processos de Software) tem como objetivo contribuir para o processo de formação dos estudantes dos cursos de Ciência da Computação e Engenharia de Software. </p>
+                <p>O Laboratório de Ensino, Pesquisa, Extensão e Desenvolvimento de Tecnologias Alinhadas à Gestão do Conhecimento e Inovação em Processos de Software (<strong>LearningLab</strong>) é um projeto da Universidade Federal do Ceará (UFC) em Russas que propõe metodologias para a permanência e garantia da conclusão dos estudantes de graduação em seus respectivos cursos por meio de atividades como cursos práticos, palestras, pesquisas, tutorias e acompanhamentos entre discentes e colaboradores, divulgação de técnicas de gestão do conhecimento utilizadas no mercado, encontros entre discentes, divulgação de vagas de tecnologia, promoção de metodologias ágeis e tendências do mercado.</p>
         <br>
         <p>As atividades do LearningLab iniciaram em maio de 2020 com apenas três alunos voluntários juntamente com a coordenadora, Jacilane Rabelo.</p>
       </div>

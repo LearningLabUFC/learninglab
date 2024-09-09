@@ -13,8 +13,7 @@
         <section class="conteiner-sobre">
             <div>
                 <h2>Sobre o projeto</h2>
-                <p>O projeto LearningLab (Laboratório de Ensino e Pesquisa de Tecnologias alinhadas à Gestão do Conhecimento e Inovação em Processos de Software) propõe metodologias para a permanência de alunos nos cursos de Computação e garantia da conclusão dos cursos pelos alunos de graduação através de realizações de cursos e tutorias, divulgação de técnicas de gestão do conhecimento utilizadas no mercado, incentivo a participação de eventos de computação, dentre outros.
-                </p>
+                <p>O Laboratório de Ensino, Pesquisa, Extensão e Desenvolvimento de Tecnologias Alinhadas à Gestão do Conhecimento e Inovação em Processos de Software (<strong>LearningLab</strong>) é um projeto da Universidade Federal do Ceará (UFC) em Russas que propõe metodologias para a permanência e garantia da conclusão dos estudantes de graduação em seus respectivos cursos por meio de atividades como cursos práticos, palestras, pesquisas, tutorias e acompanhamentos entre discentes e colaboradores, divulgação de técnicas de gestão do conhecimento utilizadas no mercado, encontros entre discentes, divulgação de vagas de tecnologia, promoção de metodologias ágeis e tendências do mercado.</p>
                 <a <?php if(is_page('home') == true ) { echo 'ativo';} ?>" aria-current="home" href="<?php echo get_home_url(); ?>/sobre">Conhecer mais</a>
             </div>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/imagem-sobre-projeto.svg" alt="Foto curso figma">

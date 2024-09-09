@@ -36,6 +36,10 @@
                 <div class="profile-name">Gabriela</div>
             </div>
             <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/gilberto.png" alt="foto" class="profile-image">
+                <div class="profile-name">Gilberto</div>
+            </div>
+            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jorge</div>
             </div>
@@ -43,10 +47,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/mateus.png" alt="foto" class="profile-image">
                 <div class="profile-name">Mateus</div>
             </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/gilberto.png" alt="foto" class="profile-image">
-                <div class="profile-name">Gilberto</div>
-            </div>
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -65,29 +66,31 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/mateus.png" alt="foto" class="profile-image">
-                <div class="profile-name">Mateus</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriela-andrade.png" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriela</div>
             </div>
             <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/mateus.png" alt="foto" class="profile-image">
+                <div class="profile-name">Mateus</div>
+            </div>
+
+            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jorge</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/giovana.jpeg" alt="foto" class="profile-image">
-                <div class="profile-name">Giovana</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
                 <div class="profile-name">Pedro</div>
             </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/giovana.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Giovana</div>
+            </div>
+ 
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -106,29 +109,31 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/mateus.png" alt="foto" class="profile-image">
-                <div class="profile-name">Mateus</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/gabriela-andrade.png" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriela</div>
             </div>
             <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/mateus.png" alt="foto" class="profile-image">
+                <div class="profile-name">Mateus</div>
+            </div>
+
+            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jorge</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/thiago.png" alt="foto" class="profile-image">
-                <div class="profile-name">Thiago</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
                 <div class="profile-name">Pedro</div>
             </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/thiago.png" alt="foto" class="profile-image">
+                <div class="profile-name">Thiago</div>
+            </div>
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -148,6 +153,14 @@
 
     <div class="container">
             <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
+            </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
+                <div class="profile-name">Pedro</div>
+            </div>
+            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/jordas.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Jordas</div>
             </div>
@@ -158,15 +171,7 @@
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/aline-alves.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Aline</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
-                <div class="profile-name">Pedro</div>
-            </div>
+            </div> 
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -185,33 +190,37 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
-                <div class="profile-name">Jorge</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
+                <div class="profile-name">Pedro</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/robson.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Robson</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
-                <div class="profile-name">Israely</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Jorge</div>
+            </div>
+
+
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/george.png" alt="foto" class="profile-image">
                 <div class="profile-name">George</div>
             </div>
             <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Israely</div>
+            </div>
+            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/ricardo.png" alt="foto" class="profile-image">
                 <div class="profile-name">Ricardo</div>
             </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
-                <div class="profile-name">Pedro</div>
-            </div>
+
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -235,21 +244,23 @@
                 <div class="profile-name">Jordas</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
-                <div class="profile-name">Israely</div>
-            </div>
-            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/robson.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Robson</div>
-            </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/gabriel-bezerra.png" alt="foto" class="profile-image">
                 <div class="profile-name">Gabriel</div>
             </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Israely</div>
+            </div>
+
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
+            </div>
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -269,21 +280,23 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
-                <div class="profile-name">Jorge</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
+                <div class="profile-name">Pedro</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Jorge</div>
+            </div>
+
+            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
                 <div class="profile-name">Marina</div>
             </div>
-            <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image">
-                <div class="profile-name">Pedro</div>
-            </div>
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -303,16 +316,12 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
-                <div class="profile-name">Adam</div>
-            </div>
-            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
                 <div class="profile-name">Israely</div>
             </div>
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
-                <div class="profile-name">Marina</div>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
+                <div class="profile-name">Adam</div>
             </div>
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/giovana.jpeg" alt="foto" class="profile-image">
@@ -322,6 +331,12 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/riane.png" alt="foto" class="profile-image">
                 <div class="profile-name">Riane</div>
             </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marina.png" alt="foto" class="profile-image">
+                <div class="profile-name">Marina</div>
+            </div>
+
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jacy.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Jacilane</div>
@@ -414,13 +429,14 @@
 
     <div class="container">
             <div class="profile">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
-                <div class="profile-name">Israely</div>
-            </div>
-            <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Adam.jpeg" alt="foto" class="profile-image">
                 <div class="profile-name">Adam</div>
             </div>
+            <div class="profile">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image">
+                <div class="profile-name">Israely</div>
+            </div>
+
             <div class="profile">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/leticia.png" alt="foto" class="profile-image">
                 <div class="profile-name">Letícia</div>

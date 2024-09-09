@@ -29,6 +29,7 @@
             <ul class="nav-menu"> 
                 <li class="menu-item"><a <?php if(is_page('sobre') == true ) { echo 'ativo';} ?>" aria-current="sobre" href="<?php echo get_home_url(); ?>/sobre">Sobre</a></li>
                 <li class="menu-item"><a <?php if(is_page('blog') == true ) { echo 'ativo';} ?>" aria-current="blog" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
+                <li class="menu-item"><a <?php if(is_page('artigos') == true ) { echo 'ativo';} ?>" aria-current="artigos" href="<?php echo get_home_url(); ?>/artigos">Artigos</a></li>
                 <li class="menu-item"><a <?php if(is_page('cursos') == true ) { echo 'ativo';} ?>" aria-current="cursos" href="<?php echo get_home_url(); ?>/cursos">Cursos</a></li>
                 <li class="menu-item"><a <?php if(is_page('membros') == true ) { echo 'ativo';} ?>" aria-current="membros" href="<?php echo get_home_url(); ?>/membros">Membros</a></li>
                 <li class="menu-item"><a <?php if(is_page('contato') == true ) { echo 'ativo';} ?>" aria-current="contato" href="<?php echo get_home_url(); ?>/contato">Contato</a></li> 

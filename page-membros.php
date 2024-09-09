@@ -106,6 +106,13 @@
                     <p class="label">Orienta e guia a realização de palestras pelos outros membros, incluindo todo o trâmite necessário. </p>
                 </div>
             </div>
+            <div class="membro lider">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/pedro.png" alt="foto" class="profile-image lider">
+                    <h1>Pedro</h1>
+                    <p class="label">Orienta e guia a realização de palestras pelos outros membros, incluindo todo o trâmite necessário. </p>
+                </div>
+            </div>
         </div>
 
         <h3>Setor de Extensão</h3>
@@ -148,16 +155,9 @@
         <div class="container-membros">
             <div class="membro lider">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/jorge.jpg" alt="foto" class="profile-image lider">
-                    <h1>Jorge</h1>
-                    <p class="label">Alinha prioridades, necessidades e recebe relatórios do setor, dando feedbaks constantes sobre as atividades. </p>
-                </div>
-            </div>
-            <div class="membro lider">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Lila.jpeg" alt="foto" class="profile-image lider">
-                    <h1>Lila</h1>
-                    <p class="label">Acompanha os membros do setor, atribuindo atividades, cobrando prazos e participando de reuniões de líderes. </p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/hony.jpg" alt="foto" class="profile-image lider">
+                    <h1>Hony</h1>
+                    <p class="label">Alinha prioridades, necessidades e recebe relatórios e acompanha membros do setor, dando feedbaks, atribuindo atividades e cobrando prazos. </p>
                 </div>
             </div>
         </div>
@@ -184,6 +184,13 @@
         <div class="container-membros">
             <div class="membro lider">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image lider">
+                    <h1>Israely</h1>
+                    <p class="label">Atua como líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
+                </div>
+            </div>
+            <div class="membro lider">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eriky.png" alt="foto" class="profile-image lider">
                     <h1>Eriky</h1>
                     <p class="label">Atua como líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
@@ -196,13 +203,7 @@
                     <p class="label">Atua como vice-líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
                 </div>
             </div>
-            <div class="membro lider">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Israely.jpg" alt="foto" class="profile-image lider">
-                    <h1>Israely</h1>
-                    <p class="label">Atua como vice-líder, fazendo o regimento de pesquisa, elencando temas, cursos e materiais para conduzir as pesquisas. </p>
-                </div>
-            </div>
+
         </div>
 
         <h2>Conheça todos os membros atuais</h2>
@@ -409,13 +410,6 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Lila.jpeg" alt="foto" class="profile-image">
-                    <h1>Lila</h1>
-                    <p>processos</p>
-                </div>
-            </div>
-            <div class="membro">
-                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luan.jpeg" alt="foto" class="profile-image">
                     <h1>Luan</h1>
                     <p>desenvolvimento</p>
@@ -505,13 +499,7 @@
                     <p>pesquisa <br>cursos</p>
                 </div>
             </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/yvens.png" alt="foto" class="profile-image">
-                    <h1>Yvens</h1>
-                    <p>análise <br>desenvolvimento</p>
-                </div>
-            </div>
+
 
         </div>
 
@@ -631,6 +619,12 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Lila.jpeg" alt="foto" class="profile-image">
+                    <h1>Lila</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/livia.jpg" alt="foto" class="profile-image">
                     <h1>Lívia</h1>
                 </div>
@@ -687,6 +681,12 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/vinicius.png" alt="foto" class="profile-image">
                     <h1>Vinícius</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/yvens.png" alt="foto" class="profile-image">
+                    <h1>Yvens</h1>
                 </div>
             </div>
     </div>
