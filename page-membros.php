@@ -41,13 +41,6 @@
         <div class="container-membros">
             <div class="membro lider">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/larissa.jpg" alt="foto" class="profile-image lider">
-                    <h1>Larissa</h1>
-                    <p class="label">Planeja e organiza os cursos, cuida da produção e envio de emails, da produção e andamento das atividades. </p>
-                </div>
-            </div>
-            <div class="membro lider">
-                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Wesley.jpeg" alt="foto" class="profile-image lider">
                     <h1>Wesley</h1>
                     <p class="label">Cuida da divulgação, orientação os instrutores, das reuniões de alinhamento e da documentação dos cursos. </p>
@@ -55,8 +48,15 @@
             </div>
             <div class="membro lider">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/eriky.png" alt="foto" class="profile-image lider">
-                    <h1>Eriky</h1>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marcelo.jpeg" alt="foto" class="profile-image lider">
+                    <h1>Marcelo</h1>
+                    <p class="label">Planeja e organiza os cursos, cuida da produção e envio de emails, da produção e andamento das atividades. </p>
+                </div>
+            </div>
+            <div class="membro lider">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/placeholder.jpg" alt="foto" class="profile-image lider">
+                    <h1>Kelly</h1>
                     <p class="label">Concebe ideias e estratégias para futuros cursos e estabelece metas e prazos para as atividades do setor. </p>
                 </div>
             </div>
@@ -78,13 +78,6 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Anny.jpeg" alt="foto" class="profile-image lider">
                     <h1>Anny</h1>
                     <p class="label">Lidera as ações  e atividades do setor de Redes Sociais e Mídias vinculadas ao setor de audiovisual. </p>
-                </div>
-            </div>
-            <div class="membro lider">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/hony.jpg" alt="foto" class="profile-image lider">
-                    <h1>Hony</h1>
-                    <p class="label">Lidera a produção de conteúdo semanal para o instagram, seguindo as linhas de pesquisas do projeto. </p>
                 </div>
             </div>
             <div class="membro lider">
@@ -113,6 +106,13 @@
                     <p class="label">Orienta e guia a realização de palestras pelos outros membros, incluindo todo o trâmite necessário. </p>
                 </div>
             </div>
+            <div class="membro lider">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marcelo.jpeg" alt="foto" class="profile-image lider">
+                    <h1>Marcelo</h1>
+                    <p class="label">Orienta e guia a realização de palestras pelos outros membros, incluindo todo o trâmite necessário. </p>
+                </div>
+            </div>
         </div>
 
         <h3>Setor de Extensão</h3>
@@ -131,13 +131,7 @@
                     <p class="label">Responsável por confeccionar cursos, entrar em contato com instituições de ensino e realizar cursos. </p>
                 </div>
             </div>
-            <div class="membro lider">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Roberio.jpeg" alt="foto" class="profile-image lider">
-                    <h1>Robério</h1>
-                    <p class="label">Responsável por confeccionar cursos, entrar em contato com instituições de ensino e realizar cursos. </p>
-                </div>
-            </div>
+
         </div>
 
         <h3>Setor de Análises</h3>
@@ -275,13 +269,7 @@
                     <p>desenvolvimento</p>
                 </div>
             </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Davi.jpeg" alt="foto" class="profile-image">
-                    <h1>Davi</h1>
-                    <p>cursos <br>palestras <br>análises <br>processos <br>extensão</p>
-                </div>
-            </div>
+
             <div class="membro">
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/douglas.jpg" alt="foto" class="profile-image">
@@ -396,23 +384,9 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/larissa.jpg" alt="foto" class="profile-image">
-                    <h1>Larissa</h1>
-                    <p>cursos <br>análises <br>processos <br>redes e mídias</p>
-                </div>
-            </div>
-            <div class="membro">
-                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/layla.png" alt="foto" class="profile-image">
                     <h1>Layla</h1>
                     <p>LLGirls</p>
-                </div>
-            </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Luan.jpeg" alt="foto" class="profile-image">
-                    <h1>Luan</h1>
-                    <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -427,13 +401,6 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/marcelo.jpeg" alt="foto" class="profile-image">
                     <h1>Marcelo</h1>
                     <p>redes e mídias <br>palestras</p>
-                </div>
-            </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Marciano.jpeg" alt="foto" class="profile-image">
-                    <h1>Marciano</h1>
-                    <p>desenvolvimento</p>
                 </div>
             </div>
             <div class="membro">
@@ -471,13 +438,7 @@
                     <p>cursos <br>análises</p>
                 </div>
             </div>
-            <div class="membro">
-                <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/Roberio.jpeg" alt="foto" class="profile-image">
-                    <h1>Robério</h1>
-                    <p>extensão <br>redes e mídias</p>
-                </div>
-            </div>
+
             <div class="membro">
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/membros/robson.jpeg" alt="foto" class="profile-image">
@@ -531,6 +492,12 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/caio.png" alt="foto" class="profile-image">
                     <h1>Caio</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/davi.jpeg" alt="foto" class="profile-image">
+                    <h1>Davi</h1>
                 </div>
             </div>
             <div class="membro">
@@ -607,6 +574,12 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/larissa.jpg" alt="foto" class="profile-image">
+                    <h1>Larissa</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/laura.jpeg" alt="foto" class="profile-image">
                     <h1>Laura</h1>
                 </div>
@@ -619,7 +592,7 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/Lila.jpeg" alt="foto" class="profile-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/lila.jpeg" alt="foto" class="profile-image">
                     <h1>Lila</h1>
                 </div>
             </div>
@@ -631,8 +604,20 @@
             </div>
             <div class="membro">
                 <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/luan.jpeg" alt="foto" class="profile-image">
+                    <h1>Luan</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/luana.jpeg" alt="foto" class="profile-image">
                     <h1>Luana</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/marciano.jpeg" alt="foto" class="profile-image">
+                    <h1>Marciano</h1>
                 </div>
             </div>
             <div class="membro">
@@ -669,6 +654,12 @@
                 <div class="membro-conteudo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/ricardo.png" alt="foto" class="profile-image">
                     <h1>Ricardo</h1>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-conteudo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/egressos/roberio.jpeg" alt="foto" class="profile-image">
+                    <h1>Robério</h1>
                 </div>
             </div>
             <div class="membro">
