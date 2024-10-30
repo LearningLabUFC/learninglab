@@ -1,0 +1,105 @@
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    background-color: #f2637e;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+  }
+
+  .container-titulo .texto {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding-bottom: 1em;
+  }
+  
+  .container-titulo h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: left;
+    margin-top: 1.5em;
+
+  }
+  
+  .conteudo {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    color: #04bfbf;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+  h3 {
+    color: #04bfbf;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .conteudo p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .image-container {
+    text-align: center;
+}
+
+  .image-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+  }
+
+  .image-container figcaption {
+    text-align: center;
+    margin-top: 0.3rem;
+    font-style: italic;
+    color: rgb(131, 130, 130);
+}
+
+.conteudo a {
+    color: #04bfbf;
+}
+
+.conteudo a:hover {
+    color: #f2637e;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .container-titulo h1 {
+ 
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+}

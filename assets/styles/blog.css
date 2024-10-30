@@ -8,14 +8,15 @@ body .cabecalho {
 
 .conteiner-inicial-blog {
   background-color: rgb(0, 154, 154);
-  height: 370px;
+  height: 250px;
   width: 100%;
   margin-top: -100px;
 }
 .conteiner-inicial-blog h1 {
   color: white;
   text-align: center;
-  padding-top: 230px;
+  padding-top: 150px;
+  font-weight: bold;
 }
 .conteiner-destaque {
   width: 90%;
@@ -23,7 +24,7 @@ body .cabecalho {
   margin: auto;
   /**height: 250px;**/
   background-color: white;
-
+  border-radius: 10px;
   margin-top: 60px;
   display: flex;
   text-align: left;
@@ -31,6 +32,10 @@ body .cabecalho {
 }
 .conteiner-destaque img {
   width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  
 }
 .descricao-destaque {
   display: flex;

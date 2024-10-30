@@ -4,16 +4,65 @@
         <h1>Blog</h1>
     </section>
 
+
     <section class="conteiner-destaque">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novaidentidade.png" alt="imagem">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/blog/curso-codesmells.jpg">
         <div class="descricao-destaque">
-            <h3 class="fw-bold">O fim ou uma nova fase?</h3>
-            <p>Conheça a nova identidade visual do projeto LearningLab</p>
-                <a href="https://www.instagram.com/p/CkLmNgbp_Am/" target="_blank"><button>Ver mais</button></a>
+            <h3 class="fw-bold">Saiba como atua e entenda a relevância do setor de cursos para o LearningLab</h3>
+            <p>Entenda como a abordagem focada na prática trouxe bons resultados para o setor</p>
+            <a <?php if(is_page('cursos-ministrados-learninglab') == true ) { echo 'ativo';} ?>" aria-current="cursos-ministrados-learninglab" href="<?php echo get_home_url(); ?>/cursos-ministrados-learninglab"><button>Ver mais</button></a>
         </div>
     </section>
 
     <section class="conteiner-conteudos">
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/eriky-sbsc.jpeg">
+        <div class="descricao-conteudo">
+                <h3 class="fw-bold">Conheça os eventos científicos nos quais o LearningLab já marcou presença</h3>
+                <p>Veja também quais trabalhos foram apresentados em cada um deles</p>
+            </div>
+            <a <?php if(is_page('eventos') == true ) { echo 'ativo';} ?>" aria-current="eventos" href="<?php echo get_home_url(); ?>/eventos"><button>Ver mais</button></a>
+        </div>
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/pesquisa.jpeg" alt="imagem">
+        <div class="descricao-conteudo">
+                <h3 class="fw-bold">Conheça mais sobre os artigos do LearningLab já aceitos e publicados</h3>
+                <p>Veja também quem são os autores responsáveis por cada um deles</p>
+            </div>
+            <a <?php if(is_page('artigos') == true ) { echo 'ativo';} ?>" aria-current="artigos" href="<?php echo get_home_url(); ?>/artigos"><button>Ver mais</button></a>
+        </div>
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/llgirls.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3 class="fw-bold">LLGirls: programa incentiva a participação feminina no LearningLab</h3>
+                <p>Conheça o programa e saiba como se inscrever para fazer parte do LLGirls</p>
+            </div>
+            <a <?php if(is_page('llgirls') == true ) { echo 'ativo';} ?>" aria-current="llgirls" href="<?php echo get_home_url(); ?>/llgirls"><button>Ver mais</button></a>
+        </div>
+        
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/equipe-dev.jpeg" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3 class="fw-bold">Conheça a atual equipe de desenvolvimento do LearningLab</h3>
+                <p>Saiba quem trabalha no setor e os projetos concluídos e em andamento</p>
+            </div>
+            <a <?php if(is_page('equipe-desenvolvimento-learninglab') == true ) { echo 'ativo';} ?>" aria-current="equipe-desenvolvimento-learninglab" href="<?php echo get_home_url(); ?>/equipe-desenvolvimento-learninglab"><button>Ver mais</button></a>
+        </div>
+
+        <div class="painel-blogs">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novaidentidade.png" alt="imagem">
+            <div class="descricao-conteudo">
+                <h3 class="fw-bold">O fim ou uma nova fase?</h3>
+                <p>Conheça a nova identidade visual do projeto LearningLab</p>
+            </div>
+            <a href="https://www.instagram.com/p/CkLmNgbp_Am/" target="_blank"><button>Ver mais</button></a>
+
+        </div>
+
+
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/novascoresid.png" alt="imagem">
             <div class="descricao-conteudo">
@@ -34,16 +83,7 @@
             <a href="https://www.instagram.com/reel/CkPI7i4JvHf/?utm_source=ig_web_copy_link" target="_blank"><button>Ver mais</button></a>
 
         </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/siteeu.png" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3 class="fw-bold">Conheça o novo site do EU</h3>
-                <p>Você sabia que os Encontros Universitários tem um novo site e que foi desenvolvido pelos membros do projeto LearningLab?👀
-                </p>
-            </div>
-            <a href="http://200.129.62.41/encontros/" target="_blank"><button>Ver mais</button></a>
 
-        </div>
         <div class="painel-blogs">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/premio.png" alt="imagem">
             <div class="descricao-conteudo">
@@ -61,17 +101,6 @@
             </div>
             <a href="https://www.instagram.com/p/Cfc0tkQuD-1/" target="_blank"><button>Ver mais</button></a>
         </div>
-        <div class="painel-blogs">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt="imagem">
-            <div class="descricao-conteudo">
-                <h3>Cursos gratuitos e pagos oferecem formação para quem quer trabalhar com tecnologia</h3>
-                <p>Há chances para quem deseja entrar no mercado de trabalho.</p>
-            </div>
-            <a href="https://g1.globo.com/tecnologia/noticia/2022/05/25/cursos-gratuitos-e-pagos-oferecem-formacao-para-quem-quer-trabalhar-com-tecnologia.ghtml" target="_blank"><button>Ler mais</button></a>
-
-        </div>
-
-
     </section>
 
     <?php get_footer(); ?>

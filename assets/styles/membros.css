@@ -1,0 +1,122 @@
+body .cabecalho {
+    background-color: #009a9a;
+  }
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    background-color: #009a9a;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+
+.container-titulo .texto {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 1em;
+
+}
+
+.container-titulo h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: left;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.conteudo {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 3rem;
+  }
+
+h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    color: #009a9a;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    color: #009a9a;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.container-membros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: initial;
+    
+}
+.membro {
+    width: 180px;
+    margin: 0 15px 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    padding: 2% 1.3%;
+}
+
+.membro .membro-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5%;
+}
+
+.membro img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+
+.membro p {
+    text-align: left;
+}
+
+.membro.lider p {
+    text-align: center;
+}
+
+.membro.lider img {
+    width: 120px;
+    height: 120px;
+}
+
+
+.membro h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.8rem; /* Remove margens padrão */
+}
+
+.membro .label {
+    font-size: 1rem;
+    margin: 0; /* Remove margens padrão */
+}
+
+
+.membro.lider {
+    width: 245px;
+}

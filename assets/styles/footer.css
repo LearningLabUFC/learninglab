@@ -5,6 +5,10 @@ footer{
     margin:auto;
     
 }
+.logo{
+    width: 170px;
+    height: 110px;
+  }
 
 .conteiner-footer{
     display: flex;
@@ -21,16 +25,17 @@ footer{
     padding-left: 0;
   
 }
-.conteiner-footer div ul li{
+.conteiner-footer div ul li, .conteiner-footer div ul li a{
     margin-bottom:  10px;
     display: flex;
     align-items: flex-start;
 }
+
 .conteiner-footer a{
     color: gray;
 }
 .conteiner-footer h4{
-    color:rgb(4,191,191) ;
+    color:rgb(4, 191, 191) ;
 }
 footer p{
     color: grey;
@@ -38,6 +43,12 @@ footer p{
 
 .icone-redeSocial{
     margin-top: 10px;
+}
+.icone-inicial{
+    width: 50px;
+    height: 70px;
+    margin-left: auto;
+    
 }
 @media (max-width:1122px){
     footer {

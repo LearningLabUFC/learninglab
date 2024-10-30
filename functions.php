@@ -19,10 +19,13 @@
         wp_enqueue_style('style', get_template_directory_uri().'/assets/styles/style.css', array(),'1.0.0', 'all');
         wp_enqueue_style('footer', get_template_directory_uri().'/assets/styles/footer.css', array(),'1.0.0', 'all');
         wp_enqueue_style('header', get_template_directory_uri().'/assets/styles/header.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('swiper', 'https://unpkg.com/swiper/swiper-bundle.min.css');
 
 
-        if(is_front_page() == true) {
-            wp_enqueue_style('home', get_template_directory_uri() . '/assets/styles/style.css', array(),'1.0.0', 'all'); }
+
+            if(is_front_page() == true) {
+                wp_enqueue_style('home', get_template_directory_uri() . '/assets/styles/style.css', array(),'1.0.0', 'all');
+             }
 
             if ( is_page('sobre') == true ) {
                 // só vai carregar se estiver na pag sobre
@@ -43,13 +46,59 @@
                 // só vai carregar se estiver na pag sobre
                 wp_enqueue_style('cursos', get_template_directory_uri() . '/assets/styles/cursos.css');
             }
-        
+
+            if ( is_page('gameficacao') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('gameficacao', get_template_directory_uri() . '/assets/styles/gameficacao.css');
+            }
+
+            if ( is_page('gameficacao-intensivao') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('gameficacao-intensivao', get_template_directory_uri() . '/assets/styles/gameficacao.css');
+            }
+
+            if ( is_page('gameficacao-eep') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('gameficacao-eep', get_template_directory_uri() . '/assets/styles/gameficacao.css');
+            }
+
+            if ( is_page('gameficacao-sescomp') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('gameficacao-sescomp', get_template_directory_uri() . '/assets/styles/gameficacao.css');
+            }
+            
+            if ( is_page('equipe-desenvolvimento-learninglab') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('equipe-desenvolvimento-learninglab', get_template_directory_uri() . '/assets/styles/equipe-desenvolvimento-learninglab.css');
+            }
+
+            if ( is_page('llgirls') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('llgirls', get_template_directory_uri() . '/assets/styles/noticia.css');
+            }
+
+            if ( is_page('membros') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('membros', get_template_directory_uri() . '/assets/styles/membros.css');
+            }
+
+            if ( is_page('artigos') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('artigos', get_template_directory_uri() . '/assets/styles/artigos.css');
+            }
+
+            if ( is_page('eventos') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('eventos', get_template_directory_uri() . '/assets/styles/noticia.css');
+            }
+
+            if ( is_page('cursos-ministrados-learninglab') == true ) {
+                // só vai carregar se estiver na pag sobre
+                wp_enqueue_style('cursos-ministrados-learninglab', get_template_directory_uri() . '/assets/styles/noticia.css');
+            }
+
     }
-
   
-    
-
-
 
     add_action('wp_enqueue_scripts', 'css_files');
 
@@ -58,6 +107,12 @@
         wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.6.0.js', false, null, false); 
         wp_enqueue_script('popper', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js', array('jquery'));
         wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js', array('popper'));
+        wp_enqueue_script('swiper','https://unpkg.com/swiper/swiper-bundle.min.js', array(), null, true);
+        wp_enqueue_script('script', get_template_directory_uri() .'/assets/js/script.js', array('swiper'), null, true);
+
+        
+
+
     }
     add_action('wp_enqueue_scripts', 'scripts_files');  
     add_action('get_header', 'remove_admin_login_header');

@@ -1,0 +1,128 @@
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+.profile {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* adicionados agora */
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    background-color: #f2637e;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+  }
+
+  .container-titulo .texto {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding-bottom: 1em;
+
+    
+  }
+  
+  .container-titulo h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: left;
+    margin-top: 1.5em;
+
+  }
+  
+  .conteudo {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: justify;
+  }
+
+  h2 {
+    color: #04bfbf;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+  h3 {
+    color: #04bfbf;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .conteudo p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .conteudo a {
+    color: #04bfbf;
+  }
+
+  .conteudo a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+  @media only screen and (max-width: 768px) {
+
+
+    .container-titulo h1 {
+ 
+      font-size: 2rem;
+      margin: auto;
+  
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+
+    .profile-image {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+  }
+  .profile-name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+  }
+
+  
+
+
+}
